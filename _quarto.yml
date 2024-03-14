@@ -4,8 +4,40 @@ project:
 
 book:
   title: "Guia digital: construção de indicadores de desempenho para órgãos públicos"
-  author: "Newton Krüger Tallens Junior"
-  date: "10/02/2024"
+  author: 
+   - name: Newton Krüger Tallens Junior
+     roles: conceptualization
+     orcid: 0000-0002-0451-1006
+     email: newton.tallens@unifesp.br
+     corresponding: true
+     affiliation: 
+      - name: Corpo de Bombeiros da Polícia Militar do Estado de São Paulo
+        url: http://www.ccb.policiamilitar.sp.gov.br
+   - name: Daiana Rafaela Pedersini
+     roles: validation
+     orcid: 0000-0002-2897-0880
+     email: daianapedersini@hotmail.com
+     corresponding: true
+     affiliation: 
+      - name: Universidade Federal de Santa Catarina
+        url: https://ufsc.br
+   - name: Ricardo Coser Mergulhao
+     roles: validation
+     orcid: 0000-0002-3797-295X
+     email: mergulhao@ufscar.br
+     corresponding: true
+     affiliation: 
+      - name: Universidade Federal de São Carlos (Campus Sorocaba)
+        url: https://www.sorocaba.ufscar.br/
+   - name: Emerson Gomes dos Santos
+     roles: supervision
+     orcid: 0000-0002-3037-5001
+     email: emerson.gomes@unifesp.br
+     corresponding: true
+     affiliation: 
+      - name: Universidade Federal de São Pualo (Campus Osasco)
+        url: https://www.unifesp.br/campus/osa2/
+  date: today
   chapters:
     - index.qmd
     - intro.qmd
@@ -49,7 +81,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+     light: cosmo
+     dark: superhero
   pdf:
     documentclass: scrreprt
 epub:
@@ -57,4 +91,18 @@ cover-image: cover_1.jpg
 editor: visual
 lang: pt
 
+citation:
+  type: book
+  title: "Guia digital: construção de indicadores de desempenho para órgãos públicos"
+  author:
+    - Newton Krüger Tallens Junior
+    - Daiana Rafaela Pedersini
+    - Ricardo Coser Mergulhao
+    - Emerson Gomes dos Santos
+  url: "https://ipeagit.github.io/intro_access_book/pt"
+  pdf-url: "https://repositorio.ipea.gov.br/bitstream/11058/12264/1/Introducao_a_acessibilidade_urbana.pdf"
+  edition: 1
+  issued: 2024
+  isbn: "XXXXXXXXXXXX"
+  doi: "XXXXXXXXXXXXX"
 
