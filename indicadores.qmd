@@ -1,0 +1,7 @@
+# Indicadores de desempenho
+
+[Esta subseção contextualiza os indicadores de desempenho, apresenta definições, compara-os com os Key Performance Indicators (KPI) e propõe uma definição conjunta para esses elementos.]{style="color: gray"}
+
+## Contextualização e posicionamento dos indicadores
+
+Indicadores de desempenho integram os SMD, cujas medições subsidiam a tomada de decisões nas organizações. Na reprodução da figura que sintetiza os processos internos dos SGD constatam-se a posição e as atividades consequentes à seleção de indicadores de desempenho nesses sistemas.

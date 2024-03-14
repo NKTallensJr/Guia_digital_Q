@@ -1,0 +1,7 @@
+# ✅ Indicadores em uma página {.unnumbered}
+
+[Resumo dos principais fundamentos teóricos relacionados com o processo de construção de indicadores de desempenho para órgãos públicos.]{style="color: gray"}
+
+O resumo abaixo denominado [**Indicadores em uma página**]{style="color: red"} não substitui o conteúdo do guia e está disponível para [*download* no formato PDF](https://drive.google.com/file/d/1XEPbfm2wZVWjcKBw5oVUntZoBrNMQ55G/view?pli=1).
+
+![Indicadores em uma página](img/cheatsheet.png)

@@ -1,0 +1,7 @@
+# 📈 Exemplos práticos {.unnumbered}
+
+[Seção complementar destinada a citar exemplos reais de uso de indicadores em sistemas de medição de desempenho no setor público.]{style="color: gray"}
+
+**SEÇÃO EM CONSTRUÇÃO**
+
+A proposta da prefeitura de Belo Horizonte-MG bem exemplifica a desagregação geográfica, temporal e situacional no relato das medições dos indicadores de desempenho construídos conforme os ODS da ONU.

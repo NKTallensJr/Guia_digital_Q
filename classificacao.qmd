@@ -1,0 +1,3 @@
+# Classificação dos indicadores
+
+[Esta subseção dispõe da tipologia dos indicadores, classificando-os em grupos comuns e apresenta os benefícios dessa forma de organização.]{style="color: gray"}

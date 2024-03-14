@@ -1,0 +1,61 @@
+# 📖 Glossário {.unnumbered}
+
+[Um breve glossário com os principais termos utilizados no guia.]{style="color: gray"}
+
+**Atributos dos indicadores de desempenho**: elementos que caracterizam e auxiliam na construção de um indicador; são divididos conforme as etapas de elaboração, definição dos componentes de cálculo e apresentação dos resultados do indicador.
+
+**Cadeia produtiva**: modelo que relaciona sequencialmente os elementos de um processo organizacional (entradas, processos e saídas), seus resultados à sociedade e impactos gerados.
+
+**Critérios de validação**: quesitos utilizados nas etapas de elaboração, definição dos componentes de cálculo e apresentação dos resultados, para aferir a qualidade do indicador em construção, e, após construído, selecionar indicadores entre uma grande quantidade deles.
+
+**Desempenho**: embora seja de difícil definição, ele compreende a atual situação em que o objeto de medição se encontra. Pode-se incrementar tal definição, com a comparação entre a situação medida e situação (ou condição) que esse objeto pode alcançar, ou espera-se que ele alcance.
+
+**Dimensão de medição de desempenho**: as diferentes perspectivas consideradas na avaliação e medição de um mesmo objeto.
+
+**Economia**: relaciona dois elementos da cadeia produtiva, em que um deles está ligado à perspectiva financeira, a fim de medir a minimização dos custos.
+
+**Eficácia**: relaciona dois elementos da cadeia produtiva com o objetivo de medir a correção ou adequabilidade daquilo que foi realizado.
+
+**Eficiência**: relaciona dois elementos da cadeia produtiva a fim de medir a correção da forma de concepção de um deles, geralmente ligada a minimização de um ou a maximização de outro.
+
+**Efetividade**: relaciona dois elementos da cadeia produtiva, em que um deles necessariamente está ligado aos impactos gerados.
+
+**Entradas**: os diversos insumos necessários para a realização de um processo.
+
+**Equidade**: igualdade na oferta de produtos e serviços, bem como no acesso a eles por seus clientes.
+
+**Fatores Críticos de Sucesso (FCS)**: pontos importantes que precisam ser considerados em um plano, tanto para proporcionar o seu sucesso, quanto para se evitar o seu fracasso.
+
+**Finanças:** trata da conversão monetária em custos, dos diversos elementos que compõem as entradas, processos e saídas.
+
+**Impacto:** fenômenos externos profundos, que ocorrem no longo prazo, provenientes dos resultados gerados pela organização à sociedade.
+
+**Indicadores de desempenho**: elementos que medem, conforme determinada dimensão, a performance de um objeto considerado relevante para uma organização.
+
+**Inovação:** um processo, produto ou serviço, novo ou melhorado, que se diferencie significativamente do existente e que tenha sido efetivamente implantado.
+
+**Missão organizacional:** a razão de ser da organização, o papel que ela desempenha perante a sociedade.
+
+**Objeto de medição:** aquilo que será medido pelo indicador de desempenho, normalmente relacionado a um processo, projeto, programa, organização, política pública ou plano - todos de interesse da organização conforme suas missões ou objetivos.
+
+**Objetivo organizacional:** uma pretensão futura, uma situação ou condição que a organização visa a alcançar.
+
+**Objetivo estratégico:** um objetivo decorrente do planejamento estratégico da organização.
+
+**Partes interessadas**: todos os entes que influenciam ou são influenciados pelo objeto em análise.
+
+**Processos**: atividade organizacional de transformação de insumos (entradas) em produtos ou serviços (saídas).
+
+**Produtividade:** termo que deve ser definido no SMD aplicado, sendo que muitos autores o utilizam com o mesmo significado de eficiência.
+
+**Qualidade:** termo que requer a explicitação daquilo que se refere (excelência, valor, atendimento a especificações e conformidades, regularidade, adequação ao uso etc.) e à que se refere (um produto, serviço, processo etc.).
+
+**Resultados à sociedade**: fenômenos externos que ocorrem no curto e médio prazo, provenientes dos produtos e/ou serviços gerados pela organização.
+
+**Saídas**: os produtos e/ou serviços gerados por um processo organizacional.
+
+**Sistema de Gestão de Desempenho (SGD)**: sistema que se utiliza das informações sobre o desempenho e age sobre elas, visando a melhoria organizacional.
+
+**Sistema de Medição de Desempenho (SMD)**: sistema responsável por medir e relatar as informações sobre desempenho de um objeto, subsidiando o SGD.
+
+**Sustentabilidade:** trata do desempenho sinérgico entre os aspectos ambiental, econômico e social.

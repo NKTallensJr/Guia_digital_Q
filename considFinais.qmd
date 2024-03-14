@@ -1,0 +1,23 @@
+# 📝 Considerações finais {.unnumbered}
+
+[Esta seção apresenta as últimas considerações e conclusões acerca do tema apresentado]{style="color: gray"}
+
+Este guia destacou a importância e benefícios da medição de desempenho organizacional, que se insere no setor público em um movimento mundial junto de outras práticas de gestão, a fim de aprimorá-lo. Em função da diversidade e complexidade desse setor, a implantação de tais práticas requerem cuidados específicos. Quanto aos indicadores, é necessária a conscientização profissional de que eles não operam de forma isolada, mas como importantes componentes de um sistema de medição de desempenho, que liga-os com a gestão da organização.
+
+Órgãos públicos podem adotar indicadores para os mais diversos motivos: desde o monitoramento organizacional em função de suas missões, passando pela solução de problemas específicos (que requerem sua medição) até a implantação da estratégia organizacional. Para tanto, pode-se medir a evolução de atividades, processos, projetos, organizações, programas e políticas públicas, em que os indicadores de desempenho têm papel fundamental quando apropriadamente desenvolvidos.
+
+Neste guia, o processo para a construção desses indicadores foi apresentado somente após a devida fundamentação teórica, a fim de que eles realmente sejam uma prática de gestão positiva e benéfica para a organização que os implanta, e que sejam evitados enganos comuns (porém custosos) como:
+
+-   indicadores com objetivos de pouquíssima importância organizacional;
+
+-   indicadores elaborados sem qualquer critério ou suporte metodológico;
+
+-   indicadores previstos por meio de nome e fórmula, todavia, não existindo qualquer medição;
+
+-   a ausência de divulgação dos indicadores e de seus resultados;
+
+-   excesso prejudicial de indicadores (exatamente sessenta, apenas para uma organização).
+
+Esses exemplos foram testemunhados por este autor na administração pública. A fim de evitá-los, juntamente como os demais erros apresentados no guia, buscou-se, primeiramente ofertar o fundamento necessário ao leitor gestor, para, posteriormente apresentar o processo de construção de indicadores de desempenho para o setor público com etapas estruturadas. Cada etapa do processo possui entregas específicas: informações colhidas, atributos preenchidos, critérios aplicados ou validações, homologações e finalmente seleções; e todas elas têm fundamento em fatores técnicos.
+
+Como mensagem final, sugere-se que após a leitura deste material, os sistemas de medição de desempenho organizacionais com seus respectivos indicadores, sejam implementados ou revisados também de forma técnica, como por meio de projetos ou processos transparentes, bem definidos, mapeados e documentados - o setor público merece e precisa de tal cuidado.

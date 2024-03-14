@@ -1,0 +1,9 @@
+# 🟩 4ª fase - Aprovação {.unnumbered}
+
+[A última fase do processo compreende as etapas de homologação dos indicadores construídos e seleção daqueles que serão empregados nos SMD.]{style="color: gray"}
+
+### 13. Homologar os indicadores construídos com a liderança e demais partes interessadas
+
+A aprovação dos indicadores construídos com a liderança e demais partes interessadas (Bahia, 2021, Brasil, 2000; 2009; 2020a; Mato Grosso, 2022) encontra amparo em alguns pontos críticos para a implantação de indicadores e SMD apresentados na Subseção 1.4. A **participação da liderança é um fator de aumento do sucesso na implementação de um SMD** (Martins *et al*., 2020; Gębczyńska; Brajer-Marczak, 2020; Welter; Ensslin, 2022) e há **dificuldade no ajuste das medições devido à diversidade de partes interessadas existentes no setor público** (Putu; Van Helden; Tillema, 2007; Micheli; Neely, 2010; Bracci; Maran; Inglis, 2017; Oppi; Campanale, Cinquini, 2022).
+
+Portando, liderança e demais partes interessadas são agentes necessários para a aprovação dos indicadores construídos. Embora esses entes já tenham participado do processo de construção dos indicadores na [Etapa 10](/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/3.-construcao-de-indicadores/3.1-o-processo-de-construcao/2a-fase-elaboracao#10.-aprovar-preliminarmente-os-indicadores-em-construcao-com-as-partes-interessadas), a fase seguinte não contou com a sua participação em suas duas etapas, o que deve ser garantido nesta fase final, a fim de que os indicadores construídos sejam avaliados e validados por meio da homologação desses entes.

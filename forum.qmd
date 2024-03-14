@@ -1,0 +1,3 @@
+# ⁉️ Forum de interação {.unnumbered}
+
+[Espaço para interação entre os usuários do guia, para dúvidas, sugestões e complementos.]{style="color: gray"}

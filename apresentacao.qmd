@@ -1,0 +1,34 @@
+# ⏱️ Apresentação {#sec-apresentação}
+
+[Esta seção inicial contextualiza o tema, dispõe sobre os recursos do guia, sua organização, apresenta os benefícios do uso de indicadores de desempenho no setor público, bem como as suas limitações]{style="color: gray"}
+
+## Um modelo de gestão pública {.unnumbered}
+
+O setor público exerce elevada influência e impacto na sociedade, especialmente pelos serviços de sua responsabilidade, sendo de interesse comum que sejam prestados da melhor forma. Diante das expectativas pela melhor prestação e gestão dessas atividades, pelo movimento conhecido como Nova Gestão Pública (NGP), muitos países reorientaram suas administrações, adotando práticas de gestão consagradas no setor privado, em que @Matias-Pereira destaca:
+
+-   administração por objetivos;
+
+-   qualidade na prestação dos serviços;
+
+-   incentivos à criatividade e à inovação;
+
+-   o uso de **indicadores de desempenho**;
+
+-   descentralização de poderes e decisões;
+
+-   serviços públicos voltados ao cidadão-cliente.
+
+Na administração pública brasileira, superados os paradigmas patrimonialista e burocrático, esse novo modelo de gestão foi denominado Administração Pública Gerencial, sendo uma de suas implicações a inclusão do princípio da eficiência (entre aqueles que norteiam a administração pública) na Constituição Federal por meio da Emenda Constitucional Nº 19/1998 [@Costin].
+
+## A medição de desempenho no setor público {.unnumbered}
+
+Por meio de sistemas de medição e gestão de desempenho, indicadores podem medir a performance de atividades, processos, projetos, organizações, programas e políticas públicas [@Brasil2018a; @Uchoa] (Brasil, 2018a; Uchoa, 2013), revelando informações importantes para a gestão das organizações públicas. Bahia (2021) vai além, ao citar que os indicadores de desempenho podem contribuir na medição da ação e de eventuais omissões do setor público. De fato, "instituições eficazes, responsáveis e transparentes em todos os níveis" é um dos [Objetivos de Desenvolvimento Sustentável](https://brasil.un.org/pt-br/sdgs) (ODS) da Organização das Nações Unidas (ONU, 2023) e no setor público a medição de desempenho tomou importância a ponto de indicadores e metas influenciarem e definirem políticas públicas com efeitos sociopolíticos conforme @henman2016 e @steccolini2020.
+
+A literatura acadêmica aponta diversos benefícios resultantes do uso de indicadores de desempenho; todavia, estudos também registram fatores limitantes à implementação de indicadores e de sistemas de medição de desempenho, especialmente, no setor público.
+
+::: {.alert .alert-info}
+<strong> </strong>\
+Características específicas do setor público como amplo escopo, diversidade de objetivos e partes interessadas, restrições legais e orçamentárias, o tornam um ambiente complexo para a implantação de sistemas de medição de desempenho e seus indicadores [@moura2019; @garengo2020].
+:::
+
+Tais condições reforçam a constatação de @vanderkolk2022 de que a medição desempenho no setor público apresenta vantagens e desvantagens, logo, precisa ser empregada com cautela e considerar características dos sistemas a serem utilizados, o contexto de aplicação, sua forma e os interesses envolvidos. Motivado por tais condições, o objetivo deste guia é oferecer suporte teórico e metodológico aos gestores públicos no processo de elaboração e registro de indicadores de desempenho para suas instituições.

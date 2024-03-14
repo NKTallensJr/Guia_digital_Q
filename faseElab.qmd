@@ -1,0 +1,7 @@
+# 🟦 2ª fase - Elaboração {.unnumbered}
+
+[Esta fase dá início à definição dos elementos técnicos, comuns aos indicadores de desempenho, apresentados na seção de fundamentos, com exceção à última etapa, relativa às partes interessadas.]{style="color: gray"}
+
+5. Selecionar as dimensões de medição de desempenho a serem utilizadas
+Esta fase se inicia com a seleção das perspectivas de medição de desempenho do objeto escolhido, apresentada em Dimensões de medição de desempenho no setor público; recomenda-se a revisão desse subitem diante da elevada influência dessas dimensões na definição dos indicadores em construção. Em função da quantidade de dimensões, uma das consequências desta etapa para as seguintes, é a proposta de mais de um indicador - o que é recomendável em função da possibilidade de avaliação de um mesmo objeto conforme diversas perspectivas. 
+Como o setor público demanda múltiplas dimensões de desempenho para capturar as atividades e resultados de suas organizações (Christensen; James, 2020) a figura Relação entre as dimensões relativas à cadeia produtiva e seus respectivos ambientes exemplifica algumas relações entre as dimensões, propiciando uma das características requeridas pelos SMD: a multidimensionalidade.

@@ -1,0 +1,9 @@
+# O processo de construção
+
+[Esta subseção apresentada as fases e respectivas etapas do processo de construção de indicadores de desempenho para o setor público.]{style="color: gray"}
+
+Devido à diversidade e complexidade do setor público, umas das restrições ao projeto e implantação de SMD nesse setor é a dificuldade em instituir um modelo único para suas instituições (Brasil, 2011; Moura *et al*., 2019; Gębczyńska e Brajer-Marczak, 2020). Consequentemente, o modelo aqui proposto é um processo restrito à construção dos indicadores, refere-se às **duas etapas iniciais dos SMD**.
+
+Neste guia, **o processo proposto para a elaboração dos indicadores é exclusivamente para o setor público**, derivado da análise crítica métodos propostos por 15 fontes (manuais, guias e artefatos similares) provenientes de órgãos da administração pública brasileira. Cada método consiste numa sequência de passos para a criação dos indicadores; esses passos foram agrupados conforme seus objetivos comuns, gerando etapas, as quais foram analisadas, discutidas e agrupadas em fases (esse estudo encontra-se disposto no [trabalho monográfico referenciado na Apresentação](/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao#o-guia-para-a-construcao-de-indicadores-de-desempenho) deste guia).
+
+Assim, o processo proposto é composto por 14 etapas, organizadas sequencialmente em quatro fases, conforme a figura abaixo:

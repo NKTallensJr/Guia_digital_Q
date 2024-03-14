@@ -1,0 +1,23 @@
+# Atributos dos indicadores
+
+[Esta subseção apresenta os elementos que caracterizam individualmente os indicadores de desempenho, desde o início de sua concepção até a apresentação de seus resultados.]{style="color: gray"}
+
+Para a medição de desempenho, cada indicador deve possuir atributos próprios, que são **elementos** **característicos que o adequam para a sua função**. Como exemplos, Espírito Santo (2019a) e Maranhão (2023) sugerem definir os atributos dos indicadores com o balizamento da ferramenta 5W1H: o quê (nome do indicador); como (fórmula de cálculo); quem (responsabilidade pelo indicador); onde (fonte de informação); quantas vezes (frequência de medição) e por quê (objetivo do indicador). Jääskeläinen e Lönnqvist (2009) propõem os seguintes atributos:
+
+-   o título do indicador e sua medida;
+
+-   o propósito da medição;
+
+-   as fontes dos dados;
+
+-   a forma como o indicador será calculado;
+
+-   a definição da meta do indicador;
+
+-   o responsável pelo cálculo da medição;
+
+-   a frequência pela qual o indicador será calculado;
+
+-   a frequência de recebimento dos resultados;
+
+-   como os resultados serão comunicados.

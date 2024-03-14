@@ -1,0 +1,11 @@
+# 🟨 3ª fase - Definição {.unnumbered}
+
+[Esta fase possui duas importantes etapas: a definição dos atributos referentes ao cálculo do indicador e sua validação, que determinarão as informações geradas para posterior tomada de decisão.]{style="color: gray"}
+
+Apesar de curta em comparação às duas anteriores, **esta fase é de elevada criticidade**; conforme Francischini e Francischini (2017) as etapas de coleta de dados são o "calcanhar de Aquiles" de um SMD: além de ser o componente mais oneroso desse sistema, **dados, cálculos e procedimentos errados proporcionarão informações e consequentemente decisões errôneas** ao final dos SGD (Francischini; Francischini, 2017; Camillis *et al*., 2018).
+
+Como apresentado em [Limitações dos indicadores e sistemas de medição de desempenho](/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho), um dos efeitos indesejados desses sistemas é a manipulação deliberada de dados e informações e como exemplos de fatores limitantes à medição de desempenho no setor público tem-se o dimensionamento incorreto de metas (Ensslin; Welter; Pedersini, 2021; Smith; Halligan; Mir, 2021) e a baixa qualidade de dados e medições (Fryer; Antony; Ogden, 2009; Brasil, 2011; Giaquinto, 2017; Deschamps, 2021). Logo, as etapas desta fase são deveras representativas.
+
+### 11. Definir os atributos dos elementos de cálculo do indicador
+
+Esta etapa compreende a definição dos atributos utilizados para conduzir e registrar o processo de medição, a ser realizado pelos indicadores por meio de procedimentos, variáveis, prazos e responsabilidades. Sendo assim, **as ações desta etapa compreendem a definição dos atributos de cálculo do indicador, conforme os seguintes grupos:**

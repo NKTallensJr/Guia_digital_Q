@@ -3,14 +3,47 @@ project:
   output-dir: docs/
 
 book:
-  title: "Guia_digital_Q"
-  author: "Norah Jones"
-  date: "14/03/2024"
+  title: "Guia digital: construção de indicadores de desempenho para órgãos públicos"
+  author: "Newton Krüger Tallens Junior"
+  date: "10/02/2024"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - part: apresentacao.qmd
+      chapters: 
+      - recursos.qmd
+      - objetivos.qmd
+      - conseq.qmd
+      - sintese1.qmd
+    - part: fundamentacao.qmd
+      chapters: 
+        - SMD.qmd
+        - dimensoes.qmd
+        - indicadores.qmd
+        - classificacao.qmd
+        - atributos.qmd
+        - criterios.qmd
+        - sintese2.qmd
+    - part: construcao.qmd
+      chapters: 
+        - processo.qmd
+        - fasePlan.qmd
+        - faseElab.qmd
+        - faseDef.qmd
+        - faseAprov.qmd
+        - registro.qmd
+        - sintese3.qmd
+    - part: aplicacao.qmd
+      chapters: 
+        - PlanElab.qmd
+        - DefAprov.qmd
+        - RegIndicador.qmd
+    - considFinais.qmd
     - references.qmd
+    - glossario.qmd
+    - cheatsheet.qmd
+    - exemplosUso.qmd
+    - forum.qmd
 
 bibliography: references.bib
 
@@ -19,6 +52,9 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
-
+epub:
+cover-image: cover_1.jpg
 editor: visual
+lang: pt
+
 

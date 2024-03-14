@@ -1,0 +1,169 @@
+# Definição e Aprovação {.unnumbered}
+
+## 3ª fase - Definição
+
+11\. Definir os atributos dos elementos de cálculo do indicador
+
+Após a validação e aprovação do indicador com as partes interessadas, pode-se investir tempo e recursos na sua definição, especificamente por meio de seus elementos de cálculo:
+
+Realização dos cálculos
+
+PROCEDIMENTO DE CÁLCULO
+
+Identificar todos os municípios paulistas conforme sua população; distingui-los pela existência de instalações do CBPMESP; identificar o percentual de cobertura; distingui-la nos últimos três anos a fim de se verificar sua evolução. De forma adicional: categorizar os municípios conforme o tipo de instalação física necessária.
+
+FÓRMULA DE CÁLCULO
+
+(municípios com Instalações físicas de bombeiros/total de municípios) conforme o ano (para os últimos três anos).
+
+VARIÁVEIS DO CÁLCULO
+
+municípios (nome); população (quantidade); serviços de bombeiros (sim/não); serviços de bombeiros (data de implantação).
+
+Definição e coleta de dados
+
+FONTES DOS DADOS
+
+Sites do
+
+IBGE
+
+, do
+
+CBPMESP
+
+e das prefeituras municipais na internet; nestas, será feita a busca conforme a inauguração das instalações de bombeiros nos últimos três anos.
+
+FORMA DE COLETA DOS DADOS
+
+Coleta manual ou download na internet, transcrição e organização em planilha eletrônica.
+
+Forma e nível de desagregação dos resultados
+
+DESAGREGAÇÃO GEOGRÁFICA
+
+Em nível municipal.
+
+OUTRAS DESAGREGAÇÕES
+
+Temporal (semestral); situacional (conforme o grupo de municípios).
+
+Parâmetros comparativos e metas
+
+LINHA DE BASE
+
+26,98%
+
+BENCHMARKING
+
+14%
+
+META
+
+50%
+
+DATA DA LINHA DE BASE
+
+INSTITUIÇÃO E DATA
+
+PRAZO DA META
+
+01/01/2021
+
+Média nacional
+
+07/04/2013
+
+01/01/2027
+
+Periodicidade dos procedimentos
+
+PERIODICIDADE
+
+Semestral.
+
+PRAZO FINAL PARA A COLETA DE DADOS
+
+Dias 10 de junho e 10 de dezembro de cada ano.
+
+PRAZO FINAL PARA A APURAÇÃO
+
+Dias 20 de junho e 20 de dezembro de cada ano.
+
+Definição de responsabilidades
+
+|                                           |                                                                             |
+|-------------------------------------------|-----------------------------------------------------------------------------|
+| **UNIDADE RESPONSÁVEL**                   | **Departamento de Operações do CBPMESP.**                                   |
+| **RESPONSABILIDADE PELA COLETA DE DADOS** | **Chefe do Setor de Patrimônio Imobiliário e chefe do Setor de Convênios.** |
+| **RESPONSABILIDADE PELA APURAÇÃO**        | **Chefe do Setor de Estatística.**                                          |
+
+### 12. Validação conforme os critérios referentes ao cálculo dos indicadores
+
+Tal como a Etapa 9, nesta etapa serão aplicados todos os critérios de validação referentes aos elementos de cálculo dos indicadores.
+
+✅
+
+**COBERTURA**
+
+O indicador apresenta plena capacidade de abrangência territorial, temporal e situacional.
+
+✅
+
+**COMPARABILIDADE**
+
+Permite comparações com outras referências.
+
+✅
+
+**CONFIABILIDADE DA FONTE**
+
+Os dados para geração provêm de fontes confiáveis.
+
+✅
+
+**CONFIABILIDADE METODOLÓGICA**
+
+Os processos de geração estão definidos e formalizados, permitindo sua replicação.
+
+✅
+
+**DISPONIBILIDADE**
+
+Os dados para cálculo são facilmente obtidos.
+
+✅
+
+**ECONOMICIDADE**
+
+Os benefícios da geração do indicador superam facilmente os custos.
+
+✅
+
+**ESTABILIDADE**
+
+O objeto de medição possui constância para proporcionar medições estáveis.
+
+✅
+
+**INDEPENDÊNCIA**
+
+Fatores não controláveis possuem baixa influência nos resultados.
+
+⛔
+
+**SUPORTE TÉCNICO**
+
+Não avaliado.
+
+✅
+
+**TEMPESTIVIDADE**
+
+O resultado é apurável em tempo hábil para a adoção de medidas corretivas.
+
+New card
+
+## 4ª fase - Aprovação
+
+Como o indicador **Percentual de municípios com instalações próprias** **de bombeiros** foi validado na etapa anterior, ele é considerado construído, restando as etapas de homologação e seleção. Para a homologação, pode-se apresentar o indicador por meio de seu registro:

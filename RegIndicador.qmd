@@ -1,0 +1,3 @@
+# Registro do Indicador {.unnumbered}
+
+Os resultados das etapas do processo de construção do indicador devem agrupados e formalizados no **Registro do Indicador**.Nesta seção de aplicação, após o indicador construído, seu registro será complementado por novos elementos: um **quadro para os resultados medidos** (conforme os atributos e critérios de validação utilizados) e uma **apresentação gráfica** dos resultados:

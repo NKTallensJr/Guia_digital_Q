@@ -1,0 +1,1728 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Índice}
+\else
+  \newcommand\contentsname{Índice}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Lista de Figuras}
+\else
+  \newcommand\listfigurename{Lista de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Lista de Tabelas}
+\else
+  \newcommand\listtablename{Lista de Tabelas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabela}
+\else
+  \newcommand\tablename{Tabela}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listagem}
+\newcommand*\listoflistings{\listof{codelisting}{Lista de Listagens}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{portuguese}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Guia digital: construção de indicadores de desempenho para órgãos públicos},
+  pdfauthor={Newton Krüger Tallens Junior},
+  pdflang={pt},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Guia digital: construção de indicadores de desempenho para órgãos
+públicos}
+\author{Newton Krüger Tallens Junior}
+\date{2024-10-02}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, sharp corners, breakable, interior hidden, frame hidden, enhanced]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Índice}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\hypertarget{bem-vindo}{%
+\chapter*{Bem-vindo}\label{bem-vindo}}
+\addcontentsline{toc}{chapter}{Bem-vindo}
+
+\markboth{Bem-vindo}{Bem-vindo}
+
+Este guia digital visa dar suporte aos gestores públicos no processo de
+construção de indicadores de desempenho para suas instituições. Ao gerar
+informações adequadas e de qualidade, indicadores proporcionam análises
+e tomada de decisões similares, sendo este um de seus objetivos;
+todavia, indicadores subdesenvolvidos ou escolhidos erroneamente
+proporcionaram decisões inadequadas.
+
+Indicadores de desempenho são os mais importantes elementos de um
+sistema de medição de desempenho organizacional, cuja implementação no
+setor público é desafiadora pela sua diversidade de objetivos, ampla
+abrangência e partes interessadas. Por esse motivo, esse guia apresenta
+suas seções numa sequência própria: inicia-se com os elementos mais
+amplos e determinantes, gerando a necessária fundamentação teórica até
+convergir para os indicadores e suas caraterísticas, para, com
+segurança, apresentar um processo para a sua construção, finalizando com
+uma aplicação prática.
+
+Portanto, esse material busca ser objetivo e preciso, sem prejuízo da
+contextualização do tema e do embasamento teórico, valendo-se da
+interatividade para uma melhor consulta e navegação entre suas seções a
+fim de se ofertar um guia que faça frente à relevância do tema e às
+características e necessidades da administração pública.
+
+\hypertarget{o-guia-para-a-construuxe7uxe3o-de-indicadores-de-desempenho}{%
+\section*{O guia para a construção de indicadores de
+desempenho}\label{o-guia-para-a-construuxe7uxe3o-de-indicadores-de-desempenho}}
+\addcontentsline{toc}{section}{O guia para a construção de indicadores
+de desempenho}
+
+\markright{O guia para a construção de indicadores de desempenho}
+
+Este material é o produto de uma dissertação apresentada junto ao
+\href{https://www.unifesp.br/campus/sjc/ppgit}{Programa de Pós-Graduação
+Profissional em Inovação Tecnológica da Universidade Federal de São
+Paulo}. Como um guia, ele oferece uma visão geral do tema apresentado,
+com comentários e, especialmente, instruções para que o leitor possa
+alcançar o objetivo proposto.
+
+Àqueles que tenham interesse em conhecer o referencial teórico
+utilizado, as pesquisas realizadas, seus resultados, discussões e forma
+de validação do guia, podem
+\href{https://repositorio.unifesp.br/handle/11600/61097}{acessar
+integralmente a monografia acadêmica em seu repositório} na Universidade
+Federal de São Paulo. Conforme as referências registradas na monografia,
+as pesquisas realizadas tiveram como base centenas de estudos, entre
+eles: artigos científicos, dissertações, teses, livros, guias e manuais
+provenientes da administração pública brasileira. A todos os seus
+autores, registra-se aqui o nosso agradecimento, pois seus trabalhos
+foram essenciais para a construção deste; espera-se que ele também possa
+ajudar gestores e pesquisadores neste tema tão caro à administração
+pública.
+
+Por fim, conforme os materiais analisados e a proposta do programa de
+pós-graduação, que proporcionou a elaboração deste guia, buscou-se
+ofertar um material inovador em formato digital e com recursos de
+interação e interatividade, apresentados na próxima subseção.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{introduuxe7uxe3o}{%
+\chapter*{Introdução}\label{introduuxe7uxe3o}}
+\addcontentsline{toc}{chapter}{Introdução}
+
+\markboth{Introdução}{Introdução}
+
+Este guia está organizado em quatro partes partes com seus respectivos
+capítulos:
+
+\textbf{Apresentação}: contextualiza o tema tratado, apresenta os
+recursos de leitura, navegação e avaliação disponíveis. Nos capítulos
+seguintes, apresenta-se duas importantes justificativas para a
+elaboração deste material: os benefícios do uso dos indicadores de
+desempenho para as organizações públicas (e consequentemente para a
+sociedade) e um alerta sobre as limitações e efeitos nocivos desses
+instrumentos de medição.
+
+\textbf{Fundamentos teóricos}: apresenta o embasamento teórico
+necessário para o processo de construção de indicadores de desempenho,
+desde os sistemas de medição e gestão de desempenho das organizações,
+sua forma de orientação, dimensões de medição até os menores elementos
+daquele sistema: os indicadores de desempenho, que são avaliados
+conforme sua tipologia, elementos de formação (atributos) e critérios
+utilizados para sua validação.
+
+\textbf{Construção de indicadores}: apresenta o processo para a
+construção de indicadores de desempenho para órgãos públicos, é composto
+por 14 etapas agrupadas em quatro fases, que se iniciam pela compreensão
+do ambiente organizacional de medição de desempenho, seguem para a
+elaboração dos indicadores, validações, definição de seus parâmetros de
+cálculo e aprovação; e, na sequência, disponibiliza um modo de
+formalização do indicador: o Registro do Indicador.
+
+As três primeiras partes possuem uma Síntese, com os principais tópicos
+apresentados.
+
+\textbf{Aplicação}: esta seção busca fixar o conhecimento apresentado e
+a condução do processo de construção dos indicadores, aplicando-os de
+forma prática na construção e registro de um indicador para um órgão
+público real por meio de dados públicos. Ao final deste capítulo, tem-se
+a materialização do conteúdo do guia, não apenas pelo exemplo
+desenvolvido, mas pela disponibilização de um modelo de Registro do
+Indicador para uso dos gestores interessados.
+
+\textbf{Considerações finais}: trata-se de uma breve seção de
+encerramento com as últimas considerações e conclusões acerca do tema
+apresentado. Ao final tem-se: o registro das \textbf{referências} das
+citações do guia; um \textbf{glossário} com os termos relativos ao tema;
+um resumo denominado \textbf{indicadores em uma página}, que não
+substitui o guia; uma seção extra com \textbf{exemplos práticos} e
+estudos de caso, e um \textbf{fórum de dúvidas e sugestões} para a
+coleta da avaliação dos usuários, discussões e interações visando o
+contínuo aprimoramento do guia.
+
+\part{⏱️ Apresentação}
+
+{Esta seção inicial contextualiza o tema, dispõe sobre os recursos do
+guia, sua organização, apresenta os benefícios do uso de indicadores de
+desempenho no setor público, bem como as suas limitações}
+
+\hypertarget{um-modelo-de-gestuxe3o-puxfablica}{%
+\section*{Um modelo de gestão
+pública}\label{um-modelo-de-gestuxe3o-puxfablica}}
+\addcontentsline{toc}{section}{Um modelo de gestão pública}
+
+\markright{Um modelo de gestão pública}
+
+O setor público exerce elevada influência e impacto na sociedade,
+especialmente pelos serviços de sua responsabilidade, sendo de interesse
+comum que sejam prestados da melhor forma. Diante das expectativas pela
+melhor prestação e gestão dessas atividades, pelo movimento conhecido
+como Nova Gestão Pública (NGP), muitos países reorientaram suas
+administrações, adotando práticas de gestão consagradas no setor
+privado, em que Matias-Pereira (2018) destaca:
+
+\begin{itemize}
+\item
+  administração por objetivos;
+\item
+  qualidade na prestação dos serviços;
+\item
+  incentivos à criatividade e à inovação;
+\item
+  o uso de \textbf{indicadores de desempenho};
+\item
+  descentralização de poderes e decisões;
+\item
+  serviços públicos voltados ao cidadão-cliente.
+\end{itemize}
+
+Na administração pública brasileira, superados os paradigmas
+patrimonialista e burocrático, esse novo modelo de gestão foi denominado
+Administração Pública Gerencial, sendo uma de suas implicações a
+inclusão do princípio da eficiência (entre aqueles que norteiam a
+administração pública) na Constituição Federal por meio da Emenda
+Constitucional Nº 19/1998 (Costin 2010).
+
+\hypertarget{a-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}{%
+\section*{A medição de desempenho no setor
+público}\label{a-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}}
+\addcontentsline{toc}{section}{A medição de desempenho no setor público}
+
+\markright{A medição de desempenho no setor público}
+
+Por meio de sistemas de medição e gestão de desempenho, indicadores
+podem medir a performance de atividades, processos, projetos,
+organizações, programas e políticas públicas (Brasil 2018a; Uchoa 2013)
+(Brasil, 2018a; Uchoa, 2013), revelando informações importantes para a
+gestão das organizações públicas. Bahia (2021) vai além, ao citar que os
+indicadores de desempenho podem contribuir na medição da ação e de
+eventuais omissões do setor público. De fato, ``instituições eficazes,
+responsáveis e transparentes em todos os níveis'' é um dos
+\href{https://brasil.un.org/pt-br/sdgs}{Objetivos de Desenvolvimento
+Sustentável} (ODS) da Organização das Nações Unidas (ONU, 2023) e no
+setor público a medição de desempenho tomou importância a ponto de
+indicadores e metas influenciarem e definirem políticas públicas com
+efeitos sociopolíticos conforme Henman (2016) e Steccolini, Saliterer, e
+Guthrie (2020).
+
+A literatura acadêmica aponta diversos benefícios resultantes do uso de
+indicadores de desempenho; todavia, estudos também registram fatores
+limitantes à implementação de indicadores e de sistemas de medição de
+desempenho, especialmente, no setor público.
+
+\strut \\
+Características específicas do setor público como amplo escopo,
+diversidade de objetivos e partes interessadas, restrições legais e
+orçamentárias, o tornam um ambiente complexo para a implantação de
+sistemas de medição de desempenho e seus indicadores (Moura et al. 2019;
+Garengo e Sardi 2020).
+
+Tais condições reforçam a constatação de Kolk (2022) de que a medição
+desempenho no setor público apresenta vantagens e desvantagens, logo,
+precisa ser empregada com cautela e considerar características dos
+sistemas a serem utilizados, o contexto de aplicação, sua forma e os
+interesses envolvidos. Motivado por tais condições, o objetivo deste
+guia é oferecer suporte teórico e metodológico aos gestores públicos no
+processo de elaboração e registro de indicadores de desempenho para suas
+instituições.
+
+\hypertarget{recursos-de-interatividade-navegauxe7uxe3o-e-avaliauxe7uxe3o}{%
+\chapter{Recursos de interatividade, navegação e
+avaliação}\label{recursos-de-interatividade-navegauxe7uxe3o-e-avaliauxe7uxe3o}}
+
+{Subseção destinada à apresentação dos recursos de interatividade
+disponíveis, às formas de navegação pelas páginas do guia e os meios
+para a sua avaliação.}
+
+\hypertarget{interatividade}{%
+\section{Interatividade}\label{interatividade}}
+
+Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, este
+guia utiliza diversas ferramentas, muitas delas comuns, como,
+\textbf{destaques}, {\textbf{realces}} e \emph{hyperlinks}. Como outros
+exemplos tem-se:
+
+\hypertarget{guias}{%
+\section{Guias}\label{guias}}
+
+Estruturam o conteúdo de tópicos de um texto
+
+\section{Guias}
+
+Estruturam o conteúdo do texto.
+
+\section{Avisos}
+
+Destacam, reforçam, avisam e alertam.
+
+\section{Expansores}
+
+Apresentam um texto explicativo, desenvolvendo o conteúdo do título
+principal.
+
+\hypertarget{avisos-1}{%
+\section{Avisos}\label{avisos-1}}
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Dica}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, coltitle=black]
+
+Destaca uma informação.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, coltitle=black]
+
+Reforça uma ação.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Cuidado}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-caution-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-caution-color!10!white, leftrule=.75mm, coltitle=black]
+
+Alerta sobe uma informação importante.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Aviso}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-warning-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-warning-color!10!white, leftrule=.75mm, coltitle=black]
+
+Avisa sobe uma informação crítica.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Alerta}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-important-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, coltitle=black]
+
+Adverte sobe uma informação crítica.
+
+\end{tcolorbox}
+
+\hypertarget{navegauxe7uxe3o}{%
+\section{Navegação}\label{navegauxe7uxe3o}}
+
+Todas as seções e subseções iniciam-se com uma pequena introdução no
+topo de suas páginas, apresentando suas propostas e objetivos. Nas
+laterais do guia, há menus de navegação: à esquerda navega-se pelas suas
+seções e subseções; já o menu à direita fornece a navegação pelos
+tópicos da seção em leitura. Ao final de cada página, existem botões de
+navegação para as seções (ou subseções) anteriores e seguintes.
+
+\hypertarget{objetivos-e-benefuxedcios-da-mediuxe7uxe3o-de-desempenho}{%
+\chapter{Objetivos e benefícios da medição de
+desempenho}\label{objetivos-e-benefuxedcios-da-mediuxe7uxe3o-de-desempenho}}
+
+{Nesta subseção apresenta-se o objetivo da medição de desempenho e suas
+implicações na forma de objetivos específicos e benefícios.}
+
+\textbf{O objetivo maior da medição de desempenho numa organização é a
+sua melhoria por meio do suporte de informações sobre o desempenho na
+tomada de decisões}. Essa medição e as ações dela decorrentes possuem
+implicações, sejam elas objetivos menores ou benefícios gerados (que
+muitas vezes se confundem) apresentados a seguir.
+
+Conforme Smith (1990, 1993) a medição de desempenho permite aumentar o
+controle e a prestação de contas das instituições, seja internamente ou
+externamente. Freeman (2002) acrescenta a melhoria contínua das
+instituições que se valem desses instrumentos. Para Micheli e Neely
+(2010) a medição de desempenho possibilita, ainda, a comparação do
+desempenho entre instituições, além de influenciar comportamentos e
+ações a fim de aprimorar os seus serviços. Por fim, Goh (2012) adiciona
+a geração de informações e o aprendizado institucional.
+
+Portanto, considerando o incremento dos estudos em relação às
+implicações positivas da medição de desempenho organizacional, elas
+podem ser listadas conforme abaixo:
+
+\begin{itemize}
+\item
+  Análise de resultados de processos, projetos, programas e políticas
+  implantados;
+\item
+  Apoio no planejamento organizacional e tomada de decisões;
+\item
+  Aprendizado organizacional devido às medições de diversas áreas e
+  resultados alcançados;
+\item
+  Avaliação do alcance de objetivos e cumprimento de metas;
+\item
+  Comparação entre instituições e unidades por meio dos mesmos
+  indicadores;
+\item
+  Melhoria contínua da organização;
+\item
+  Monitoramento das atividades, processos, projetos, programas e planos
+  medidos;
+\item
+  Motivação e reconhecimento do desempenho individual e departamental;
+\item
+  Prestação de contas e responsabilização pelos resultados atingidos;
+\item
+  Suporte na definição de objetivos e alinhamento de prioridades;
+\item
+  Transparência e comunicação dos resultados organizacionais.
+\end{itemize}
+
+Conforme algumas implicações da medição de desempenho como prestação de
+contas\emph{,} melhoria contínua, suporte na tomada de decisões,
+aprendizado e transparência organizacional, conclui-se que \textbf{os
+benefícios de um sistema de medição de desempenho implantado com
+indicadores adequados se estendem para além da instituição; no caso dos
+serviços públicos, há implicações em outras partes interessadas,
+especialmente na população cliente},consumidora desses serviços.
+
+Internamente às organizações, \textbf{servidores dos mais diversos
+níveis - da linha de frente à alta gestão, podem valer-se das
+informações transmitidas por indicadores de desempenho adequados ao seu
+nível hierárquico} (Grøn; Kristiansen, 2022). O quadro abaixo
+(proveniente do mesmo estudo citado) exemplifica essa necessidade de
+adequação da informação produzida conforme o interessado:
+
+Diferentes necessidades, tipo e uso de informações sobre medição de
+desempenho
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2192}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{NÍVEL}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{NECESSIDADE}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{TIPO}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{USO}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Alta gerência & Aspectos estratégicos da instituição & Todos, em
+especial resultados e satisfação dos clientes & Direção e controle da
+organização, e prestação de contas \\
+Gestores de linha de frente & Operações do dia a dia e conforme a área
+da instituição & Informações sobre pessoas e saídas dos processos &
+Controle das operações diárias e aprendizagem \\
+\end{longtable}
+
+Conforme destacado anteriormente, frisa-se: \textbf{indicadores de
+desempenho não atuam de maneira isolada, mas fazem parte de sistemas de
+medição e gestão}, que, em correto funcionamento, proporcionarão os
+benefícios citados, sendo necessário considerar, desde os usuários
+dessas medições (Grøn e Kristiansen, 2022) até o contexto de medição de
+desempenho (Van der Kolk, 2022).
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Alerta!}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-warning-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-warning-color!10!white, leftrule=.75mm, coltitle=black]
+
+Projetar indicadores de desempenho isoladamente sem considerar
+características dos sistemas, o contexto de aplicação, formas e partes
+interessadas, é uma falha na medição do desempenho organizacional.
+
+\end{tcolorbox}
+
+De forma oportuna, a subseção seguinte apresenta os erros mais comuns e
+as limitações no desenvolvimento de sistemas de medição de desempenho,
+especialmente para o setor público.
+
+\hypertarget{consequuxeancias-indesejadas-e-limitauxe7uxf5es-da-mediuxe7uxe3o-de-desempenho}{%
+\chapter{Consequências indesejadas e limitações da medição de
+desempenho}\label{consequuxeancias-indesejadas-e-limitauxe7uxf5es-da-mediuxe7uxe3o-de-desempenho}}
+
+{Esta importante subseção apresenta os efeitos indesejados e fatores
+limitantes da medição de desempenho no setor público em função da sua
+complexidade.}
+
+\hypertarget{suxedntese}{%
+\chapter*{Síntese}\label{suxedntese}}
+\addcontentsline{toc}{chapter}{Síntese}
+
+\markboth{Síntese}{Síntese}
+
+Este capítulo contextualizou \textbf{a medição de desempenho
+organizacional no setor público}, adotada junto com outras práticas de
+gestão a partir do movimento denominado Nova Gestão Pública\emph{.}
+\textbf{Por meio de sistemas de medição de desempenho, pode-se avaliar a
+performance de atividades, processos, projetos, organizações, programas
+e políticas públicas} beneficiando as organizações e a sociedade. A
+complexidade do setor público, proveniente de suas características
+ímpares, justificam este e os demais estudos e artefatos similares. Como
+um guia digital, dispõe-se de recursos de interatividade, tornando a
+consulta e o aprendizado mais dinâmicos e eficientes.
+
+As implicações positivas da medição de desempenho organizacional no
+setor público foram descritas em Objetivos e benefícios da medição de
+desempenho, em que também constatou-se que \textbf{projetar indicadores
+de desempenho isoladamente, sem considerar características dos sistemas,
+o contexto de aplicação, formas e partes interessadas, é um erro básico
+na medição do desempenho organizacional}. Consequentemente, na subseção
+seguinte, Limitações dos indicadores e sistemas de medição de
+desempenho, foram apresentadas as consequências não intencionais e os
+fatores limitantes e barreiras à medição de desempenho no setor público
+provenientes de pesquisas científicas. Apesar da ênfase daquela subseção
+nas limitações dos indicadores, \textbf{os benefícios gerados pelos
+indicadores de desempenho e SMD superam suas limitações em intensidade e
+ganho, tanto para a sociedade quanto para as instituições}.
+
+Após a contextualização do tema (especialmente no setor público) e suas
+implicações - as quais motivam a elaboração deste guia, a seção seguinte
+fornece os fundamentos necessários para a construção dos indicadores de
+desempenho.
+
+\part{💡 Fundamentos teóricos}
+
+\begin{quote}
+Esta seção fornece a base teórica necessária ao processo de construção
+de indicadores de desempenho, desde a contextualização destes em
+sistemas de medição e gestão até o seu menor detalhamento.
+\end{quote}
+
+A primeira seção apresentou a medição da performance das instituições do
+setor público como um dos frutos de um novo modelo de administração
+pública, com diversos benefícios, porém com restrições e limitações,
+resultando em efeitos disfuncionais e prejudiciais. Para tanto, é
+necessário compreender os diversos fatores que envolvem os indicadores
+de desempenho - desde seu posicionamento na organização até os elementos
+que os compõem individualmente.
+
+(\textbf{jackson1993?}) aponta que \textbf{o setor público possui
+diversas complexidades} (abrangência, objetivos, clientes e partes
+interessadas) \textbf{que precisam ser consideradas e ter reflexo em
+seus indicadores desempenho}; logo, indicadores triviais e comumente
+utilizados, provavelmente, não proporcionarão os resultados esperados,
+especialmente diante das peculiaridades do setor público. Assim,
+reforça-se a necessidade da construção de uma base teórica prévia ao
+processo de construção desses indicadores.
+
+Portanto, esta seção inicia-se com o foco mais aberto possível, por meio
+dos sistemas de medição e gestão de desempenho; segue para a
+apresentação dos indicadores de desempenho, detalhando-os desde e sua
+tipologia até os menores elementos que os compõem: os atributos dos
+indicadores. Por fim, dispõe-se dos critérios de qualidade e validação
+dos indicadores, os quais contribuem de sobremaneira para a consecução
+dos benefícios e desvio das limitações dos indicadores citados no início
+desta introdução.
+
+\hypertarget{sistemas-de-mediuxe7uxe3o-e-de-gestuxe3o-de-desempenho}{%
+\chapter{Sistemas de Medição e de Gestão de
+Desempenho}\label{sistemas-de-mediuxe7uxe3o-e-de-gestuxe3o-de-desempenho}}
+
+{Esta subseção define e propõe uma forma de orientação dos Sistemas de
+Medição e de Gestão de Desempenho, contextualizando-os entre os
+indicadores de desempenho e as organizações.}
+
+A gestão de desempenho compreende um sistema integrado, em que as
+informações coletadas sobre o desempenho das organizações estão
+intimamente ligadas à sua direção estratégica (Ensslin; Welter;
+Pedersini, 2022). Para tanto, essa gestão deve ser sistematizada,
+resultando em um Sistema de Gestão de Desempenho (SGD), composto por
+três etapas (Melo; Mota, 2020):
+
+\hypertarget{dimensuxf5es-de-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}{%
+\chapter{Dimensões de medição de desempenho no setor
+público}\label{dimensuxf5es-de-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}}
+
+{Nesta subseção, tem-se um dos mais importantes elementos de um Sistema
+de Medição de Desempenho, especialmente no setor público: as dimensões
+de medição de desempenho.}
+
+Dimensões de desempenho são as diferentes perspectivas consideradas na
+medição de um objeto; \textbf{devido à complexidade do setor público,
+são necessárias múltiplas dimensões de desempenho para capturar as
+atividades e resultados dessas organizações} (Christensen; James, 2020).
+A pesquisa citada anteriormente, identificou as dimensões priorizadas
+pelo setor público em seus SMD, apresentadas a seguir em grupos de
+características comuns.
+
+\hypertarget{indicadores-de-desempenho}{%
+\chapter{Indicadores de desempenho}\label{indicadores-de-desempenho}}
+
+{Esta subseção contextualiza os indicadores de desempenho, apresenta
+definições, compara-os com os Key Performance Indicators (KPI) e propõe
+uma definição conjunta para esses elementos.}
+
+\hypertarget{contextualizauxe7uxe3o-e-posicionamento-dos-indicadores}{%
+\section{Contextualização e posicionamento dos
+indicadores}\label{contextualizauxe7uxe3o-e-posicionamento-dos-indicadores}}
+
+Indicadores de desempenho integram os SMD, cujas medições subsidiam a
+tomada de decisões nas organizações. Na reprodução da figura que
+sintetiza os processos internos dos SGD constatam-se a posição e as
+atividades consequentes à seleção de indicadores de desempenho nesses
+sistemas.
+
+\hypertarget{classificauxe7uxe3o-dos-indicadores}{%
+\chapter{Classificação dos
+indicadores}\label{classificauxe7uxe3o-dos-indicadores}}
+
+{Esta subseção dispõe da tipologia dos indicadores, classificando-os em
+grupos comuns e apresenta os benefícios dessa forma de organização.}
+
+\hypertarget{atributos-dos-indicadores}{%
+\chapter{Atributos dos indicadores}\label{atributos-dos-indicadores}}
+
+{Esta subseção apresenta os elementos que caracterizam individualmente
+os indicadores de desempenho, desde o início de sua concepção até a
+apresentação de seus resultados.}
+
+Para a medição de desempenho, cada indicador deve possuir atributos
+próprios, que são \textbf{elementos} \textbf{característicos que o
+adequam para a sua função}. Como exemplos, Espírito Santo (2019a) e
+Maranhão (2023) sugerem definir os atributos dos indicadores com o
+balizamento da ferramenta 5W1H: o quê (nome do indicador); como (fórmula
+de cálculo); quem (responsabilidade pelo indicador); onde (fonte de
+informação); quantas vezes (frequência de medição) e por quê (objetivo
+do indicador). Jääskeläinen e Lönnqvist (2009) propõem os seguintes
+atributos:
+
+\begin{itemize}
+\item
+  o título do indicador e sua medida;
+\item
+  o propósito da medição;
+\item
+  as fontes dos dados;
+\item
+  a forma como o indicador será calculado;
+\item
+  a definição da meta do indicador;
+\item
+  o responsável pelo cálculo da medição;
+\item
+  a frequência pela qual o indicador será calculado;
+\item
+  a frequência de recebimento dos resultados;
+\item
+  como os resultados serão comunicados.
+\end{itemize}
+
+\hypertarget{crituxe9rios-de-validauxe7uxe3o-dos-indicadores}{%
+\chapter{Critérios de validação dos
+indicadores}\label{crituxe9rios-de-validauxe7uxe3o-dos-indicadores}}
+
+{Esta subseção finaliza a fundamentação teórica necessária, por meio da
+disposição dos critérios utilizados, para avaliar a qualidade dos
+indicadores, bem como validá-los.}
+
+Para atingir seus objetivos e proporcionar os benefícios citados na
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/1.-apresentacao/1.3-objetivos-e-beneficios-da-medicao-de-desempenho}{Subseção
+1.3} os indicadores de desempenho devem ser precisos, inteligíveis,
+coerentes e relevantes para os gestores (Mustea; Mihiţ; Lobonţ, 2021),
+sendo necessário avaliá-los em relação a quesitos que permitem aferir
+sua qualidade e também atuam como critérios de seleção perante uma certa
+quantidade de indicadores propostos (Ambrozewicz, 2015; ENAP, 2021b).
+\textbf{A ratificação dos indicadores por esses critérios, evitarão
+muitos dos efeitos negativos} \textbf{provenientes de implantações
+errôneas}, esses apresentados na
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho}{Subseção
+1.4}.
+
+\hypertarget{suxedntese-1}{%
+\chapter*{Síntese}\label{suxedntese-1}}
+\addcontentsline{toc}{chapter}{Síntese}
+
+\markboth{Síntese}{Síntese}
+
+Nesta seção verificou-se que a \textbf{gestão de desempenho
+organizacional compreende um sistema integrado}, em que as informações
+coletadas são analisadas, a fim de identificar os fatores que impactam
+na performance da organização, \textbf{subsidiando a tomada de
+decisões}. Para tanto, é necessário um SMD que \textbf{mede, analisa e
+comunica o desempenho} de atividades, processos, projetos, organizações,
+programas e políticas públicas \textbf{por meio de um conjunto
+multidimensional de indicadores de desempenho}. No setor público esses
+SMD devem ter
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/2.-fundamentos-teoricos/2.1-sistemas-de-medicao-e-de-gestao-de-desempenho\#caracteristicas-dos-sistemas-de-medicao-de-desempenho}{características
+específicas}: a
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/2.-fundamentos-teoricos/2.1-sistemas-de-medicao-e-de-gestao-de-desempenho\#orientacao-de-um-smd-para-orgaos-publicos}{orientação
+da medição} pelo \textbf{balanço entre as missões e objetivos das suas
+instituições},além da \textbf{multiplicidade dimensões de desempenho}
+para capturar as diversas atividades desse setor.
+
+\textbf{Dimensões de medição de desempenho} são as diferentes
+perspectivas consideradas na medição de um objeto; apresentou-se
+diversas, conforme demanda o setor público, exemplificando algumas
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/2.-fundamentos-teoricos/2.2-dimensoes-de-medicao-de-desempenho-no-setor-publico\#ambientes-algumas-relacoes-entre-as-dimensoes-de-medicao-de-desempenho}{relações
+entre as elas}, pois devem trabalhar em sinergia, para que o resultado
+de uma dimensão contribua com outra. \textbf{Indicadores de desempenho}
+são parâmetros numéricos de medição que expressam informações
+qualitativas ou quantitativas sobre o desempenho de um objeto, valorando
+objetivos, acontecimentos e situações críticas, ou não, para a
+organização. Os indicadores podem ser classificados: conforme sua
+posição no nível hierárquico do órgão; as dimensões de desempenho que
+medem; sua posição na cadeia produtiva e pela especificidade dos
+indicadores (dividindo-os entre indicadores de esforço e de resultado);
+essa última é a mais benéfica pela \textbf{relação de causa e efeito
+criada, potencializando o emprego dos indicadores e criando um SMD
+balanceado.}
+
+Por fim, as últimas subseções apresentaram os \textbf{atributos} e os
+\textbf{critérios de validação dos indicadores de desempenho}. Os
+primeiros adequam os indicadores para a sua função, sendo utilizados na
+sua construção; são divididos cronologicamente em atributos de
+elaboração dos indicadores, de definição dos elementos de cálculo e de
+relato de resultados. Já os critérios de validação, além do uso
+referente à sua própria denominação, também aferem sua qualidade e são
+utilizados para a seleção perante uma certa quantidade de indicadores
+propostos.
+
+\part{⚙️ Construção de indicadores}
+
+\hypertarget{o-processo-de-construuxe7uxe3o}{%
+\chapter{O processo de
+construção}\label{o-processo-de-construuxe7uxe3o}}
+
+{Esta subseção apresentada as fases e respectivas etapas do processo de
+construção de indicadores de desempenho para o setor público.}
+
+Devido à diversidade e complexidade do setor público, umas das
+restrições ao projeto e implantação de SMD nesse setor é a dificuldade
+em instituir um modelo único para suas instituições (Brasil, 2011; Moura
+\emph{et al}., 2019; Gębczyńska e Brajer-Marczak, 2020).
+Consequentemente, o modelo aqui proposto é um processo restrito à
+construção dos indicadores, refere-se às \textbf{duas etapas iniciais
+dos SMD}.
+
+Neste guia, \textbf{o processo proposto para a elaboração dos
+indicadores é exclusivamente para o setor público}, derivado da análise
+crítica métodos propostos por 15 fontes (manuais, guias e artefatos
+similares) provenientes de órgãos da administração pública brasileira.
+Cada método consiste numa sequência de passos para a criação dos
+indicadores; esses passos foram agrupados conforme seus objetivos
+comuns, gerando etapas, as quais foram analisadas, discutidas e
+agrupadas em fases (esse estudo encontra-se disposto no
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao\#o-guia-para-a-construcao-de-indicadores-de-desempenho}{trabalho
+monográfico referenciado na Apresentação} deste guia).
+
+Assim, o processo proposto é composto por 14 etapas, organizadas
+sequencialmente em quatro fases, conforme a figura abaixo:
+
+\hypertarget{uxaa-fase---planejamento}{%
+\chapter*{🟥 1ª fase - Planejamento}\label{uxaa-fase---planejamento}}
+\addcontentsline{toc}{chapter}{🟥 1ª fase - Planejamento}
+
+\markboth{🟥 1ª fase - Planejamento}{🟥 1ª fase - Planejamento}
+
+{Esta fase preparatória, dividida em quatro etapas, trata de informações
+estritamente organizacionais sobre medição de desempenho.}
+
+\hypertarget{compreender-o-cenuxe1rio-organizacional-de-mediuxe7uxe3o-de-desempenho}{%
+\subsection*{1. Compreender o cenário organizacional de medição de
+desempenho}\label{compreender-o-cenuxe1rio-organizacional-de-mediuxe7uxe3o-de-desempenho}}
+\addcontentsline{toc}{subsection}{1. Compreender o cenário
+organizacional de medição de desempenho}
+
+A primeira etapa requer a conscientização das condições de medição de
+desempenho na organização para a qual serão construídos os indicadores,
+sendo \textbf{necessário considerar seu segmento, produtos e serviços,
+porte (diante da diversidade do setor público) e sua maturidade em
+relação à medição de desempenho}. Neste último ponto, faz-se necessário
+a compreensão dos fatores que influenciam esse propósito, como
+motivações, informações e sistemas disponíveis, contexto e limitações
+(Gao, 2015; Francischini; Francischini, 2017; Moura \emph{et al}.,
+2019). Para tanto, pode-se realizar um diagnóstico preliminar
+institucional (Bahia, 2021; Brasil, 2012); avaliar as restrições
+existentes para a medição de desempenho (Brasil, 2012; 2018c; 2020b), e
+certificar-se do grau de suporte e envolvimento da liderança (Brasil,
+2020a) e das demais partes interessadas (Brasil, 2010; 2012).
+
+A Subseção 1.4 descreveu a
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho\#a-complexidade-da-gestao-organizacional-e-do-setor-publico}{complexidade
+do setor público em relação à medição de desempenho}, suas
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho\#consequencias-indesejadas-dos-smd-no-setor-publico}{consequências
+indesejadas} e os
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho\#fatores-limitantes-a-medicao-de-desempenho-no-setor-publico}{fatores
+limitantes para tal}, em que se registra a cultura organizacional como
+uma barreira à implantação de SMD (Brasil, 2011; Welter; Ensslin, 2022),
+a participação da liderança (Welter; Ensslin, 2022) e o descompasso que
+pode existir entre órgãos públicos e a má implementação de sistemas de
+medição, comprometendo-os (Gonzaga \emph{et al}., 2017; Steccolini;
+Saliterer; Guthrie, 2020) \textbf{justificando essa etapa inicial}.
+
+Ao final da primeira etapa espera-se \textbf{o entendimento das
+condições institucionais que podem catalisar ou dificultar o processo},
+o que influenciará nas escolhas seguintes. Organizações com
+\textbf{maturidade na medição de seu desempenho podem estar preparadas
+para rever seu portfólio de indicadores}, considerando outras dimensões
+de medição. Por outro lado, aquelas que \textbf{ainda não meçam o seu
+desempenho, podem iniciar com indicadores de dimensões mais simples -
+especialmente internas à organização} (finanças, insumos, processos) e
+com pequena quantidade de indicadores, visando a evitar as dificuldades
+já apresentadas.
+
+\hypertarget{identificar-o-objetivo-ou-missuxe3o-envolvida-na-mediuxe7uxe3o}{%
+\subsection*{2. Identificar o objetivo ou missão envolvida na
+medição}\label{identificar-o-objetivo-ou-missuxe3o-envolvida-na-mediuxe7uxe3o}}
+\addcontentsline{toc}{subsection}{2. Identificar o objetivo ou missão
+envolvida na medição}
+
+Como os indicadores de desempenho não atuam de forma isolada, mas como
+elementos de SMD orientados pelo \textbf{balanço entre as missões e
+objetivos das instituições} (conforme as características e necessidades
+das instituições públicas), \textbf{na segunda etapa deve ser definido
+qual o objetivo ou missão institucional que o indicador em construção
+busca avaliar, medir e atingir}. Essa informação pode ser registrada por
+meio do atributo \textbf{objetivo ou missão envolvidos}. Com efeito, uma
+das
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho\#consequencias-indesejadas-dos-smd-no-setor-publico}{consequências
+indesejadas} dos SMD é o emprego de objetivos locais limitados, ao invés
+de objetivos organizacionais (Freeman, 2002) e um
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho\#fatores-limitantes-a-medicao-de-desempenho-no-setor-publico}{fator
+limitante} a ser considerado nesta etapa é a diversidade de objetivos a
+serem medidos, devido a amplitude do setor público (Brasil, 2011; Moura
+\emph{et al}., 2019).
+
+\hypertarget{uxaa-fase---elaborauxe7uxe3o}{%
+\chapter*{🟦 2ª fase - Elaboração}\label{uxaa-fase---elaborauxe7uxe3o}}
+\addcontentsline{toc}{chapter}{🟦 2ª fase - Elaboração}
+
+\markboth{🟦 2ª fase - Elaboração}{🟦 2ª fase - Elaboração}
+
+{Esta fase dá início à definição dos elementos técnicos, comuns aos
+indicadores de desempenho, apresentados na seção de fundamentos, com
+exceção à última etapa, relativa às partes interessadas.}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Selecionar as dimensões de medição de desempenho a serem utilizadas
+  Esta fase se inicia com a seleção das perspectivas de medição de
+  desempenho do objeto escolhido, apresentada em Dimensões de medição de
+  desempenho no setor público; recomenda-se a revisão desse subitem
+  diante da elevada influência dessas dimensões na definição dos
+  indicadores em construção. Em função da quantidade de dimensões, uma
+  das consequências desta etapa para as seguintes, é a proposta de mais
+  de um indicador - o que é recomendável em função da possibilidade de
+  avaliação de um mesmo objeto conforme diversas perspectivas. Como o
+  setor público demanda múltiplas dimensões de desempenho para capturar
+  as atividades e resultados de suas organizações (Christensen; James,
+  2020) a figura Relação entre as dimensões relativas à cadeia produtiva
+  e seus respectivos ambientes exemplifica algumas relações entre as
+  dimensões, propiciando uma das características requeridas pelos SMD: a
+  multidimensionalidade.
+\end{enumerate}
+
+\hypertarget{uxaa-fase---definiuxe7uxe3o}{%
+\chapter*{🟨 3ª fase - Definição}\label{uxaa-fase---definiuxe7uxe3o}}
+\addcontentsline{toc}{chapter}{🟨 3ª fase - Definição}
+
+\markboth{🟨 3ª fase - Definição}{🟨 3ª fase - Definição}
+
+{Esta fase possui duas importantes etapas: a definição dos atributos
+referentes ao cálculo do indicador e sua validação, que determinarão as
+informações geradas para posterior tomada de decisão.}
+
+Apesar de curta em comparação às duas anteriores, \textbf{esta fase é de
+elevada criticidade}; conforme Francischini e Francischini (2017) as
+etapas de coleta de dados são o ``calcanhar de Aquiles'' de um SMD: além
+de ser o componente mais oneroso desse sistema, \textbf{dados, cálculos
+e procedimentos errados proporcionarão informações e consequentemente
+decisões errôneas} ao final dos SGD (Francischini; Francischini, 2017;
+Camillis \emph{et al}., 2018).
+
+Como apresentado em
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/1.-apresentacao/1.4-consequencias-indesejadas-e-limitacoes-da-medicao-de-desempenho}{Limitações
+dos indicadores e sistemas de medição de desempenho}, um dos efeitos
+indesejados desses sistemas é a manipulação deliberada de dados e
+informações e como exemplos de fatores limitantes à medição de
+desempenho no setor público tem-se o dimensionamento incorreto de metas
+(Ensslin; Welter; Pedersini, 2021; Smith; Halligan; Mir, 2021) e a baixa
+qualidade de dados e medições (Fryer; Antony; Ogden, 2009; Brasil, 2011;
+Giaquinto, 2017; Deschamps, 2021). Logo, as etapas desta fase são
+deveras representativas.
+
+\hypertarget{definir-os-atributos-dos-elementos-de-cuxe1lculo-do-indicador}{%
+\subsection*{11. Definir os atributos dos elementos de cálculo do
+indicador}\label{definir-os-atributos-dos-elementos-de-cuxe1lculo-do-indicador}}
+\addcontentsline{toc}{subsection}{11. Definir os atributos dos elementos
+de cálculo do indicador}
+
+Esta etapa compreende a definição dos atributos utilizados para conduzir
+e registrar o processo de medição, a ser realizado pelos indicadores por
+meio de procedimentos, variáveis, prazos e responsabilidades. Sendo
+assim, \textbf{as ações desta etapa compreendem a definição dos
+atributos de cálculo do indicador, conforme os seguintes grupos:}
+
+\hypertarget{uxaa-fase---aprovauxe7uxe3o}{%
+\chapter*{🟩 4ª fase - Aprovação}\label{uxaa-fase---aprovauxe7uxe3o}}
+\addcontentsline{toc}{chapter}{🟩 4ª fase - Aprovação}
+
+\markboth{🟩 4ª fase - Aprovação}{🟩 4ª fase - Aprovação}
+
+{A última fase do processo compreende as etapas de homologação dos
+indicadores construídos e seleção daqueles que serão empregados nos
+SMD.}
+
+\hypertarget{homologar-os-indicadores-construuxeddos-com-a-lideranuxe7a-e-demais-partes-interessadas}{%
+\subsection*{13. Homologar os indicadores construídos com a liderança e
+demais partes
+interessadas}\label{homologar-os-indicadores-construuxeddos-com-a-lideranuxe7a-e-demais-partes-interessadas}}
+\addcontentsline{toc}{subsection}{13. Homologar os indicadores
+construídos com a liderança e demais partes interessadas}
+
+A aprovação dos indicadores construídos com a liderança e demais partes
+interessadas (Bahia, 2021, Brasil, 2000; 2009; 2020a; Mato Grosso, 2022)
+encontra amparo em alguns pontos críticos para a implantação de
+indicadores e SMD apresentados na Subseção 1.4. A \textbf{participação
+da liderança é um fator de aumento do sucesso na implementação de um
+SMD} (Martins \emph{et al}., 2020; Gębczyńska; Brajer-Marczak, 2020;
+Welter; Ensslin, 2022) e há \textbf{dificuldade no ajuste das medições
+devido à diversidade de partes interessadas existentes no setor público}
+(Putu; Van Helden; Tillema, 2007; Micheli; Neely, 2010; Bracci; Maran;
+Inglis, 2017; Oppi; Campanale, Cinquini, 2022).
+
+Portando, liderança e demais partes interessadas são agentes necessários
+para a aprovação dos indicadores construídos. Embora esses entes já
+tenham participado do processo de construção dos indicadores na
+\href{/o/AZWDclIWFqqJuBEvyQWk/s/ws6bIBOPv2tLRHdwbB7y/~/changes/788/3.-construcao-de-indicadores/3.1-o-processo-de-construcao/2a-fase-elaboracao\#10.-aprovar-preliminarmente-os-indicadores-em-construcao-com-as-partes-interessadas}{Etapa
+10}, a fase seguinte não contou com a sua participação em suas duas
+etapas, o que deve ser garantido nesta fase final, a fim de que os
+indicadores construídos sejam avaliados e validados por meio da
+homologação desses entes.
+
+\hypertarget{registro-dos-resultados-do-processo}{%
+\chapter{Registro dos resultados do
+processo}\label{registro-dos-resultados-do-processo}}
+
+{Esta subseção sintetiza os quadros apresentados ao final de cada fase
+do processo de construção dos indicadores, compondo a \textbf{Registro
+do Indicador}.}
+
+Os \textbf{resultados mais importantes das etapas do processo de
+construção do indicador devem ser registrados}, especialmente por meio
+de seus atributos, que são elementos facilitadores desse processo
+(Uchoa, 2013). Além de registrar aqueles resultados, os atributos também
+atendem à \textbf{necessidade de formalização, registro e catalogação
+dos indicadores construídos por meio de registros elaborados por esses
+atributos} (Bahia, 2021; Brasil, 2018c; 2020b; 2023).
+
+Ao final de cada uma das quatro fases apresentadas na subseção anterior,
+apresentou-se um quadro com os respectivos atributos dos indicadores
+utilizados; especificamente nas fases de elaboração e definição dos
+indicadores, sugeriu-se a inclusão dos critérios utilizados para a
+validação dos indicadores em construção, conforme cada fase. Esses
+quadros apresentados ao final de cada fase podem ser agrupados, compondo
+o \textbf{Registro do Indicador}:
+
+\hypertarget{suxedntese-2}{%
+\chapter*{Síntese}\label{suxedntese-2}}
+\addcontentsline{toc}{chapter}{Síntese}
+
+\markboth{Síntese}{Síntese}
+
+O processo proposto para a construção dos indicadores é composto por 14
+etapas, agrupadas em quatro fases. A \textbf{fase de planejamento busca
+captar os parâmetros organizacionais de medição de desempenho},
+garantindo o alinhamento institucional e o foco dos indicadores pela
+antecipação do cenário, contexto e fatores críticos para a sua
+implantação, além do objetivo e objeto de medição (motivo pelo qual
+destaca-se a Subseção 2.1). Em síntese \textbf{é uma fase preliminar e
+voltada ao órgão público} para o qual serão construídos os indicadores.
+
+A \textbf{fase de elaboração dos indicadores possui um viés técnico} sob
+o ponto de vista da medição de desempenho, em que são aplicados todos
+conceitos apresentados na Seção 2. A proposta dos indicadores de
+desempenho ocorre nesta fase, pois já se tem o conhecimento do contexto
+e objetivos institucionais, do objeto de medição, dos FCS para tal, das
+dimensões de avaliação desse objeto e dos tipos de indicadores a serem
+utilizados. Considerando as 14 etapas do processo em tela, \textbf{a
+propositura dos indicadores de desempenho só ocorre na sétima etapa, na
+metade do processo, tamanha a fundamentação técnica e organizacional
+necessária para tal}. Nesta fase ocorre a primeira validação dos
+indicadores em construção e a sua aprovação (ainda que preliminar) junto
+às partes interessadas - importantes entes para a medição do desempenho,
+especialmente no setor público.
+
+A \textbf{fase de definição é composta por duas importantes etapas}: a
+primeira busca \textbf{garantir que os indicadores tenham objetividade e
+lastro técnico em relação aos procedimentos de cálculo}, mediante certas
+definições: a origem e coleta de dados; os cálculos; os níveis de
+desagregação dos resultados; os parâmetros comparativos e metas; a
+periodicidade e responsáveis pelas ações citadas. De fato, dados,
+cálculos e procedimentos errados proporcionarão decisões errôneas para
+os órgãos que os aplicam. A segunda etapa visa à \textbf{aplicação dos
+critérios de validação}, desta vez, daqueles referentes ao cálculo do
+indicador; uma vez validados, tem-se os indicadores construídos.
+
+A fase final do processo compreende a \textbf{aprovação dos indicadores
+construídos} mediante a \textbf{homologação com a liderança e partes
+interessadas}, bem como \textbf{a seleção dos indicadores, diante de uma
+grande quantidade de indicadores construídos}. Os resultados das etapas
+do processo podem ser descritas no \textbf{Registro do Indicador} que,
+além de suportar o processo de construção dos indicadores consignando
+seus resultados principais por meio de seus atributos e critérios de
+validação, \textbf{atua como um elemento de formalização do indicador
+construído, concretizando-o e proporcionando sua fácil consulta e
+divulgação}.
+
+\part{📊 Aplicação}
+
+\hypertarget{planejamento-e-elaborauxe7uxe3o}{%
+\chapter*{Planejamento e
+Elaboração}\label{planejamento-e-elaborauxe7uxe3o}}
+\addcontentsline{toc}{chapter}{Planejamento e Elaboração}
+
+\markboth{Planejamento e Elaboração}{Planejamento e Elaboração}
+
+\hypertarget{uxaa-fase---planejamento-1}{%
+\section*{1ª fase - Planejamento}\label{uxaa-fase---planejamento-1}}
+\addcontentsline{toc}{section}{1ª fase - Planejamento}
+
+\markright{1ª fase - Planejamento}
+
+\hypertarget{compreender-o-cenuxe1rio-organizacional-de-mediuxe7uxe3o-de-desempenho-1}{%
+\subsection*{1. Compreender o cenário organizacional de medição de
+desempenho}\label{compreender-o-cenuxe1rio-organizacional-de-mediuxe7uxe3o-de-desempenho-1}}
+\addcontentsline{toc}{subsection}{1. Compreender o cenário
+organizacional de medição de desempenho}
+
+O CBPMESP é responsável pelo "planejamento, comando, execução,
+coordenação, fiscalização e controle de todas as atividades de
+prevenção, extinção de incêndios e de buscas e salvamentos e das
+atividades técnicas a elas relacionadas no território estadual", (São
+Paulo, 1974, art. 39).
+
+Conforme o seu
+\href{http://www.ccb.policiamilitar.sp.gov.br/portalcb/_institucional/midias/Planejamento-Estrate\%CC\%81gico-14DEZ20.pdf}{planejamento
+estratégico} a instituição detém uma força de trabalho, viaturas e
+embarcações distribuídos em \textbf{Estações de Bombeiros}, que são as
+\textbf{instalações físicas de onde equipes de prontidão são acionadas
+para a prestação de seus serviços}. Essa planejamento estratégico prevê
+as definições de iniciativas, indicadores de execução, metas e
+balanceamento das responsabilidades (embora não os apresente).
+\textbf{Depreende-se que existe uma cultura de medição de desempenho
+nesse órgão}; trata-se de uma instituição militar organizada com base na
+hierarquia e disciplina (Brasil, 1988, art. 42) cujo papel da liderança
+parece ser determinante. Conforme a figura abaixo, proveniente do
+próprio site da instituição na internet, verifica-se o registro dos
+dados de seus atendimentos:
+
+\hypertarget{definiuxe7uxe3o-e-aprovauxe7uxe3o}{%
+\chapter*{Definição e
+Aprovação}\label{definiuxe7uxe3o-e-aprovauxe7uxe3o}}
+\addcontentsline{toc}{chapter}{Definição e Aprovação}
+
+\markboth{Definição e Aprovação}{Definição e Aprovação}
+
+\hypertarget{uxaa-fase---definiuxe7uxe3o-1}{%
+\section*{3ª fase - Definição}\label{uxaa-fase---definiuxe7uxe3o-1}}
+\addcontentsline{toc}{section}{3ª fase - Definição}
+
+\markright{3ª fase - Definição}
+
+11. Definir os atributos dos elementos de cálculo do indicador
+
+Após a validação e aprovação do indicador com as partes interessadas,
+pode-se investir tempo e recursos na sua definição, especificamente por
+meio de seus elementos de cálculo:
+
+Realização dos cálculos
+
+PROCEDIMENTO DE CÁLCULO
+
+Identificar todos os municípios paulistas conforme sua população;
+distingui-los pela existência de instalações do CBPMESP; identificar o
+percentual de cobertura; distingui-la nos últimos três anos a fim de se
+verificar sua evolução. De forma adicional: categorizar os municípios
+conforme o tipo de instalação física necessária.
+
+FÓRMULA DE CÁLCULO
+
+(municípios com Instalações físicas de bombeiros/total de municípios)
+conforme o ano (para os últimos três anos).
+
+VARIÁVEIS DO CÁLCULO
+
+municípios (nome); população (quantidade); serviços de bombeiros
+(sim/não); serviços de bombeiros (data de implantação).
+
+Definição e coleta de dados
+
+FONTES DOS DADOS
+
+Sites do
+
+IBGE
+
+, do
+
+CBPMESP
+
+e das prefeituras municipais na internet; nestas, será feita a busca
+conforme a inauguração das instalações de bombeiros nos últimos três
+anos.
+
+FORMA DE COLETA DOS DADOS
+
+Coleta manual ou download na internet, transcrição e organização em
+planilha eletrônica.
+
+Forma e nível de desagregação dos resultados
+
+DESAGREGAÇÃO GEOGRÁFICA
+
+Em nível municipal.
+
+OUTRAS DESAGREGAÇÕES
+
+Temporal (semestral); situacional (conforme o grupo de municípios).
+
+Parâmetros comparativos e metas
+
+LINHA DE BASE
+
+26,98\%
+
+BENCHMARKING
+
+14\%
+
+META
+
+50\%
+
+DATA DA LINHA DE BASE
+
+INSTITUIÇÃO E DATA
+
+PRAZO DA META
+
+01/01/2021
+
+Média nacional
+
+07/04/2013
+
+01/01/2027
+
+Periodicidade dos procedimentos
+
+PERIODICIDADE
+
+Semestral.
+
+PRAZO FINAL PARA A COLETA DE DADOS
+
+Dias 10 de junho e 10 de dezembro de cada ano.
+
+PRAZO FINAL PARA A APURAÇÃO
+
+Dias 20 de junho e 20 de dezembro de cada ano.
+
+Definição de responsabilidades
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3583}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6417}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{UNIDADE RESPONSÁVEL} & \textbf{Departamento de Operações do
+CBPMESP.} \\
+\textbf{RESPONSABILIDADE PELA COLETA DE DADOS} & \textbf{Chefe do Setor
+de Patrimônio Imobiliário e chefe do Setor de Convênios.} \\
+\textbf{RESPONSABILIDADE PELA APURAÇÃO} & \textbf{Chefe do Setor de
+Estatística.} \\
+\end{longtable}
+
+\hypertarget{validauxe7uxe3o-conforme-os-crituxe9rios-referentes-ao-cuxe1lculo-dos-indicadores}{%
+\subsection*{12. Validação conforme os critérios referentes ao cálculo
+dos
+indicadores}\label{validauxe7uxe3o-conforme-os-crituxe9rios-referentes-ao-cuxe1lculo-dos-indicadores}}
+\addcontentsline{toc}{subsection}{12. Validação conforme os critérios
+referentes ao cálculo dos indicadores}
+
+Tal como a Etapa 9, nesta etapa serão aplicados todos os critérios de
+validação referentes aos elementos de cálculo dos indicadores.
+
+✅
+
+\textbf{COBERTURA}
+
+O indicador apresenta plena capacidade de abrangência territorial,
+temporal e situacional.
+
+✅
+
+\textbf{COMPARABILIDADE}
+
+Permite comparações com outras referências.
+
+✅
+
+\textbf{CONFIABILIDADE DA FONTE}
+
+Os dados para geração provêm de fontes confiáveis.
+
+✅
+
+\textbf{CONFIABILIDADE METODOLÓGICA}
+
+Os processos de geração estão definidos e formalizados, permitindo sua
+replicação.
+
+✅
+
+\textbf{DISPONIBILIDADE}
+
+Os dados para cálculo são facilmente obtidos.
+
+✅
+
+\textbf{ECONOMICIDADE}
+
+Os benefícios da geração do indicador superam facilmente os custos.
+
+✅
+
+\textbf{ESTABILIDADE}
+
+O objeto de medição possui constância para proporcionar medições
+estáveis.
+
+✅
+
+\textbf{INDEPENDÊNCIA}
+
+Fatores não controláveis possuem baixa influência nos resultados.
+
+⛔
+
+\textbf{SUPORTE TÉCNICO}
+
+Não avaliado.
+
+✅
+
+\textbf{TEMPESTIVIDADE}
+
+O resultado é apurável em tempo hábil para a adoção de medidas
+corretivas.
+
+New card
+
+\hypertarget{uxaa-fase---aprovauxe7uxe3o-1}{%
+\section*{4ª fase - Aprovação}\label{uxaa-fase---aprovauxe7uxe3o-1}}
+\addcontentsline{toc}{section}{4ª fase - Aprovação}
+
+\markright{4ª fase - Aprovação}
+
+Como o indicador \textbf{Percentual de municípios com instalações
+próprias} \textbf{de bombeiros} foi validado na etapa anterior, ele é
+considerado construído, restando as etapas de homologação e seleção.
+Para a homologação, pode-se apresentar o indicador por meio de seu
+registro:
+
+\hypertarget{registro-do-indicador}{%
+\chapter*{Registro do Indicador}\label{registro-do-indicador}}
+\addcontentsline{toc}{chapter}{Registro do Indicador}
+
+\markboth{Registro do Indicador}{Registro do Indicador}
+
+Os resultados das etapas do processo de construção do indicador devem
+agrupados e formalizados no \textbf{Registro do Indicador}.Nesta seção
+de aplicação, após o indicador construído, seu registro será
+complementado por novos elementos: um \textbf{quadro para os resultados
+medidos} (conforme os atributos e critérios de validação utilizados) e
+uma \textbf{apresentação gráfica} dos resultados:
+
+\bookmarksetup{startatroot}
+
+\hypertarget{considerauxe7uxf5es-finais}{%
+\chapter*{📝 Considerações finais}\label{considerauxe7uxf5es-finais}}
+\addcontentsline{toc}{chapter}{📝 Considerações finais}
+
+\markboth{📝 Considerações finais}{📝 Considerações finais}
+
+{Esta seção apresenta as últimas considerações e conclusões acerca do
+tema apresentado}
+
+Este guia destacou a importância e benefícios da medição de desempenho
+organizacional, que se insere no setor público em um movimento mundial
+junto de outras práticas de gestão, a fim de aprimorá-lo. Em função da
+diversidade e complexidade desse setor, a implantação de tais práticas
+requerem cuidados específicos. Quanto aos indicadores, é necessária a
+conscientização profissional de que eles não operam de forma isolada,
+mas como importantes componentes de um sistema de medição de desempenho,
+que liga-os com a gestão da organização.
+
+Órgãos públicos podem adotar indicadores para os mais diversos motivos:
+desde o monitoramento organizacional em função de suas missões, passando
+pela solução de problemas específicos (que requerem sua medição) até a
+implantação da estratégia organizacional. Para tanto, pode-se medir a
+evolução de atividades, processos, projetos, organizações, programas e
+políticas públicas, em que os indicadores de desempenho têm papel
+fundamental quando apropriadamente desenvolvidos.
+
+Neste guia, o processo para a construção desses indicadores foi
+apresentado somente após a devida fundamentação teórica, a fim de que
+eles realmente sejam uma prática de gestão positiva e benéfica para a
+organização que os implanta, e que sejam evitados enganos comuns (porém
+custosos) como:
+
+\begin{itemize}
+\item
+  indicadores com objetivos de pouquíssima importância organizacional;
+\item
+  indicadores elaborados sem qualquer critério ou suporte metodológico;
+\item
+  indicadores previstos por meio de nome e fórmula, todavia, não
+  existindo qualquer medição;
+\item
+  a ausência de divulgação dos indicadores e de seus resultados;
+\item
+  excesso prejudicial de indicadores (exatamente sessenta, apenas para
+  uma organização).
+\end{itemize}
+
+Esses exemplos foram testemunhados por este autor na administração
+pública. A fim de evitá-los, juntamente como os demais erros
+apresentados no guia, buscou-se, primeiramente ofertar o fundamento
+necessário ao leitor gestor, para, posteriormente apresentar o processo
+de construção de indicadores de desempenho para o setor público com
+etapas estruturadas. Cada etapa do processo possui entregas específicas:
+informações colhidas, atributos preenchidos, critérios aplicados ou
+validações, homologações e finalmente seleções; e todas elas têm
+fundamento em fatores técnicos.
+
+Como mensagem final, sugere-se que após a leitura deste material, os
+sistemas de medição de desempenho organizacionais com seus respectivos
+indicadores, sejam implementados ou revisados também de forma técnica,
+como por meio de projetos ou processos transparentes, bem definidos,
+mapeados e documentados - o setor público merece e precisa de tal
+cuidado.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{referuxeancias}{%
+\chapter*{📚 Referências}\label{referuxeancias}}
+\addcontentsline{toc}{chapter}{📚 Referências}
+
+\markboth{📚 Referências}{📚 Referências}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Brasil2018a}{}}%
+Brasil. 2018a. \emph{Guia de Indicadores de Desempenho TJDFT}. ENAP.
+\url{https://www.tjdft.jus.br/institucional/gestao-estrategica/planejamento-estrategico/GUIADEINDICADORESDOTJDFT.pdf}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Costin}{}}%
+Costin, Claudia. 2010. \emph{Administração pública}. Grupo GEN.
+\url{https://app.minhabiblioteca.com.br/\#/books/9788595152281/}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-garengo2020}{}}%
+Garengo, Patrizia, e Alberto Sardi. 2020. {«Performance Measurement and
+Management in the Public Sector: State of the Art and Research
+Opportunities»}. \emph{International Journal of Productivity and
+Performance Management} 70 (7): 1629--54.
+\url{https://doi.org/10.1108/ijppm-03-2020-0102}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-henman2016}{}}%
+Henman, Paul. 2016. {«Performing the State: The Socio-Political
+Dimensions of Performance Measurement in Policy and Public Services»}.
+\emph{Policy Studies} 37 (6): 499--507.
+\url{https://doi.org/10.1080/01442872.2016.1144739}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vanderkolk2022}{}}%
+Kolk, Berend van der. 2022. {«Performance Measurement in the Public
+Sector: Mapping 20~Years of Survey Research»}. \emph{Financial
+Accountability \& Management} 38 (4): 703--29.
+\url{https://doi.org/10.1111/faam.12345}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Matias-Pereira}{}}%
+Matias-Pereira, José. 2018. \emph{Administração pública}. 5a ed. Grupo
+GEN. \url{https://app.minhabiblioteca.com.br/\#/books/9788597016093/}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-moura2019}{}}%
+Moura, Louisi Francis, Edson Pinheiro de Lima, Fernando Deschamps,
+Eileen Van Aken, Sergio E. Gouvea da Costa, Fernanda Tavares Treinta, e
+José Marcelo Almeida Prado Cestari. 2019. {«Designing Performance
+Measurement Systems in Nonprofit and Public Administration
+Organizations»}. \emph{International Journal of Productivity and
+Performance Management} 68 (8): 1373--1410.
+\url{https://doi.org/10.1108/ijppm-06-2018-0236}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-steccolini2020}{}}%
+Steccolini, Ileana, Iris Saliterer, e James Guthrie. 2020. {«The Role(s)
+of Accounting and Performance Measurement Systems in Contemporary Public
+Administration»}. \emph{Public Administration} 98 (1): 3--13.
+\url{https://doi.org/10.1111/padm.12642}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Uchoa}{}}%
+Uchoa, Carlos Eduardo. 2013. \emph{Elaboração de indicadores de
+desempenho institucional}. ENAP.
+\url{https://repositorio.enap.gov.br/bitstream/1/2403/1/Elabora\%C3\%A7\%C3\%A3o\%20de\%20indicadores\%20de\%20desempenho_apostila\%20exerc\%C3\%ADcios.pdf}.
+
+\end{CSLReferences}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{glossuxe1rio}{%
+\chapter*{📖 Glossário}\label{glossuxe1rio}}
+\addcontentsline{toc}{chapter}{📖 Glossário}
+
+\markboth{📖 Glossário}{📖 Glossário}
+
+{Um breve glossário com os principais termos utilizados no guia.}
+
+\textbf{Atributos dos indicadores de desempenho}: elementos que
+caracterizam e auxiliam na construção de um indicador; são divididos
+conforme as etapas de elaboração, definição dos componentes de cálculo e
+apresentação dos resultados do indicador.
+
+\textbf{Cadeia produtiva}: modelo que relaciona sequencialmente os
+elementos de um processo organizacional (entradas, processos e saídas),
+seus resultados à sociedade e impactos gerados.
+
+\textbf{Critérios de validação}: quesitos utilizados nas etapas de
+elaboração, definição dos componentes de cálculo e apresentação dos
+resultados, para aferir a qualidade do indicador em construção, e, após
+construído, selecionar indicadores entre uma grande quantidade deles.
+
+\textbf{Desempenho}: embora seja de difícil definição, ele compreende a
+atual situação em que o objeto de medição se encontra. Pode-se
+incrementar tal definição, com a comparação entre a situação medida e
+situação (ou condição) que esse objeto pode alcançar, ou espera-se que
+ele alcance.
+
+\textbf{Dimensão de medição de desempenho}: as diferentes perspectivas
+consideradas na avaliação e medição de um mesmo objeto.
+
+\textbf{Economia}: relaciona dois elementos da cadeia produtiva, em que
+um deles está ligado à perspectiva financeira, a fim de medir a
+minimização dos custos.
+
+\textbf{Eficácia}: relaciona dois elementos da cadeia produtiva com o
+objetivo de medir a correção ou adequabilidade daquilo que foi
+realizado.
+
+\textbf{Eficiência}: relaciona dois elementos da cadeia produtiva a fim
+de medir a correção da forma de concepção de um deles, geralmente ligada
+a minimização de um ou a maximização de outro.
+
+\textbf{Efetividade}: relaciona dois elementos da cadeia produtiva, em
+que um deles necessariamente está ligado aos impactos gerados.
+
+\textbf{Entradas}: os diversos insumos necessários para a realização de
+um processo.
+
+\textbf{Equidade}: igualdade na oferta de produtos e serviços, bem como
+no acesso a eles por seus clientes.
+
+\textbf{Fatores Críticos de Sucesso (FCS)}: pontos importantes que
+precisam ser considerados em um plano, tanto para proporcionar o seu
+sucesso, quanto para se evitar o seu fracasso.
+
+\textbf{Finanças:} trata da conversão monetária em custos, dos diversos
+elementos que compõem as entradas, processos e saídas.
+
+\textbf{Impacto:} fenômenos externos profundos, que ocorrem no longo
+prazo, provenientes dos resultados gerados pela organização à sociedade.
+
+\textbf{Indicadores de desempenho}: elementos que medem, conforme
+determinada dimensão, a performance de um objeto considerado relevante
+para uma organização.
+
+\textbf{Inovação:} um processo, produto ou serviço, novo ou melhorado,
+que se diferencie significativamente do existente e que tenha sido
+efetivamente implantado.
+
+\textbf{Missão organizacional:} a razão de ser da organização, o papel
+que ela desempenha perante a sociedade.
+
+\textbf{Objeto de medição:} aquilo que será medido pelo indicador de
+desempenho, normalmente relacionado a um processo, projeto, programa,
+organização, política pública ou plano - todos de interesse da
+organização conforme suas missões ou objetivos.
+
+\textbf{Objetivo organizacional:} uma pretensão futura, uma situação ou
+condição que a organização visa a alcançar.
+
+\textbf{Objetivo estratégico:} um objetivo decorrente do planejamento
+estratégico da organização.
+
+\textbf{Partes interessadas}: todos os entes que influenciam ou são
+influenciados pelo objeto em análise.
+
+\textbf{Processos}: atividade organizacional de transformação de insumos
+(entradas) em produtos ou serviços (saídas).
+
+\textbf{Produtividade:} termo que deve ser definido no SMD aplicado,
+sendo que muitos autores o utilizam com o mesmo significado de
+eficiência.
+
+\textbf{Qualidade:} termo que requer a explicitação daquilo que se
+refere (excelência, valor, atendimento a especificações e conformidades,
+regularidade, adequação ao uso etc.) e à que se refere (um produto,
+serviço, processo etc.).
+
+\textbf{Resultados à sociedade}: fenômenos externos que ocorrem no curto
+e médio prazo, provenientes dos produtos e/ou serviços gerados pela
+organização.
+
+\textbf{Saídas}: os produtos e/ou serviços gerados por um processo
+organizacional.
+
+\textbf{Sistema de Gestão de Desempenho (SGD)}: sistema que se utiliza
+das informações sobre o desempenho e age sobre elas, visando a melhoria
+organizacional.
+
+\textbf{Sistema de Medição de Desempenho (SMD)}: sistema responsável por
+medir e relatar as informações sobre desempenho de um objeto,
+subsidiando o SGD.
+
+\textbf{Sustentabilidade:} trata do desempenho sinérgico entre os
+aspectos ambiental, econômico e social.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{indicadores-em-uma-puxe1gina}{%
+\chapter*{✅ Indicadores em uma
+página}\label{indicadores-em-uma-puxe1gina}}
+\addcontentsline{toc}{chapter}{✅ Indicadores em uma página}
+
+\markboth{✅ Indicadores em uma página}{✅ Indicadores em uma página}
+
+{Resumo dos principais fundamentos teóricos relacionados com o processo
+de construção de indicadores de desempenho para órgãos públicos.}
+
+O resumo abaixo denominado {\textbf{Indicadores em uma página}} não
+substitui o conteúdo do guia e está disponível para
+\href{https://drive.google.com/file/d/1XEPbfm2wZVWjcKBw5oVUntZoBrNMQ55G/view?pli=1}{\emph{download}
+no formato PDF}.
+
+\begin{figure}
+
+{\centering \includegraphics{img/cheatsheet.png}
+
+}
+
+\caption{Indicadores em uma página}
+
+\end{figure}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{exemplos-pruxe1ticos}{%
+\chapter*{📈 Exemplos práticos}\label{exemplos-pruxe1ticos}}
+\addcontentsline{toc}{chapter}{📈 Exemplos práticos}
+
+\markboth{📈 Exemplos práticos}{📈 Exemplos práticos}
+
+{Seção complementar destinada a citar exemplos reais de uso de
+indicadores em sistemas de medição de desempenho no setor público.}
+
+\textbf{SEÇÃO EM CONSTRUÇÃO}
+
+A proposta da prefeitura de Belo Horizonte-MG bem exemplifica a
+desagregação geográfica, temporal e situacional no relato das medições
+dos indicadores de desempenho construídos conforme os ODS da ONU.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{forum-de-interauxe7uxe3o}{%
+\chapter*{⁉️ Forum de interação}\label{forum-de-interauxe7uxe3o}}
+\addcontentsline{toc}{chapter}{⁉️ Forum de interação}
+
+\markboth{⁉️ Forum de interação}{⁉️ Forum de interação}
+
+{Espaço para interação entre os usuários do guia, para dúvidas,
+sugestões e complementos.}
+
+
+
+\end{document}

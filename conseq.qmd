@@ -1,0 +1,3 @@
+# Consequências indesejadas e limitações da medição de desempenho
+
+[Esta importante subseção apresenta os efeitos indesejados e fatores limitantes da medição de desempenho no setor público em função da sua complexidade.]{style="color: gray"}
