@@ -4,40 +4,38 @@ project:
 
 book:
   title: "Guia digital: construção de indicadores de desempenho para órgãos públicos"
+  reader-mode: true
   author: 
    - name: Newton Krüger Tallens Junior
-     roles: conceptualization
      orcid: 0000-0002-0451-1006
      email: newton.tallens@unifesp.br
      corresponding: true
      affiliation: 
-      - name: Corpo de Bombeiros da Polícia Militar do Estado de São Paulo
+      - name: Corpo de Bombeiros da Polícia Militar do Est. de São Paulo
         url: http://www.ccb.policiamilitar.sp.gov.br
    - name: Daiana Rafaela Pedersini
-     roles: validation
      orcid: 0000-0002-2897-0880
      email: daianapedersini@hotmail.com
-     corresponding: true
      affiliation: 
       - name: Universidade Federal de Santa Catarina
         url: https://ufsc.br
-   - name: Ricardo Coser Mergulhao
-     roles: validation
+   - name: Ricardo Coser Mergulhão
      orcid: 0000-0002-3797-295X
      email: mergulhao@ufscar.br
-     corresponding: true
      affiliation: 
       - name: Universidade Federal de São Carlos (Campus Sorocaba)
         url: https://www.sorocaba.ufscar.br/
    - name: Emerson Gomes dos Santos
-     roles: supervision
      orcid: 0000-0002-3037-5001
      email: emerson.gomes@unifesp.br
-     corresponding: true
      affiliation: 
       - name: Universidade Federal de São Paulo (Campus Osasco)
         url: https://www.unifesp.br/campus/osa2/
+  
   date: today
+  repo-url: https://github.com/NKTallensJr/Guia_digital_Q/
+  repo-branch: master
+  
   chapters:
     - index.qmd
     - intro.qmd
@@ -76,6 +74,12 @@ book:
     - cheatsheet.qmd
     - exemplosUso.qmd
     - forum.qmd
+
+sidebar:
+    tools:
+      - icon: download
+        href: https://repositorio.ipea.gov.br/bitstream/11058/12264/1/Introducao_a_acessibilidade_urbana.pdf
+        text: "Download PDF"
 
 bibliography: references.bib
 

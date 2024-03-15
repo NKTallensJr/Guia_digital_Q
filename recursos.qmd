@@ -1,10 +1,19 @@
 # Recursos de interatividade, navegação e avaliação
 
-[Subseção destinada à apresentação dos recursos de interatividade disponíveis, às formas de navegação pelas páginas do guia e os meios para a sua avaliação.]{style="color: gray"}
+::: {style="text-align: justify;"}
+[Apresenta os recursos de interatividade disponíveis e as formas de navegação pelas páginas do guia.]{style="color: gray"}
 
 ## Interatividade
 
-Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, este guia utiliza diversas ferramentas, muitas delas comuns, como, **destaques**, [**realces**]{style="background-color:yellow"} e *hyperlinks*. Como outros exemplos tem-se:
+Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, o guia utiliza diversas ferramentas, muitas delas comuns, como, **destaques**, [**realces**]{style="background-color:yellow"} e *hyperlinks* internos e externos (este *link* interno o levará para a primeira página do guia: [página inicial](index.qmd)). Como outros exemplos tem-se:
+
+## Expansores
+
+::: {.callout collapse="true"}
+## Clique na seta ⏬
+
+Apresentam um texto explicativo, expandindo o conteúdo do título principal
+:::
 
 ## Guias
 
@@ -38,16 +47,10 @@ Destaca uma informação.
 Reforça uma ação.
 :::
 
-::: callout-caution
-## Cuidado
-
-Alerta sobe uma informação importante.
-:::
-
 ::: callout-warning
-## Aviso
+## Importante
 
-Avisa sobe uma informação crítica.
+Avisa sobe uma informação importante.
 :::
 
 ::: callout-important
@@ -59,3 +62,4 @@ Adverte sobe uma informação crítica.
 ## Navegação
 
 Todas as seções e subseções iniciam-se com uma pequena introdução no topo de suas páginas, apresentando suas propostas e objetivos. Nas laterais do guia, há menus de navegação: à esquerda navega-se pelas suas seções e subseções; já o menu à direita fornece a navegação pelos tópicos da seção em leitura. Ao final de cada página, existem botões de navegação para as seções (ou subseções) anteriores e seguintes.
+:::

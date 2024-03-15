@@ -1,6 +1,7 @@
 # ⏱️ Apresentação {#sec-apresentação}
 
-[Esta seção inicial contextualiza o tema, dispõe sobre os recursos do guia, sua organização, apresenta os benefícios do uso de indicadores de desempenho no setor público, bem como as suas limitações]{style="color: gray"}
+::: {style="text-align: justify;"}
+>Esta seção inicial contextualiza o tema, dispõe sobre os recursos do guia, sua organização, apresenta os benefícios do uso de indicadores de desempenho no setor público, bem como as suas limitações
 
 ## Um modelo de gestão pública {.unnumbered}
 
@@ -26,9 +27,10 @@ Por meio de sistemas de medição e gestão de desempenho, indicadores podem med
 
 A literatura acadêmica aponta diversos benefícios resultantes do uso de indicadores de desempenho; todavia, estudos também registram fatores limitantes à implementação de indicadores e de sistemas de medição de desempenho, especialmente, no setor público.
 
-::: {.alert .alert-info}
-<strong> </strong>\
+::: callout-warning
+## Importante
 Características específicas do setor público como amplo escopo, diversidade de objetivos e partes interessadas, restrições legais e orçamentárias, o tornam um ambiente complexo para a implantação de sistemas de medição de desempenho e seus indicadores [@moura2019; @garengo2020].
 :::
 
 Tais condições reforçam a constatação de @vanderkolk2022 de que a medição desempenho no setor público apresenta vantagens e desvantagens, logo, precisa ser empregada com cautela e considerar características dos sistemas a serem utilizados, o contexto de aplicação, sua forma e os interesses envolvidos. Motivado por tais condições, o objetivo deste guia é oferecer suporte teórico e metodológico aos gestores públicos no processo de elaboração e registro de indicadores de desempenho para suas instituições.
+:::

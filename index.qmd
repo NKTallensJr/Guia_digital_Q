@@ -11,9 +11,27 @@ Portanto, esse material busca ser objetivo e preciso, sem prejuízo da contextua
 ## O guia para a construção de indicadores de desempenho {.unnumbered}
 
 ::: {style="text-align: justify;"}
-Este material é o produto de uma dissertação apresentada junto ao [Programa de Pós-Graduação Profissional em Inovação Tecnológica da Universidade Federal de São Paulo](https://www.unifesp.br/campus/sjc/ppgit). Como um guia, ele oferece uma visão geral do tema apresentado, com comentários e, especialmente, instruções para que o leitor possa alcançar o objetivo proposto.
+Este material é o produto de uma dissertação apresentada junto ao [Programa de Pós-Graduação Profissional em Inovação Tecnológica da Universidade Federal de São Paulo](https://www.unifesp.br/campus/sjc/ppgit). Como um guia, ele oferece uma visão geral do tema apresentado, com comentários e, especialmente, instruções para que o leitor possa alcançar o objetivo proposto. Para tanto, dispôs-se de um material inovador em formato digital e com recursos de interação e interatividade, que serão apresentados adiante.
 
 Àqueles que tenham interesse em conhecer o referencial teórico utilizado, as pesquisas realizadas, seus resultados, discussões e forma de validação do guia, podem [acessar integralmente a monografia acadêmica em seu repositório](https://repositorio.unifesp.br/handle/11600/61097) na Universidade Federal de São Paulo. Conforme as referências registradas na monografia, as pesquisas realizadas tiveram como base centenas de estudos, entre eles: artigos científicos, dissertações, teses, livros, guias e manuais provenientes da administração pública brasileira. A todos os seus autores, registra-se aqui o nosso agradecimento, pois seus trabalhos foram essenciais para a construção deste; espera-se que ele também possa ajudar gestores e pesquisadores neste tema tão caro à administração pública.
+:::
 
-Por fim, conforme os materiais analisados e a proposta do programa de pós-graduação, que proporcionou a elaboração deste guia, buscou-se ofertar um material inovador em formato digital e com recursos de interação e interatividade, apresentados na próxima subseção.
+## Autoria
+
+::: {style="text-align: justify;"}
+A responsabilidade e contribuições pela concepção deste guia estão organizadas conforme a [CRediT](https://credit.niso.org/) (Contributor Roles Taxonomy) na seguinte forma:
+
+**Newton Krüger Tallens Junior**: conceitualização, metodologia e escrita (original e revisão).
+
+**Daiana Rafaela Pedersini**: análise formal e validação.
+
+**Ricardo Coser Mergulhão**: análise formal e validação.
+
+**Emerson Gomes dos Santos**: administração do projeto e supervisão
+:::
+
+## Plataforma
+
+::: {style="text-align: justify;"}
+Este material foi desenvolvido na linguagem [Quarto](https://quarto.org/) no ambiente [RStudio](https://posit.co/products/open-source/rstudio/) e seus códigos estão abertos e disponíveis na plataforma [Github](https://github.com/).
 :::

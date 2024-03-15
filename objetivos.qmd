@@ -37,7 +37,7 @@ Internamente às organizações, **servidores dos mais diversos níveis - da lin
 Diferentes necessidades, tipo e uso de informações sobre medição de desempenho
 
 | **NÍVEL**                   | **NECESSIDADE**                                         | **TIPO**                                                | **USO**                                                  |
-|----------------|-------------------|-------------------|-------------------|
+|------------------|------------------|------------------|------------------|
 | Alta gerência               | Aspectos estratégicos da instituição                    | Todos, em especial resultados e satisfação dos clientes | Direção e controle da organização, e prestação de contas |
 | Gestores de linha de frente | Operações do dia a dia e conforme a área da instituição | Informações sobre pessoas e saídas dos processos        | Controle das operações diárias e aprendizagem            |
 
