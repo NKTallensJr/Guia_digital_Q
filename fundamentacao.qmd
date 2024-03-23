@@ -1,8 +1,7 @@
 # 💡 Fundamentos teóricos
-
+::: {style="text-align: justify;"}
 > Esta seção fornece a base teórica necessária ao processo de construção de indicadores de desempenho, desde a contextualização destes em sistemas de medição e gestão até o seu menor detalhamento.
 
-::: {style="text-align: justify;"}
 A primeira seção apresentou a medição da performance das instituições do setor público como um dos frutos de um novo modelo de administração pública, com diversos benefícios, porém com restrições e limitações, resultando em efeitos disfuncionais e prejudiciais. Para tanto, é necessário compreender os diversos fatores que envolvem os indicadores de desempenho - desde seu posicionamento na organização até os elementos que os compõem individualmente.
 
 @jackson1993 aponta que **o setor público possui diversas complexidades** (abrangência, objetivos, clientes e partes interessadas) **que precisam ser consideradas e ter reflexo em seus indicadores desempenho**; logo, indicadores triviais e comumente utilizados, provavelmente, não proporcionarão os resultados esperados, especialmente diante das peculiaridades do setor público. Assim, reforça-se a necessidade da construção de uma base teórica prévia ao processo de construção desses indicadores.

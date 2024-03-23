@@ -10,7 +10,7 @@ Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, o guia util
 ## Expansores
 
 ::: {.callout collapse="true"}
-## Clique na seta ⏬
+## 🔽[Clique na seta]{style="color: blue"}
 
 Apresentam um texto explicativo, expandindo o conteúdo do título principal
 :::

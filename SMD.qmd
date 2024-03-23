@@ -1,8 +1,8 @@
 # Sistemas de Medição e de Gestão de Desempenho
+::: {style="text-align: justify;"}
 
 > Esta subseção define e propõe uma forma de orientação dos Sistemas de Medição e de Gestão de Desempenho, contextualizando-os entre os indicadores de desempenho e as organizações.
 
-::: {style="text-align: justify;"}
 A gestão de desempenho compreende um sistema integrado, em que as informações coletadas sobre o desempenho das organizações estão intimamente ligadas à sua direção estratégica (Ensslin; Welter; Pedersini, 2022). Para tanto, essa gestão deve ser sistematizada, resultando em um Sistema de Gestão de Desempenho (SGD), composto por três etapas (Melo; Mota, 2020):
 
 ::: panel-tabset
@@ -19,7 +19,7 @@ Interpreta e comunica os resultados das informações de desempenho aos tomadore
 Analisa as informações relatadas e age sobre elas, objetivando melhorias organizacionais.
 :::
 
-## Sistemas de medição e de gestão de desempenho
+## Sistemas de Medição e de Gestão de Desempenho
 
 Das etapas apresentadas nas guias acima, a medição e o relato integram um subsistema específico, denominado Sistema de Medição de Desempenho (SMD). Para se compor um Sistema de Gestão de Desempenho (SGD), após a medição e o relato (etapas dos SMD), são acrescentadas a análise do desempenho, identificando os fatores críticos que impactam na performance da organização e subsidiam a tomada de decisões (Martins et al., 2022). A figura abaixo sintetiza os processos internos dos SGD, conforme as etapas propostas por Melo e Mota (2020) e atividades descritas por Grøn e Kristiansen (2022).
 
@@ -37,7 +37,7 @@ Sistemas de Medição e de Gestão de Desempenho proporcionam a ligação entre 
 
 Considerando os objetivos deste guia e que as atividades da etapa de gestão de desempenho cabem especificamente são próprias de cada organização, as subseções seguintes tratarão dos SMD.
 
-## Características dos Sistemas de Medição de Desempenho
+## Características dos SMD
 
 **Indicadores de desempenho não atuam de forma isolada, sendo elementos importantes dos SMD**. Para cumprir com seus objetivos e ofertar os resultados esperados e necessários às organizações, esses sistemas precisam ter as seguintes características:
 

@@ -1,6 +1,6 @@
 # Introdução {.unnumbered}
-
 ::: {style="text-align: justify;"}
+
 Este guia está organizado em cinco seções com seus respectivos capítulos:
 
 ⏱️**Apresentação**: contextualiza o tema tratado, apresenta os recursos de leitura, navegação e avaliação disponíveis. Nos capítulos seguintes, apresenta-se duas importantes justificativas para a elaboração deste material: os benefícios do uso dos indicadores de desempenho para as organizações públicas (e consequentemente para a sociedade) e um alerta sobre as limitações e efeitos nocivos desses instrumentos de medição.

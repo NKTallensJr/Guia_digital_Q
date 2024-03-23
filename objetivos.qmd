@@ -1,5 +1,5 @@
 # Objetivos e benefícios da medição de desempenho
-
+::: {style="text-align: justify;"}
 >Nesta subseção apresenta-se o objetivo da medição de desempenho e suas implicações na forma de objetivos específicos e benefícios.
 
 **O objetivo maior da medição de desempenho numa organização é a sua melhoria por meio do suporte de informações sobre o desempenho na tomada de decisões**. Essa medição e as ações dela decorrentes possuem implicações, sejam elas objetivos menores ou benefícios gerados (que muitas vezes se confundem) apresentados a seguir.
@@ -34,19 +34,19 @@ Conforme algumas implicações da medição de desempenho como prestação de co
 
 Internamente às organizações, **servidores dos mais diversos níveis - da linha de frente à alta gestão, podem valer-se das informações transmitidas por indicadores de desempenho adequados ao seu nível hierárquico** (Grøn; Kristiansen, 2022). O quadro abaixo (proveniente do mesmo estudo citado) exemplifica essa necessidade de adequação da informação produzida conforme o interessado:
 
-Diferentes necessidades, tipo e uso de informações sobre medição de desempenho
-
 | **NÍVEL**                   | **NECESSIDADE**                                         | **TIPO**                                                | **USO**                                                  |
 |------------------|------------------|------------------|------------------|
 | Alta gerência               | Aspectos estratégicos da instituição                    | Todos, em especial resultados e satisfação dos clientes | Direção e controle da organização, e prestação de contas |
 | Gestores de linha de frente | Operações do dia a dia e conforme a área da instituição | Informações sobre pessoas e saídas dos processos        | Controle das operações diárias e aprendizagem            |
+: Diferentes necessidades, tipo e uso de informações sobre medição de desempenho {.striped .hover}
 
 Conforme destacado anteriormente, frisa-se: **indicadores de desempenho não atuam de maneira isolada, mas fazem parte de sistemas de medição e gestão**, que, em correto funcionamento, proporcionarão os benefícios citados, sendo necessário considerar, desde os usuários dessas medições (Grøn e Kristiansen, 2022) até o contexto de medição de desempenho (Van der Kolk, 2022).
 
 ::: callout-warning
 ## Alerta!
 
-Projetar indicadores de desempenho isoladamente sem considerar características dos sistemas, o contexto de aplicação, formas e partes interessadas, é uma falha na medição do desempenho organizacional.
+Projetar indicadores de desempenho isoladamente sem considerar características dos sistemas de medição, o contexto de aplicação, formas e partes interessadas, é uma falha na medição do desempenho organizacional.
 :::
 
 De forma oportuna, a subseção seguinte apresenta os erros mais comuns e as limitações no desenvolvimento de sistemas de medição de desempenho, especialmente para o setor público.
+:::

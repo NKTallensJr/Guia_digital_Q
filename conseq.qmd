@@ -1,8 +1,7 @@
 # Consequências indesejadas e limitações da medição de desempenho
-
+::: {style="text-align: justify;"}
 > Esta importante subseção apresenta os efeitos indesejados e fatores limitantes da medição de desempenho no setor público em função da sua complexidade.
 
-::: {style="text-align: justify;"}
 ## A complexidade da gestão organizacional e do setor público
 
 As organizações são coleções de elementos tangíveis e intangíveis, cujo desempenho é determinado por múltiplos fatores e condições, internos e externos (Adcroft; Willis, 2005), onde os indicadores de desempenho avaliam áreas pré-determinadas nos sistemas de medição sem fornecer uma noção sobre o todo (Halásková; Halásková, 2020); portanto, indicadores são dão suporte à gestão, mas não a fazem a gestão organizacional por si. Nesse sentido, as pesquisas afirmam de forma uníssona:
@@ -13,7 +12,7 @@ As organizações são coleções de elementos tangíveis e intangíveis, cujo d
 As medições de desempenho apenas apontam condições existentes, o que necessariamente requer ações e decisões dos gestores para o alcance do desempenho desejado (Smith, 1995; Van De Walle; Van Dooren, 2006; Lundberg; Balfors; Folkeson, 2009; Bahia, 2021; Taylor, 2021).
 :::
 
-Smith (1995) recomenda cautela na interpretação dos resultados dos SMD, pois, nem sempre, os resultados medidos vão incluir:
+Smith (1995) recomenda cautela na interpretação dos resultados provenientes da medição de desempenho, pois nem sempre eles vão incluir:
 
 -   o desempenho de outros setores ou órgãos complementares;
 
@@ -33,69 +32,68 @@ Especificamente na medição do desempenho de subunidades similares pertencentes
 
 Portanto, é imperativo considerar diversos indicadores para se medir unidades ou organizações para compará-las, uma vez que algumas podem ter bons resultados em certos indicadores, porém, resultados ruins em outros; logo, não é fácil tirar conclusões acertadas sobre a organização como um todo, mesmo com uma série de indicadores de desempenho (Smith; Street, 2005).
 
-Devido ao amplo escopo, diversidade de objetivos e *stakeholders*, restrições legais e orçamentárias, **o setor público é um ambiente complexo**, onde SMD mal projetados podem ser disfuncionais, gerar consequências não intencionais e adversas com resultados diferentes dos esperados; dessa forma, podem reduzir a credibilidade da administração pública (Pidd, 2005; Borst; Lako; De Vries, 2014) e até serem abandonados (Arnaboldi; Azzone, 2010). Nos SMD, **efeitos indesejados** podem ser resultados da má implementação, falta de uso do sistema, descompasso entre as práticas reais e declaradas, além da resistência da força de trabalho (Steccolini; Saliterer; Guthrie, 2020).
+Devido ao amplo escopo, diversidade de objetivos e de *stakeholders* (partes interessadas), restrições legais e orçamentárias, **o setor público é um ambiente complexo**, onde sistemas de medição de desempenho mal projetados podem ser disfuncionais, gerar consequências não intencionais e adversas com resultados diferentes dos esperados; dessa forma, podem reduzir a credibilidade da administração pública (Pidd, 2005; Borst; Lako; De Vries, 2014) e até serem abandonados (Arnaboldi; Azzone, 2010). Nos SMD, **efeitos indesejados** podem ser resultados da má implementação, falta de uso do sistema, descompasso entre as práticas reais e declaradas, além da resistência da força de trabalho (Steccolini; Saliterer; Guthrie, 2020).
 
 Além dos efeitos indesejados, estudos apontam **fatores limitantes** à medição de desempenho (alguns deles provenientes da própria complexidade do setor público) como: excesso de indicadores (Gao, 2015), uso meramente simbólico (Gębczyńska; Brajer-Marczak, 2020), seleção inapropriada de indicadores (Ensslin; Welter; Pedersini, 2022), substituição precoce de indicadores (Oppi; Campanale; Cinquini, 2022) e conflito entre stakeholders (Leca; Laguecir, 2023).
 
-O conhecimento prévio desses efeitos e fatores é importante para o desenvolvimento de indicadores e SMD, especialmente para superá-los, motivo pelo qual eles são apresentados a seguir.
+O conhecimento prévio desses efeitos e fatores é importante para o desenvolvimento de indicadores e sistemas de medição, especialmente para superá-los, motivo pelo qual eles são apresentados a seguir.
 
 ## Consequências indesejadas dos SMD no setor público
 
 O quadro abaixo apresenta algumas consequências não intencionais do uso de indicadores de desempenho no setor público apontados por Smith (1995) e descritos por Freeman (2002):
 
-|      FENÔMENO       |                              DESCRIÇÃO                              |
-|:-----------------:|:---------------------------------------------------:|
-|   Visão em túnel    |        Ênfase restrita ao fenômeno mensurado pelo indicador         |
-|    Subutilização    | Busca de objetivos limitados, ao invés de objetivos organizacionais |
-|       Miopia        |            Perseguição exagerada a metas de curto prazo             |
-| Fixação em medidas  |     Foco nas medições ao invés dos objetivos a elas associados      |
-|     Deturpação      |            Manipulação deliberada de dados e informações            |
-| Falsa interpretação |     Realização de inferências falsas sobre o desempenho medido      |
-|      *Gaming*       |   Manipulação deliberada de comportamento para se obter vantagem    |
-|     Ossificação     |     Paralisia organizacional pela rigidez do sistema de medição     |
+| FENÔMENO            | DESCRIÇÃO                                                           |
+|:-------------------|:---------------------------------------------------|
+| Visão em túnel      | Ênfase restrita ao fenômeno mensurado pelo indicador                |
+| Subutilização       | Busca de objetivos limitados, ao invés de objetivos organizacionais |
+| Miopia              | Perseguição exagerada a metas de curto prazo                        |
+| Fixação em medidas  | Foco nas medições ao invés dos objetivos a elas associados          |
+| Deturpação          | Manipulação deliberada de dados e informações                       |
+| Falsa interpretação | Realização de inferências falsas sobre o desempenho medido          |
+| *Gaming*            | Manipulação deliberada de comportamento para se obter vantagem      |
+| Ossificação         | Paralisia organizacional pela rigidez do sistema de medição         |
 
 : Consequências não intencionais do uso de indicadores de desempenho no setor público {.striped .hover}
 
-Os exemplos acima revelam fenômenos indesejados por meio do comportamento dos gestores diante da medição de desempenho organizacional. Trata-se de **um alerta importante a ser internalizado antes da implantação de SMD nas organizações**.
+Os exemplos acima revelam fenômenos indesejados por meio do comportamento dos gestores diante da medição de desempenho organizacional. Trata-se de **um alerta importante a ser internalizado antes da implantação de sistemas de medição de desempenho nas organizações**.
 
 ## Fatores limitantes à medição de desempenho no setor público
 
 Na sequência são apresentados em ordem alfabética outros 27 fatores limitantes ou barreiras à medição de desempenho no setor público provenientes de pesquisas científicas publicadas, cujo conhecimento prévio se faz necessário a toda força de trabalho que atua diretamente ou indiretamente na medição de desempenho organizacional na administração pública.
 
-|        |                                          |                                                                                                                                                       |
-|--------------|:-------------:|:-----------------------------------------:|
 | **\#** |                **FATOR**                 |                                                                     **DESCRIÇÃO**                                                                     |
-| 1      |               Ambiguidade                |                            Falta de clareza e consistência (causal ou intencional) nos processos de medição de desempenho.                            |
-| 2      |                Burocracia                |                        Excesso de procedimentos burocráticos que restringem ou causam mora excessiva à implantação de um SMD.                         |
-| 3      |           Comunicação interna            |                         Ausência de comunicação à força de trabalho sobre a importância, implantação e funcionamento do SMD.                          |
-| 4      |           Confiança excessiva            |                    O excesso de confiança nos resultados da medição de desempenho sem uma avaliação mais abrangente e criteriosa.                     |
-| 5      |    Conflito entre partes interessadas    |                       Dificuldade no ajuste das medições devido à diversidade de partes interessadas e seus respectivos focos.                        |
-| 6      |          Cultura organizacional          |                            Falta de incentivos organizacionais e possibilidade de sanções em caso de resultados negativos.                            |
-| 7      |      Dificuldade em um modelo único      |                               Dificuldade de implantação de um modelo único e comum de SMD para todas as instituições.                                |
-| 8      |         Dimensionamento de metas         |                     Metas atreladas aos indicadores dimensionadas de forma incorreta, desconsiderando a realidade dos resultados.                     |
-| 9      |         Diversidade de objetivos         |      Os objetivos organizacionais nem sempre são todos abrangidos pelos indicadores de desempenho, devido à ampla diversidade no setor público.       |
-| 10     |   Excesso de indicadores de desempenho   |                      Elevado número de indicadores tornando-os prejudiciais pela quantidade de informação coletada e não gerida.                      |
-| 11     |            Força de trabalho             |                         Decisões incorretas em função da falta de habilidade e/ou capacitação da gestão e força de trabalho.                          |
-| 12     |           Influência política            |                            Escolha de indicadores de fácil medição e gestão a fim de esconder fragilidades institucionais.                            |
-| 13     |       Informalidade e/ou corrupção       |                                      Adoção de práticas diversas (sem registro oficial ou normas de protocolo).                                       |
-| 14     |          Interferência endógena          |                  Os indicadores, quando estabelecidos, podem influenciar e, consequentemente ,interferir na realidade a ser medida.                   |
-| 15     | Interpretação e divulgação de resultados |                           Dificuldades internas na comunicação das medições, na interpretação e divulgação dos resultados.                            |
-| 16     |                Liderança                 |                                  O suporte da liderança é um fator que aumenta o sucesso na implementação de um SMD.                                  |
-| 17     |       Indicadores subdesenvolvidos       |          Indicadores desenvolvidos de uma forma limitada ou muito seletiva; ou ainda indicadores existentes, porém parcialmente utilizados.           |
-| 18     |               Manipulação                |                Alteração das informações produzidas pelos indicadores visando apresentar resultados favoráveis às partes interessadas.                |
-| 19     |      Qualidade dos dados e medições      |                                               Dados e/ou medições de baixa qualidade ou confiabilidade.                                               |
-| 20     |          Representação limitada          |                      Desconsideração de que indicadores são representações imperfeitas e transitórias da realidade em avaliação.                      |
-| 21     |     Resistência da força de trabalho     |                      Comportamento cético da força de trabalho e resistência às novidades tecnológicas e mudança de paradigmas.                       |
-| 22     |          Resultados intangíveis          |                 Dificuldade em se prever indicadores para dimensões intangíveis, o impacto por meio do valor público e social gerado.                 |
-| 23     |   Seleção inapropriada de indicadores    |                               A seleção e o consequente uso de indicadores inapropriados ou inadequados à organização.                                |
-| 24     |         Significância da medição         |                      Adoção de indicadores não estratégicos ou sem importância institucional apenas pela facilidade de medição.                       |
-| 25     |           Substituição precoce           | Troca sistemática de indicadores em um curto período, deixando de se alcançar um histórico que permitiria a comparação e o aprendizado institucional. |
-| 26     |              Uso distorcido              |                           Indicadores empregados como um fim em si mesmo e não como parte de um amplo processo avaliativo.                            |
-| 27     |              Uso simbólico               |                                        Indicadores empregados apenas para legitimar externamente a organização                                        |
+|:------:|:--------------:|:--------------------------------------:|
+|   1    |               Ambiguidade                |                            Falta de clareza e consistência (causal ou intencional) nos processos de medição de desempenho.                            |
+|   2    |                Burocracia                |                        Excesso de procedimentos burocráticos que restringem ou causam mora excessiva à implantação de um SMD.                         |
+|   3    |           Comunicação interna            |                         Ausência de comunicação à força de trabalho sobre a importância, implantação e funcionamento do SMD.                          |
+|   4    |           Confiança excessiva            |                    O excesso de confiança nos resultados da medição de desempenho sem uma avaliação mais abrangente e criteriosa.                     |
+|   5    |    Conflito entre partes interessadas    |                       Dificuldade no ajuste das medições devido à diversidade de partes interessadas e seus respectivos focos.                        |
+|   6    |          Cultura organizacional          |                            Falta de incentivos organizacionais e possibilidade de sanções em caso de resultados negativos.                            |
+|   7    |      Dificuldade em um modelo único      |                               Dificuldade de implantação de um modelo único e comum de SMD para todas as instituições.                                |
+|   8    |         Dimensionamento de metas         |                     Metas atreladas aos indicadores dimensionadas de forma incorreta, desconsiderando a realidade dos resultados.                     |
+|   9    |         Diversidade de objetivos         |      Os objetivos organizacionais nem sempre são todos abrangidos pelos indicadores de desempenho, devido à ampla diversidade no setor público.       |
+|   10   |   Excesso de indicadores de desempenho   |                      Elevado número de indicadores tornando-os prejudiciais pela quantidade de informação coletada e não gerida.                      |
+|   11   |            Força de trabalho             |                         Decisões incorretas em função da falta de habilidade e/ou capacitação da gestão e força de trabalho.                          |
+|   12   |           Influência política            |                            Escolha de indicadores de fácil medição e gestão a fim de esconder fragilidades institucionais.                            |
+|   13   |       Informalidade e/ou corrupção       |                                      Adoção de práticas diversas (sem registro oficial ou normas de protocolo).                                       |
+|   14   |          Interferência endógena          |                  Os indicadores, quando estabelecidos, podem influenciar e, consequentemente ,interferir na realidade a ser medida.                   |
+|   15   | Interpretação e divulgação de resultados |                           Dificuldades internas na comunicação das medições, na interpretação e divulgação dos resultados.                            |
+|   16   |                Liderança                 |                                  O suporte da liderança é um fator que aumenta o sucesso na implementação de um SMD.                                  |
+|   17   |       Indicadores subdesenvolvidos       |          Indicadores desenvolvidos de uma forma limitada ou muito seletiva; ou ainda indicadores existentes, porém parcialmente utilizados.           |
+|   18   |               Manipulação                |                Alteração das informações produzidas pelos indicadores visando apresentar resultados favoráveis às partes interessadas.                |
+|   19   |      Qualidade dos dados e medições      |                                               Dados e/ou medições de baixa qualidade ou confiabilidade.                                               |
+|   20   |          Representação limitada          |                      Desconsideração de que indicadores são representações imperfeitas e transitórias da realidade em avaliação.                      |
+|   21   |     Resistência da força de trabalho     |                      Comportamento cético da força de trabalho e resistência às novidades tecnológicas e mudança de paradigmas.                       |
+|   22   |          Resultados intangíveis          |                 Dificuldade em se prever indicadores para dimensões intangíveis, o impacto por meio do valor público e social gerado.                 |
+|   23   |   Seleção inapropriada de indicadores    |                               A seleção e o consequente uso de indicadores inapropriados ou inadequados à organização.                                |
+|   24   |         Significância da medição         |                      Adoção de indicadores não estratégicos ou sem importância institucional apenas pela facilidade de medição.                       |
+|   25   |           Substituição precoce           | Troca sistemática de indicadores em um curto período, deixando de se alcançar um histórico que permitiria a comparação e o aprendizado institucional. |
+|   26   |              Uso distorcido              |                           Indicadores empregados como um fim em si mesmo e não como parte de um amplo processo avaliativo.                            |
+|   27   |              Uso simbólico               |                                        Indicadores empregados apenas para legitimar externamente a organização                                        |
 
-: Fatores limitantes à implantação da medição de desempenho no seror público {.striped .hover}
+: Fatores limitantes à implantação da medição de desempenho no setor público {.striped .hover}
 
-Apesar do elevado número de **efeitos indesejados** e **fatores limitantes** à implantação de indicadores e SMD, **os benefícios gerados pelos indicadores de desempenho e SMD** (conforme apresentado na subseção anterior) **os** **superam em intensidade e ganho, tanto para a sociedade quanto para as instituições**, dando, assim, propósito a este guia e aos diversos outros estudos e artefatos similares.
+Apesar do elevado número de **efeitos indesejados** e **fatores limitantes** à implantação de indicadores e sistemas de medição, **os benefícios gerados** (conforme apresentado na subseção anterior) **os** **superam em intensidade e ganho, tanto para a sociedade quanto para as instituições**, dando, assim, propósito a este guia e aos diversos outros estudos e artefatos similares.
 
-Após o conhecimento dos objetivos, benefícios e restrições dos SMD do setor público, tem-se a síntese deste capítulo de apresentação; no capítulo seguinte, inicia-se a fundamentação necessária para a construção de indicadores de desempenho para as instituições do setor público.
+Após o conhecimento dos objetivos, benefícios e restrições a medição de desempenho no setor público, tem-se a síntese deste capítulo de apresentação; no capítulo seguinte, inicia-se a fundamentação necessária para a construção de indicadores de desempenho para as instituições do setor público.
 :::
