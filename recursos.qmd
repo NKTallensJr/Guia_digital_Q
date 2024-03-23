@@ -1,11 +1,11 @@
 # Recursos de interatividade, navegação e avaliação
 
 ::: {style="text-align: justify;"}
-[Apresenta os recursos de interatividade disponíveis e as formas de navegação pelas páginas do guia.]{style="color: gray"}
+> Apresenta os recursos de interatividade disponíveis e as formas de navegação pelas páginas do guia.
 
 ## Interatividade
 
-Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, o guia utiliza diversas ferramentas, muitas delas comuns, como, **destaques**, [**realces**]{style="background-color:yellow"} e *hyperlinks* internos e externos (este *link* interno o levará para a primeira página do guia: [página inicial](index.qmd)). Como outros exemplos tem-se:
+Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, o guia utiliza diversas ferramentas, muitas delas comuns, como, **destaques**, [**realces**]{style="background-color:yellow"} e [hyperlinks](index.qmd) (este o levará para a primeira página do guia). Outros exemplos incluem:
 
 ## Expansores
 
@@ -44,7 +44,7 @@ Destaca uma informação.
 ::: callout-note
 ## Nota
 
-Reforça uma ação.
+Reforça uma informação ou ação.
 :::
 
 ::: callout-warning
@@ -59,7 +59,11 @@ Avisa sobe uma informação importante.
 Adverte sobe uma informação crítica.
 :::
 
+## Citação
+
+> Citações específicas com destaque no corpo textual do guia.
+
 ## Navegação
 
-Todas as seções e subseções iniciam-se com uma pequena introdução no topo de suas páginas, apresentando suas propostas e objetivos. Nas laterais do guia, há menus de navegação: à esquerda navega-se pelas suas seções e subseções; já o menu à direita fornece a navegação pelos tópicos da seção em leitura. Ao final de cada página, existem botões de navegação para as seções (ou subseções) anteriores e seguintes.
+Todas as seções e subseções iniciam-se com uma pequena introdução no topo de suas páginas em forma de citação, apresentando suas propostas e objetivos. Nas laterais do guia, há opções e menus de navegação: à esquerda tem-se o link para o códig-fonte do guia, um botão para alternar para o modeo escuro, outro para o modo de leitura, além de uma barra de busca de palavras. Ainda à esquerda, o menu proporciona a navegação pelas suas seções e capítulos do guia. Já o menu à direita fornece a navegação pelos tópicos existentes e um capítulo em leitura. Ao final de cada página, existem botões de navegação para as seções e capítulos anteriores e seguintes.
 :::

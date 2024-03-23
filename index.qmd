@@ -5,7 +5,7 @@ Este guia digital visa dar suporte aos gestores públicos no processo de constru
 
 Indicadores de desempenho são os mais importantes elementos de um sistema de medição de desempenho organizacional, cuja implementação no setor público é desafiadora pela sua diversidade de objetivos, ampla abrangência e partes interessadas. Por esse motivo, esse guia apresenta suas seções numa sequência própria: inicia-se com os elementos mais amplos e determinantes, gerando a necessária fundamentação teórica até convergir para os indicadores e suas caraterísticas, para, com segurança, apresentar um processo para a sua construção, finalizando com uma aplicação prática.
 
-Portanto, esse material busca ser objetivo e preciso, sem prejuízo da contextualização do tema e do embasamento teórico, valendo-se da interatividade para uma melhor consulta e navegação entre suas seções a fim de se ofertar um guia que faça frente à relevância do tema e às características e necessidades da administração pública.
+Portanto, o guia busca ser objetivo e preciso, sem prejuízo da contextualização do tema e do embasamento teórico, valendo-se da interatividade para uma melhor consulta e navegação entre suas seções a fim de se ofertar um guia que faça frente à relevância do tema e às características e necessidades da administração pública.
 :::
 
 ## O guia para a construção de indicadores de desempenho {.unnumbered}
@@ -33,5 +33,11 @@ A responsabilidade e contribuições pela concepção deste guia estão organiza
 ## Plataforma
 
 ::: {style="text-align: justify;"}
-Este material foi desenvolvido na linguagem [Quarto](https://quarto.org/) no ambiente [RStudio](https://posit.co/products/open-source/rstudio/) e seus códigos estão abertos e disponíveis na plataforma [Github](https://github.com/).
+Este guia foi desenvolvido na linguagem [Quarto](https://quarto.org/) no ambiente [RStudio](https://posit.co/products/open-source/rstudio/) e seus códigos estão abertos e disponíveis na plataforma [Github](https://github.com/).
+:::
+
+## Como citar
+
+::: {style="text-align: justify;"}
+TALLENS JUNIOR, Newton Krüger; PEDERSINI, Daiana Rafaela; MERGULHÃO, Ricardo Coser; DOS SANTOS, Emerson Gomes. **Guia digital: construção de indicadores de desempenho para órgãos públicos**. São José dos Campos: s.n, 2024. *E-book*. Disponível em: https://nktallensjr.github.io/Guia_digital_Q/.
 :::
