@@ -1,6 +1,7 @@
 # Atributos dos indicadores
 
-[Esta subseção apresenta os elementos que caracterizam individualmente os indicadores de desempenho, desde o início de sua concepção até a apresentação de seus resultados.]{style="color: gray"}
+::: {style="text-align: justify;"}
+> Esta subseção apresenta os elementos que caracterizam individualmente os indicadores de desempenho, desde o início de sua concepção até a apresentação de seus resultados.
 
 Para a medição de desempenho, cada indicador deve possuir atributos próprios, que são **elementos** **característicos que o adequam para a sua função**. Como exemplos, Espírito Santo (2019a) e Maranhão (2023) sugerem definir os atributos dos indicadores com o balizamento da ferramenta 5W1H: o quê (nome do indicador); como (fórmula de cálculo); quem (responsabilidade pelo indicador); onde (fonte de informação); quantas vezes (frequência de medição) e por quê (objetivo do indicador). Jääskeläinen e Lönnqvist (2009) propõem os seguintes atributos:
 
@@ -21,3 +22,146 @@ Para a medição de desempenho, cada indicador deve possuir atributos próprios,
 -   a frequência de recebimento dos resultados;
 
 -   como os resultados serão comunicados.
+
+Na comparação entre os autores citados, Jääskeläinen e Lönnqvist (2009) propõem atributos mais aprimorados, que melhor caracterizam os indicadores; como exemplo, esses pesquisadores citam **as metas** como um atributo necessário ao indicador. De fato, as metas, juntamente com **as referências** são essenciais para a avaliação da performance (Wall; Martin, 2003), do contrário, não há parâmetro de comparação e as informações resultantes das medições serão apenas números sem valor relativo.
+
+Nesses exemplos, constata-se a variação dos possíveis (e necessários) atributos dos indicadores por meio de diversos estudos; junto deles uma pesquisa bibliográfica realizada na monografia acadêmica que deu origem a este guia, identificou-se 43 atributos dos indicadores por meio de guias, manuais e instrumentos correlatos para a medição de desempenho provenientes de fontes oficiais da administração pública brasileira. Esses atributos foram divididos em três grupos segundo os seus objetivos comuns e a ordem cronológica das ações que os representam:
+
+1.  elaboração dos indicadores;
+
+2.  definição de elementos de cálculo;
+
+3.  relato de seus resultados.
+
+Os cartões a seguir sintetizam esses atributos, conforme os citados grupos. A ordenação da apresentação dentro dos grupos obedece a uma ordem adotada por apenas por convenção - ela não é rígida; todavia, busca-se obedecer a uma sequência lógica da própria construção do indicador, iniciando por seus elementos mais abrangentes e determinantes (como a disposição das seções do guia) até convergir para os elementos mais específicos, pois **os atributos contribuem para a apuração dos indicadores** (Uchoa, 2013) **e a análise de sua adequabilidade** (Bahia, 2021).
+:::
+
+## Atributos de elaboração do indicador
+
+::: {style="text-align: justify;"}
+São elementos que contribuem para a formulação e descrição do indicador a ser proposto, motivo pelo qual deve-se iniciar a caracterização dos indicadores por estes atributos.
+
+|                  **ATRIBUTO**                                         | **DESCRIÇÃO**                                                          |
+|:---------------------------------------------------------------------:|------------------------------------------------------------------------|
+|          [OBJETIVO OU MISSÃO ENVOLVIDA]{style="color: blue"}          | Objetivo ou missão organizacional a qual o indicador está atrelado.    |
+|               [OBJETO DE MEDIÇÃO]{style="color: blue"}                | Definição do objeto que será medido.                                   |
+|                 [JUSTIFICATIVA]{style="color: blue"}                  | Motivação da escolha do indicador.                                     |
+|                   [FINALIDADE]{style="color: blue"}                   | Definição dos propósitos do indicador.                                 |
+|              [DIMENSÕES DE MEDIÇÃO]{style="color: blue"}              | Dimensões ou perspectivas de medição em que o indicador está inserido. |
+|                      [TIPO]{style="color: blue"}                      | Classificação do indicador conforme a sua tipologia.                   |
+|                      [NOME]{style="color: blue"}                      | Denominação sucinta e autoexplicativa do indicador.                    |
+|                     [SIGLA]{style="color: blue"}                      | Abreviação do nome dado ao indicador.                                  |
+|               [UNIDADE DE MEDIDA]{style="color: blue"}                | Unidade dimensional da medição do indicador.                           |
+|                   [DESCRIÇÃO]{style="color: blue"}                    | Significado e contextualização técnica do indicador.                   |
+| [OBJETIVO DE DESENVOLVIMENTO SUSTENTÁVEL DA ONU]{style="color: blue"} | Referência ao ODS de alinhamento do indicador.                         |
+|               [FATORES LIMITANTES]{style="color: blue"}               | Restrições no processo de medição do indicador.                        |
+|                  [PRESSUPOSTOS]{style="color: blue"}                  | Condições assumidas como verdadeiras para a medição do indicador.      |
+|          [INDICADORES QUE INFLUENCIAM]{style="color: blue"}           | Indicadores que influenciam no resultado medido por esse.              |
+|       [INDICADORES QUE SOFREM INFLUÊNCIA]{style="color: blue"}        | Indicadores que são influenciados pelo resultado desse.                |
+
+: Atributos de elaboração do indicador {.striped .hover}
+
+Alguns dos atributos de descrição dos indicadores carecem de explicações mais detalhadas em função da sua importância, complexidade ou criticidade.
+
+Na elaboração do **nome do indicador,** sugere-se empregar termos que reflitam a composição das suas medições (Brasil, 2018c; Tocantins, 2020; Pará, 2022) como: quantidade, contagem, taxa, índice, percentual, coeficiente, entre outros, a depender do tipo de indicador. Merchan-Hamann, Tauil e Costa (2000) apontam que quantidades e contagens se referem a números absolutos (indicadores simples), forma que pode ser utilizada, porém, possui limitações; já os números relativizados (indicadores compostos) permitem a comparação de sua expressão com o todo ou com outra grandeza, embora o seu grau de robustez e precisão diminua (Mustea; Mihiţ; Lobonţ, 2021). Assim, conforme as definições de Merchan-Hamann, Tauil e Costa (2000), têm-se:
+
+-   **índice:** composto pela divisão de duas grandezas de distintas naturezas, em que uma não engloba a outra;
+
+-   **taxa:** trata-se de uma particularização do índice, em que o denominador (de natureza distinta do numerador) de alguma forma está atrelado à dimensão tempo;
+
+-   **proporção:** de forma diversa do índice, trata da relação de uma mesma grandeza, entre uma parte e o todo, sendo adimensional e variando entre 0 e 1. Ao se multiplicar uma proporção por 100, tem-se outra particularização (bem comum) denominada **porcentagem**.
+
+-   **coeficiente:** trata-se de uma particularização da proporção, empregada num contexto em que se busca expressar um risco ou probabilidade;
+
+-   **razão**: neste caso tem-se uma composição entre proporções e índices: trata-se da relação entre grandezas da mesma dimensão e natureza, porém em que o numerador corresponde a uma certa categoria que exclui o denominador. A razão também pode comparar números já relativizados, como a razão entre duas taxas, dois índices ou mesmo duas outras razões.
+:::
+
+## Atributos que definem os elementos de cálculo do indicador
+
+::: {style="text-align: justify;"}
+Estes elementos permitem conduzir e registrar o processo de medição a ser realizada pelos indicadores por meio de procedimentos, variáveis, prazos e responsabilidades.
+
+|             **ATRIBUTO**                                       | **DESCRIÇÃO**                                                                            |
+|:--------------------------------------------------------------:|------------------------------------------------------------------------------------------|
+|             [PERIODICIDADE]{style="color: orange"}             | Intervalo temporal entre as medições.                                                    |
+|          [UNIDADE RESPONSÁVEL]{style="color: orange"}          | Unidade organizacional responsável pelo cálculo do indicador.                            |
+| [RESPONSABILIDADE PELA COLETA DE DADOS]{style="color: orange"} | Cargo ou função responsável pela coleta de dados.                                        |
+|  [PRAZO FINAL PARA A COLETA DE DADOS]{style="color: orange"}   | Refere-se à data final para a coleta de dados.                                           |
+|    [RESPONSABILIDADE PELA APURAÇÃO]{style="color: orange"}     | Cargo ou função responsável pelo cálculo do indicador.                                   |
+|      [PRAZO FINAL PARA A APURAÇÃO]{style="color: orange"}      | Refere-se à data final para o cálculo do indicador.                                      |
+|        [PROCEDIMENTO DE CÁLCULO]{style="color: orange"}        | Detalhamento dos procedimentos para o cálculo do indicador.                              |
+|          [FÓRMULA DE CÁLCULO]{style="color: orange"}           | Apresentação da fórmula matemática para o cálculo do indicador.                          |
+|         [VARIÁVEIS DO CÁLCULO]{style="color: orange"}          | Explicitação dos termos envolvidos na fórmula de cálculo.                                |
+|            [FONTE DOS DADOS]{style="color: orange"}            | Descrição da origem dos dados relativos às variáveis que compõem a fórmula do indicador. |
+|       [FORMA DE COLETA DOS DADOS]{style="color: orange"}       | Procedimentos de coleta dos dados.                                                       |
+|        [DESAGREGAÇÃO GEOGRÁFICA]{style="color: orange"}        | Indicação do nível territorial utilizado para o cálculo do indicador.                    |
+|         [OUTRAS DESAGREGAÇÕES]{style="color: orange"}          | Outras formas de desagregação dos resultados.                                            |
+|      [LINHA DE BASE OU REFERÊNCIA]{style="color: orange"}      | Valor mais recente do indicador a ser usado como referência.                             |
+|          [DATA DA REFERÊNCIA]{style="color: orange"}           | Data da adoção da linha de base ou referência.                                           |
+| [*BENCHMARKING* OU VALOR DE COMPARAÇÃO]{style="color: orange"} | Valor proveniente de objeto similar, porém externo, proporcionando a comparação.         |
+| [INSTITUIÇÃO E DATA DO *BENCHMARKING*]{style="color: orange"}  | Instituição da qual se adotou o valor de comparação e a respectiva data.                 |
+|                 [META]{style="color: orange"}                  | Resultado quantificável a ser alcançado.                                                 |
+|             [PRAZO DA META]{style="color: orange"}             | Data esperada para alcance da meta.                                                      |
+|               [SITUAÇÃO]{style="color: orange"}                | Informa sobre a fase em que se encontra o processo de medição                            |
+: Atributos de cálculo do indicador {.striped .hover}
+
+Em relação aos atributos de construção, é importante destacar que alguns deles são determinantes para as formas de análise das informações e comunicação dos resultados.
+
+O **valor de referência** ou **linha de base** para os indicadores é um importante elemento, calculado conforme os dados da própria organização, que servirá de base ou referência inicial para o acompanhamento do progresso dos valores medidos; em algumas situações eles não poderão ser estabelecidos, especialmente em processos inovadores (Brasil, 2020a). Já o ***benchmarking*** é um valor de referência externo à organização, proveniente de objeto de medição similar, que também permitirá a comparação com os valores do indicador.
+
+As **metas**, por sua vez, são elementos indissociáveis de um indicador e expressam a medida de alcance de um objetivo específico; Brasil (2009) adverte que elas precisam possuir uma finalidade, um valor e um prazo. Conforme o Capítulo 3, estabelecer metas é um fator crítico na definição de indicadores; para tanto, diversos autores referenciam a abordagem SMART para a definição de metas; além desse suporte, Brasil (2018c) propõe considerar elementos como:
+
+-   **análise de ambiente**: analisar os ambientes interno e externo, especialmente para indicadores
+
+    impactados por fatores externos;
+
+-   ***benchmarking***: verificar a referência externa em organizações similares;
+
+-   **conhecimento tácito do negócio**: partes interessadas com conhecimento sobre o comportamento e tendência das medições do indicador;
+
+-   **desafio**: definir nova meta como desafio, o qual deve ser alcançável e fundamentado em ações e projetos que o justifiquem.
+
+-   **histórico do indicador**: deve-se medir e considerar os resultados anteriores para se propor um valor futuro adequado;
+
+-   **necessidade**: estabelecer uma meta como condição para a sobrevivência ou alcance do objetivo, processo de trabalho ou iniciativa;
+
+-   **possibilidade prática**: fundamentada em aspectos motivadores ou inibidores para a determinação da meta;
+
+-   **possibilidade técnica, teórica ou conceitual**: fundamentado no conhecimento técnico, teórico ou conceitual já existente sobre a questão mensurada;
+
+-   **projeção**: técnicas estatísticas podem projetar os resultados futuros do indicador;
+
+A **periodicidade** de coleta dos dados e medições determinará os períodos na geração de séries temporais, importantes elementos de análise dos resultados conforme o fator tempo. Similarmente em relação ao fator espaço geográfico, as diversas possibilidades de **desagregação geográfica** dos dados (em nível de rua, bairro, cidade, região etc.) proporcionam análises enriquecidas dos resultados sob o prisma espaço. Existem **outras desagregações** conforme o contexto da organização (como idade, sexo, custo, etc.) que, como os demais atributos citados, proporcionam análises mais profundas e consequentemente melhores possibilidades para a tomada de decisões como atividades dos SGD.
+
+Como o processo de cálculo do indicador pode ser longo, em sistemas informatizados ou de maior controle, o atributo **situação** permite que se informe sobre as fases ou condições atuais da medição.
+:::
+
+## Atributos de relato dos resultados
+
+::: {style="text-align: justify;"}
+Uma vez que os indicadores foram concebidos e seus parâmetros de cálculo foram definidos, os atributos a seguir colaboram na disposição e apresentação de seus resultados.
+
+|                **ATRIBUTO**                                        | **DESCRIÇÃO**                                                                                            |
+|:------------------------------------------------------------------:|----------------------------------------------------------------------------------------------------------|
+|                [VALOR MEDIDO]{style="color: green"}                | Resultado do indicador após sua medição.                                                                 |
+| [DATA OU PERÍODO A QUE SE REFERE O INDICADOR]{style="color: green"}| Data ou período correspondente à medição.                                                                |
+|               [SÉRIE HISTÓRICA]{style="color: green"}              | Valores das medições (resultados do indicador) ao longo do tempo.                                        |
+|                 [POLARIDADE]{style="color: green"}                 | Interpretação do sentido esperado na variação do indicador (quanto maior, melhor; quanto menor, melhor). |
+|   [FORMA DE DISPONIBILIZAÇÃO DO INDICADOR]{style="color: green"}   | Meio de divulgação e/ou disponibilização dos resultados do indicador.                                    |
+|         [PRAZO FINAL PARA DIVULGAÇÃO]{style="color: green"}        | Refere-se à data final para divulgação dos resultados do indicador.                                      |
+|                  [GLOSSÁRIO]{style="color: green"}                 | Explicação dos termos usados no processo.                                                                |
+|      [OBSERVAÇÕES / NOTAS EXPLICATIVAS]{s}tyle="color: green"}     | Informações complementares para a compreensão do processo.                                               |
+|    [CAUSAS DE UM RESULTADO AQUÉM DA META]{style="color: green"}    | Possíveis causas para uma meta não atingida.                                                             |
+|   [IMPACTOS DE UM RESULTADO AQUÉM DA META]{style="color: green"}   | Possíveis consequências de uma meta não atingida. 
+: Atributos de relato dos resultados {.striped .hover} 
+
+Verifica-se que estes últimos, os atributos de relato de resultados, estão em menor quantidade quando comparados aos dois primeiros grupos; de fato, a apresentação de resultados correspondem a uma etapa posterior à criação dos indicadores: a etapa de relato das medições, conforme apresentado no Capítulo 4. Nesse sentido, frisa-se: **nem todos os atributos apresentados precisam ser empregados no processo de construção dos indicadores**. Embora os atributos caracterizem os indicadores de desempenho e facilitem a sua elaboração (Uchoa, 2013; Goiás, 2019; 2022; Mato Grosso, 2022), há uma variação de quantidade e importância considerada pelos estudos em relação a esses elementos. Além de facilitar a construção do indicador, como elementos de sua caracterização, os atributos também permitem sua formalização e registro (Bahia, 2021; Brasil, 2020c; 2023), conforme será apresentado adiante. Assim, este guia oferece uma cesta de 43 atributos, divididos em grupos de acordo com a cronologia da construção de indicadores, para conhecimento, avaliação e escolha dos gestores que atuam nesses processos. Em síntese tem-se que:
+
+-   atributos são elementos que caracterizam individualmente os indicadores e os adequam para a função que executam;
+
+-   esses elementos facilitam a construção dos indicadores e neste guia estão agrupados em: atributos de elaboração dos indicadores, atributos que definem seus elementos de cálculo e atributos de relato de resultados;
+
+-   esses atributos devem ser conhecidos, avaliados e escolhidos pelos gestores no processo e construção e de formalização dos indicadores de desempenho.
+
+Uma vez que os indicadores estão individualmente caracterizados, conforme seus atributos, a subseção seguinte apresenta os critérios necessários para aferição de sua qualidade e validação.
+:::

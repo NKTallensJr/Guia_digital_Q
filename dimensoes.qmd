@@ -4,9 +4,11 @@
 > Nesta subseção, tem-se um dos mais importantes elementos de um Sistema de Medição de Desempenho, especialmente no setor público: as dimensões de medição de desempenho.
 
 Dimensões de desempenho são as diferentes perspectivas consideradas na medição de um objeto; **devido à complexidade do setor público, são necessárias múltiplas dimensões de desempenho para capturar as atividades e resultados dessas organizações** (Christensen; James, 2020). A pesquisa citada anteriormente, identificou as dimensões priorizadas pelo setor público em seus SMD, apresentadas a seguir em grupos de características comuns.
+:::
 
 ## Dimensões relacionadas à cadeia produtiva
 
+::: {style="text-align: justify;"}
 ::: {.callout collapse="true"}
 ## 🔽[Entradas, processos e saídas]{style="color: blue"}
 
@@ -38,9 +40,11 @@ A partir do modelo apresentado na figura acima e as explicações anteriores, Br
 Como exemplos, pode-se avaliar o emprego da dimensão **entradas** (ou insumos) para se mesurar a quantidade de recursos humanos em um hospital público, ou então, medir a quantidade de profissionais da saúde disponíveis por dia (**saídas**) nesse mesmo hospital. Por fim, pode-se medir a quantidade de profissionais disponíveis ao dia em função da quantidade total de profissionais existentes nesse hospital; nesse caso tem-se [**uma medição enriquecida que elevará o nível de informação gerada, subsidiando com mais qualidade a posterior tomada de decisão.**]{style="background-color:yellow"}
 
 Dessa forma, o último exemplo acima aponta para **a importância de dimensões que envolvam duas ou mais grandezas ou até dimensões**. Portanto, na sequência, tem-se outras dimensões de medição de desempenho, que podem ou não se relacionar com as dimensões já apresentadas.
+:::
 
 ## Dimensões que relacionam duas ou mais grandezas
 
+::: {style="text-align: justify;"}
 ::: {.callout collapse="true"}
 ## 🔽[Finanças]{style="color: blue"}
 
@@ -82,9 +86,11 @@ Dimensões de desempenho que envolvem a relação entre duas outras (como efici�
 :::
 
 As dimensões abaixo relacionam-se diretamente com o ambiente externo, onde ocorre a prestação dos serviços à sociedade.
+:::
 
 ## Dimensões exclusivamente de ambiente externo
 
+::: {style="text-align: justify;"}
 ::: {.callout collapse="true"}
 ## 🔽[Satisfação dos clientes]{style="color: blue"}
 
@@ -104,9 +110,11 @@ Quanto à **satisfação dos cientes**, Conroy (2001) alerta que, na maioria dos
 Verifica-se que a medição da **satisfação dos clientes** e da **equidade** na prestação dos serviços **deslocam o foco da avaliação do desempenho organizacional para o cenário externo, onde está a necessidade de atendimento das demandas da sociedade**, demandas que são a razão de ser da administração pública (Matias-Pereira, 2018; Di Pietro, 2020).
 
 Por fim, tem-se as dimensões amplas, que consideram a medição do desempenho tanto no ambiente interno quanto no externo, apresentadas a seguir.
+:::
 
 ## Dimensões que abrangem os ambientes interno e externo
 
+::: {style="text-align: justify;"}
 ::: {.callout collapse="true"}
 ## 🔽[Qualidade]{style="color: blue"}
 
@@ -134,9 +142,11 @@ Com o paradigma da NGP, o setor público passou a considerar as **partes interes
 Como exemplos de emprego da dimensão **qualidade**, internamente, pode-se medir falhas e desperdícios, denominados como custos de qualidade, a fim de se avaliar a **eficiência** e subsidiar análises financeiras, que permitirão identificar programas custosos, esses podem ser descontinuados ou reformulados (Navaratnam, 1993). No cenário externo, ferramentas como o SERVQUAL, avaliam a expectativa dos clientes em relação a um serviço com aquele que foi efetivamente prestado (McKoy, 2009). Para Smith e Street (2005) variações na **eficiência** podem revelar uma alteração na **qualidade** da prestação dos serviços públicos. Em relação à dimensão **inovação**, estudos a exemplificam na medição de desempenho organizacional por meio da taxa de abertura de serviços públicos digitais (Stroobants; Bouckaert, 2013). Quanto à dimensão **sustentabilidade**, Cloete (2018) a emprega por meio de **indicadores de desempenho alinhados com os ODS da ONU**.
 
 Por fim, registra-se que os **requisitos das partes interessadas**, as quais participam da prestação dos serviços que, eventualmente, não foram classificados nas dimensões anteriores precisam ser considerados nos SMD do setor. Conforme Burgman e Roos (2004), uma **parte interessada é qualquer ente com capacidade para afetar um resultado importante para uma instituição**. Martins *et al*., (2019) verificaram três grupos de fatores que influenciam no projeto de sistemas de medição de desempenho em instituições públicas e sem fins lucrativos: o propósito da instituição, as **partes interessadas** e a forma de gestão das instituições. Pesquisas como as de Patrick e French (2011), Cowell *et al*., (2012) e Melo e Mota (2020) apontam a falha de alguns governos em não considerar os requisitos das partes interessadas no SMD de suas organizações públicas.
+:::
 
 ## Relações entre as dimensões de medição de desempenho
 
+::: {style="text-align: justify;"}
 A figura abaixo apresenta alguns exemplos de relações de causalidade entre as 16 dimensões citadas, demonstrando a possível relação de sinergia entre elas. Assim, um mesmo objeto pode ser medido por meio de diversas dimensões em **uma relação de causa e efeito**.
 
 ![Ambientes e algumas relações entre as dimensões de medição de desempenho](images/relac_dimensoes.JPG){fig-align="center"}

@@ -1,4 +1,4 @@
-# Definição e Aprovação {.unnumbered}
+# Definição e Aprovação do indicador
 
 ## 3ª fase - Definição
 
@@ -93,7 +93,7 @@ Dias 20 de junho e 20 de dezembro de cada ano.
 Definição de responsabilidades
 
 |                                           |                                                                             |
-|-------------------------------------------|-----------------------------------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | **UNIDADE RESPONSÁVEL**                   | **Departamento de Operações do CBPMESP.**                                   |
 | **RESPONSABILIDADE PELA COLETA DE DADOS** | **Chefe do Setor de Patrimônio Imobiliário e chefe do Setor de Convênios.** |
 | **RESPONSABILIDADE PELA APURAÇÃO**        | **Chefe do Setor de Estatística.**                                          |

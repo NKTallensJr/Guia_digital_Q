@@ -1,6 +1,6 @@
 # Sistemas de Medição e de Gestão de Desempenho
-::: {style="text-align: justify;"}
 
+::: {style="text-align: justify;"}
 > Esta subseção define e propõe uma forma de orientação dos Sistemas de Medição e de Gestão de Desempenho, contextualizando-os entre os indicadores de desempenho e as organizações.
 
 A gestão de desempenho compreende um sistema integrado, em que as informações coletadas sobre o desempenho das organizações estão intimamente ligadas à sua direção estratégica (Ensslin; Welter; Pedersini, 2022). Para tanto, essa gestão deve ser sistematizada, resultando em um Sistema de Gestão de Desempenho (SGD), composto por três etapas (Melo; Mota, 2020):
@@ -18,9 +18,11 @@ Interpreta e comunica os resultados das informações de desempenho aos tomadore
 
 Analisa as informações relatadas e age sobre elas, objetivando melhorias organizacionais.
 :::
+:::
 
 ## Sistemas de Medição e de Gestão de Desempenho
 
+::: {style="text-align: justify;"}
 Das etapas apresentadas nas guias acima, a medição e o relato integram um subsistema específico, denominado Sistema de Medição de Desempenho (SMD). Para se compor um Sistema de Gestão de Desempenho (SGD), após a medição e o relato (etapas dos SMD), são acrescentadas a análise do desempenho, identificando os fatores críticos que impactam na performance da organização e subsidiam a tomada de decisões (Martins et al., 2022). A figura abaixo sintetiza os processos internos dos SGD, conforme as etapas propostas por Melo e Mota (2020) e atividades descritas por Grøn e Kristiansen (2022).
 
 ![Etapas e atividades dos Sistema de Gestão de Desempenho](images/SMD.JPG){#SMD fig-align="center" width="1010"}
@@ -36,9 +38,11 @@ Sistemas de Medição e de Gestão de Desempenho proporcionam a ligação entre 
 :::
 
 Considerando os objetivos deste guia e que as atividades da etapa de gestão de desempenho cabem especificamente são próprias de cada organização, as subseções seguintes tratarão dos SMD.
+:::
 
 ## Características dos SMD
 
+::: {style="text-align: justify;"}
 **Indicadores de desempenho não atuam de forma isolada, sendo elementos importantes dos SMD**. Para cumprir com seus objetivos e ofertar os resultados esperados e necessários às organizações, esses sistemas precisam ter as seguintes características:
 
 ::: panel-tabset
@@ -66,9 +70,11 @@ O sistema deve ter uma compreensão fácil, simples e aplicação na organizaç�
 Além das características acima, cada SMD possui formas de orientação e dimensões de medição de desempenho próprios, que implicam na definição dos indicadores de desempenho. Como exemplo, o Balanced Scorecard (BSC) proposto por Kaplan e Norton (1992), que é o SMD mais empregado no setor público (Moura *et al*., 2019; 2020), é orientado conforme a estratégia da organização por meio das dimensões financeiras, clientes, processos internos, aprendizado e inovação.
 
 A **multidimensionalidade é uma característica importante para os SMD**, especialmente quando aplicados no setor público (será tratada na seção seguinte) e **a** **orientação do SMD é o parâmetro que baliza a definição dos objetivos a serem considerados e dos objetos a serem medidos por esse sistema**, cuja forma será proposta a seguir.
+:::
 
 ## Orientação de um SMD para órgãos públicos
 
+::: {style="text-align: justify;"}
 No setor público, benefícios como melhoria contínua (Smith; Halligan; Mir, 2021), suporte na tomada de decisões, comparaçãoentre organizações(Král, 2022) e comunicação de resultados relevantes à sociedade (Moura et al., 2020) aderem a um **SMD orientado pelas missões institucionais**, que considera os propósitos das instituições e suas missões, não se restringindo ao que seja crítico ou estratégico. Todavia, benefícios como a avaliação de metas (Trong; Quang, 2020), a definição e o alinhamento de prioridades (Borst; Lako; De Vries, 2014), provêm da **orientação conforme os objetivos da instituição** ( sejam eles estratégicos ou não). Consequentemente, quanto aos benefícios proporcionados, as duas formas mostram-se complementares.
 
 As **missões institucionais, especialmente no setor público, absorvem as missões sociais e os produtos e serviços da instituição** pela própria definição de missão, considerando assim **o que se deseja ofertar à sociedade para satisfação de suas necessidades**.

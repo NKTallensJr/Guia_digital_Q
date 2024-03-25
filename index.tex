@@ -189,7 +189,7 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Guia digital: construção de indicadores de desempenho para órgãos públicos},
-  pdfauthor={Newton Krüger Tallens Junior},
+  pdfauthor={Newton Krüger Tallens Junior; Daiana Rafaela Pedersini; Ricardo Coser Mergulhão; Emerson Gomes dos Santos},
   pdflang={pt},
   colorlinks=true,
   linkcolor={blue},
@@ -200,12 +200,13 @@
 
 \title{Guia digital: construção de indicadores de desempenho para órgãos
 públicos}
-\author{Newton Krüger Tallens Junior}
-\date{2024-10-02}
+\author{Newton Krüger Tallens Junior \and Daiana Rafaela
+Pedersini \and Ricardo Coser Mergulhão \and Emerson Gomes dos Santos}
+\date{2024-03-23}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, sharp corners, breakable, interior hidden, frame hidden, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden, breakable, enhanced, interior hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Índice}
 {
@@ -238,7 +239,7 @@ convergir para os indicadores e suas caraterísticas, para, com
 segurança, apresentar um processo para a sua construção, finalizando com
 uma aplicação prática.
 
-Portanto, esse material busca ser objetivo e preciso, sem prejuízo da
+Portanto, o guia busca ser objetivo e preciso, sem prejuízo da
 contextualização do tema e do embasamento teórico, valendo-se da
 interatividade para uma melhor consulta e navegação entre suas seções a
 fim de se ofertar um guia que faça frente à relevância do tema e às
@@ -257,7 +258,9 @@ Este material é o produto de uma dissertação apresentada junto ao
 Profissional em Inovação Tecnológica da Universidade Federal de São
 Paulo}. Como um guia, ele oferece uma visão geral do tema apresentado,
 com comentários e, especialmente, instruções para que o leitor possa
-alcançar o objetivo proposto.
+alcançar o objetivo proposto. Para tanto, dispôs-se de um material
+inovador em formato digital e com recursos de interação e
+interatividade, que serão apresentados adiante.
 
 Àqueles que tenham interesse em conhecer o referencial teórico
 utilizado, as pesquisas realizadas, seus resultados, discussões e forma
@@ -273,10 +276,50 @@ foram essenciais para a construção deste; espera-se que ele também possa
 ajudar gestores e pesquisadores neste tema tão caro à administração
 pública.
 
-Por fim, conforme os materiais analisados e a proposta do programa de
-pós-graduação, que proporcionou a elaboração deste guia, buscou-se
-ofertar um material inovador em formato digital e com recursos de
-interação e interatividade, apresentados na próxima subseção.
+\hypertarget{autoria}{%
+\section*{Autoria}\label{autoria}}
+\addcontentsline{toc}{section}{Autoria}
+
+\markright{Autoria}
+
+A responsabilidade e contribuições pela concepção deste guia estão
+organizadas conforme a \href{https://credit.niso.org/}{CRediT}
+(Contributor Roles Taxonomy) na seguinte forma:
+
+\textbf{Newton Krüger Tallens Junior}: conceitualização, metodologia e
+escrita (original e revisão).
+
+\textbf{Daiana Rafaela Pedersini}: análise formal e validação.
+
+\textbf{Ricardo Coser Mergulhão}: análise formal e validação.
+
+\textbf{Emerson Gomes dos Santos}: administração do projeto e supervisão
+
+\hypertarget{plataforma}{%
+\section*{Plataforma}\label{plataforma}}
+\addcontentsline{toc}{section}{Plataforma}
+
+\markright{Plataforma}
+
+Este guia foi desenvolvido na linguagem
+\href{https://quarto.org/}{Quarto} no ambiente
+\href{https://posit.co/products/open-source/rstudio/}{RStudio} e seus
+códigos estão abertos e disponíveis na plataforma
+\href{https://github.com/}{Github}.
+
+\hypertarget{como-citar}{%
+\section*{Como citar}\label{como-citar}}
+\addcontentsline{toc}{section}{Como citar}
+
+\markright{Como citar}
+
+TALLENS JUNIOR, Newton Krüger; PEDERSINI, Daiana Rafaela; MERGULHÃO,
+Ricardo Coser; DOS SANTOS, Emerson Gomes. \textbf{Guia digital:
+construção de indicadores de desempenho para órgãos públicos}.
+{[}s.l{]}, 2024. \emph{E-book}. Disponível em:
+https://nktallensjr.github.io/Guia\_digital\_Q/.
+
+:::
 
 \bookmarksetup{startatroot}
 
@@ -286,10 +329,10 @@ interação e interatividade, apresentados na próxima subseção.
 
 \markboth{Introdução}{Introdução}
 
-Este guia está organizado em quatro partes partes com seus respectivos
+Este guia está organizado em cinco seções com seus respectivos
 capítulos:
 
-\textbf{Apresentação}: contextualiza o tema tratado, apresenta os
+⏱️\textbf{Apresentação}: contextualiza o tema tratado, apresenta os
 recursos de leitura, navegação e avaliação disponíveis. Nos capítulos
 seguintes, apresenta-se duas importantes justificativas para a
 elaboração deste material: os benefícios do uso dos indicadores de
@@ -297,7 +340,7 @@ desempenho para as organizações públicas (e consequentemente para a
 sociedade) e um alerta sobre as limitações e efeitos nocivos desses
 instrumentos de medição.
 
-\textbf{Fundamentos teóricos}: apresenta o embasamento teórico
+💡\textbf{Fundamentos teóricos}: apresenta o embasamento teórico
 necessário para o processo de construção de indicadores de desempenho,
 desde os sistemas de medição e gestão de desempenho das organizações,
 sua forma de orientação, dimensões de medição até os menores elementos
@@ -305,7 +348,7 @@ daquele sistema: os indicadores de desempenho, que são avaliados
 conforme sua tipologia, elementos de formação (atributos) e critérios
 utilizados para sua validação.
 
-\textbf{Construção de indicadores}: apresenta o processo para a
+⚙️\textbf{Construção de indicadores}: apresenta o processo para a
 construção de indicadores de desempenho para órgãos públicos, é composto
 por 14 etapas agrupadas em quatro fases, que se iniciam pela compreensão
 do ambiente organizacional de medição de desempenho, seguem para a
@@ -313,32 +356,36 @@ elaboração dos indicadores, validações, definição de seus parâmetros de
 cálculo e aprovação; e, na sequência, disponibiliza um modo de
 formalização do indicador: o Registro do Indicador.
 
-As três primeiras partes possuem uma Síntese, com os principais tópicos
+As três primeiras seções possuem uma síntese, com os principais tópicos
 apresentados.
 
-\textbf{Aplicação}: esta seção busca fixar o conhecimento apresentado e
-a condução do processo de construção dos indicadores, aplicando-os de
+📊\textbf{Aplicação}: esta seção busca fixar o conhecimento apresentado
+e a condução do processo de construção dos indicadores, aplicando-os de
 forma prática na construção e registro de um indicador para um órgão
 público real por meio de dados públicos. Ao final deste capítulo, tem-se
 a materialização do conteúdo do guia, não apenas pelo exemplo
 desenvolvido, mas pela disponibilização de um modelo de Registro do
 Indicador para uso dos gestores interessados.
 
-\textbf{Considerações finais}: trata-se de uma breve seção de
+📝\textbf{Considerações finais}: trata-se de uma breve seção de
 encerramento com as últimas considerações e conclusões acerca do tema
-apresentado. Ao final tem-se: o registro das \textbf{referências} das
-citações do guia; um \textbf{glossário} com os termos relativos ao tema;
-um resumo denominado \textbf{indicadores em uma página}, que não
-substitui o guia; uma seção extra com \textbf{exemplos práticos} e
-estudos de caso, e um \textbf{fórum de dúvidas e sugestões} para a
-coleta da avaliação dos usuários, discussões e interações visando o
-contínuo aprimoramento do guia.
+apresentado.
+
+Ao final tem-se: o registro das \textbf{referências} das citações do
+guia; um \textbf{glossário} com os termos relativos ao tema; um resumo
+denominado \textbf{indicadores em uma página}, que não substitui o guia;
+uma seção extra com \textbf{exemplos práticos} e estudos de caso, e um
+\textbf{fórum de dúvidas e sugestões} para a coleta da avaliação dos
+usuários, discussões e interações visando o contínuo aprimoramento do
+guia.
 
 \part{⏱️ Apresentação}
 
-{Esta seção inicial contextualiza o tema, dispõe sobre os recursos do
+\begin{quote}
+Esta seção inicial contextualiza o tema, dispõe sobre os recursos do
 guia, sua organização, apresenta os benefícios do uso de indicadores de
-desempenho no setor público, bem como as suas limitações}
+desempenho no setor público, bem como as suas limitações
+\end{quote}
 
 \hypertarget{um-modelo-de-gestuxe3o-puxfablica}{%
 \section*{Um modelo de gestão
@@ -386,12 +433,12 @@ público}\label{a-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}}
 
 Por meio de sistemas de medição e gestão de desempenho, indicadores
 podem medir a performance de atividades, processos, projetos,
-organizações, programas e políticas públicas (Brasil 2018a; Uchoa 2013)
-(Brasil, 2018a; Uchoa, 2013), revelando informações importantes para a
-gestão das organizações públicas. Bahia (2021) vai além, ao citar que os
-indicadores de desempenho podem contribuir na medição da ação e de
-eventuais omissões do setor público. De fato, ``instituições eficazes,
-responsáveis e transparentes em todos os níveis'' é um dos
+organizações, programas e políticas públicas (Brasil 2018a; Uchoa 2013),
+revelando informações importantes para a gestão das organizações
+públicas. Bahia (2021) vai além, ao citar que os indicadores de
+desempenho podem contribuir na medição da ação e de eventuais omissões
+do setor público. De fato, ``instituições eficazes, responsáveis e
+transparentes em todos os níveis'' é um dos
 \href{https://brasil.un.org/pt-br/sdgs}{Objetivos de Desenvolvimento
 Sustentável} (ODS) da Organização das Nações Unidas (ONU, 2023) e no
 setor público a medição de desempenho tomou importância a ponto de
@@ -404,12 +451,15 @@ indicadores de desempenho; todavia, estudos também registram fatores
 limitantes à implementação de indicadores e de sistemas de medição de
 desempenho, especialmente, no setor público.
 
-\strut \\
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-warning-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Importante}, rightrule=.15mm, colbacktitle=quarto-callout-warning-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
+
 Características específicas do setor público como amplo escopo,
 diversidade de objetivos e partes interessadas, restrições legais e
 orçamentárias, o tornam um ambiente complexo para a implantação de
 sistemas de medição de desempenho e seus indicadores (Moura et al. 2019;
 Garengo e Sardi 2020).
+
+\end{tcolorbox}
 
 Tais condições reforçam a constatação de Kolk (2022) de que a medição
 desempenho no setor público apresenta vantagens e desvantagens, logo,
@@ -424,17 +474,31 @@ instituições.
 \chapter{Recursos de interatividade, navegação e
 avaliação}\label{recursos-de-interatividade-navegauxe7uxe3o-e-avaliauxe7uxe3o}}
 
-{Subseção destinada à apresentação dos recursos de interatividade
-disponíveis, às formas de navegação pelas páginas do guia e os meios
-para a sua avaliação.}
+\begin{quote}
+Apresenta os recursos de interatividade disponíveis e as formas de
+navegação pelas páginas do guia.
+\end{quote}
 
 \hypertarget{interatividade}{%
 \section{Interatividade}\label{interatividade}}
 
-Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, este
+Para tornar a consulta e o aprendizado mais dinâmicos e eficientes, o
 guia utiliza diversas ferramentas, muitas delas comuns, como,
-\textbf{destaques}, {\textbf{realces}} e \emph{hyperlinks}. Como outros
-exemplos tem-se:
+\textbf{destaques}, {\textbf{realces}} e
+\protect\hyperlink{bem-vindo}{hyperlinks} (este o levará para a primeira
+página do guia). Outros exemplos incluem:
+
+\hypertarget{expansores}{%
+\section{Expansores}\label{expansores}}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Clique na seta}}\vspace{2mm}
+
+Apresentam um texto explicativo, expandindo o conteúdo do título
+principal
+
+\end{tcolorbox}
 
 \hypertarget{guias}{%
 \section{Guias}\label{guias}}
@@ -457,52 +521,59 @@ principal.
 \hypertarget{avisos-1}{%
 \section{Avisos}\label{avisos-1}}
 
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Dica}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-tip-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Dica}, rightrule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
 
 Destaca uma informação.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, rightrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
 
-Reforça uma ação.
-
-\end{tcolorbox}
-
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Cuidado}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-caution-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-caution-color!10!white, leftrule=.75mm, coltitle=black]
-
-Alerta sobe uma informação importante.
+Reforça uma informação ou ação.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Aviso}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-warning-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-warning-color!10!white, leftrule=.75mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-warning-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Importante}, rightrule=.15mm, colbacktitle=quarto-callout-warning-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
 
-Avisa sobe uma informação crítica.
+Avisa sobe uma informação importante.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Alerta}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-important-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Alerta}, rightrule=.15mm, colbacktitle=quarto-callout-important-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
 
 Adverte sobe uma informação crítica.
 
 \end{tcolorbox}
 
+\hypertarget{citauxe7uxe3o}{%
+\section{Citação}\label{citauxe7uxe3o}}
+
+\begin{quote}
+Citações específicas com destaque no corpo textual do guia.
+\end{quote}
+
 \hypertarget{navegauxe7uxe3o}{%
 \section{Navegação}\label{navegauxe7uxe3o}}
 
 Todas as seções e subseções iniciam-se com uma pequena introdução no
-topo de suas páginas, apresentando suas propostas e objetivos. Nas
-laterais do guia, há menus de navegação: à esquerda navega-se pelas suas
-seções e subseções; já o menu à direita fornece a navegação pelos
-tópicos da seção em leitura. Ao final de cada página, existem botões de
-navegação para as seções (ou subseções) anteriores e seguintes.
+topo de suas páginas em forma de citação, apresentando suas propostas e
+objetivos. Nas laterais do guia, há opções e menus de navegação: à
+esquerda tem-se o link para o códig-fonte do guia, um botão para
+alternar para o modeo escuro, outro para o modo de leitura, além de uma
+barra de busca de palavras. Ainda à esquerda, o menu proporciona a
+navegação pelas suas seções e capítulos do guia. Já o menu à direita
+fornece a navegação pelos tópicos existentes e um capítulo em leitura.
+Ao final de cada página, existem botões de navegação para as seções e
+capítulos anteriores e seguintes.
 
 \hypertarget{objetivos-e-benefuxedcios-da-mediuxe7uxe3o-de-desempenho}{%
 \chapter{Objetivos e benefícios da medição de
 desempenho}\label{objetivos-e-benefuxedcios-da-mediuxe7uxe3o-de-desempenho}}
 
-{Nesta subseção apresenta-se o objetivo da medição de desempenho e suas
-implicações na forma de objetivos específicos e benefícios.}
+\begin{quote}
+Nesta subseção apresenta-se o objetivo da medição de desempenho e suas
+implicações na forma de objetivos específicos e benefícios.
+\end{quote}
 
 \textbf{O objetivo maior da medição de desempenho numa organização é a
 sua melhoria por meio do suporte de informações sobre o desempenho na
@@ -567,14 +638,25 @@ nível hierárquico} (Grøn; Kristiansen, 2022). O quadro abaixo
 (proveniente do mesmo estudo citado) exemplifica essa necessidade de
 adequação da informação produzida conforme o interessado:
 
-Diferentes necessidades, tipo e uso de informações sobre medição de
-desempenho
-
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2192}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2603}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\caption{Diferentes necessidades, tipo e uso de informações sobre
+medição de desempenho}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{NÍVEL}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{NECESSIDADE}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{TIPO}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{USO}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \textbf{NÍVEL}
@@ -604,11 +686,12 @@ benefícios citados, sendo necessário considerar, desde os usuários
 dessas medições (Grøn e Kristiansen, 2022) até o contexto de medição de
 desempenho (Van der Kolk, 2022).
 
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Alerta!}, colback=white, opacitybacktitle=0.6, colframe=quarto-callout-warning-color-frame, toprule=.15mm, titlerule=0mm, arc=.35mm, toptitle=1mm, bottomrule=.15mm, breakable, left=2mm, opacityback=0, rightrule=.15mm, bottomtitle=1mm, colbacktitle=quarto-callout-warning-color!10!white, leftrule=.75mm, coltitle=black]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-warning-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Alerta!}, rightrule=.15mm, colbacktitle=quarto-callout-warning-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
 
 Projetar indicadores de desempenho isoladamente sem considerar
-características dos sistemas, o contexto de aplicação, formas e partes
-interessadas, é uma falha na medição do desempenho organizacional.
+características dos sistemas de medição, o contexto de aplicação, formas
+e partes interessadas, é uma falha na medição do desempenho
+organizacional.
 
 \end{tcolorbox}
 
@@ -620,9 +703,265 @@ especialmente para o setor público.
 \chapter{Consequências indesejadas e limitações da medição de
 desempenho}\label{consequuxeancias-indesejadas-e-limitauxe7uxf5es-da-mediuxe7uxe3o-de-desempenho}}
 
-{Esta importante subseção apresenta os efeitos indesejados e fatores
+\begin{quote}
+Esta importante subseção apresenta os efeitos indesejados e fatores
 limitantes da medição de desempenho no setor público em função da sua
-complexidade.}
+complexidade.
+\end{quote}
+
+\hypertarget{a-complexidade-da-gestuxe3o-organizacional-e-do-setor-puxfablico}{%
+\section{A complexidade da gestão organizacional e do setor
+público}\label{a-complexidade-da-gestuxe3o-organizacional-e-do-setor-puxfablico}}
+
+As organizações são coleções de elementos tangíveis e intangíveis, cujo
+desempenho é determinado por múltiplos fatores e condições, internos e
+externos (Adcroft; Willis, 2005), onde os indicadores de desempenho
+avaliam áreas pré-determinadas nos sistemas de medição sem fornecer uma
+noção sobre o todo (Halásková; Halásková, 2020); portanto, indicadores
+são dão suporte à gestão, mas não a fazem a gestão organizacional por
+si. Nesse sentido, as pesquisas afirmam de forma uníssona:
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, rightrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
+
+As medições de desempenho apenas apontam condições existentes, o que
+necessariamente requer ações e decisões dos gestores para o alcance do
+desempenho desejado (Smith, 1995; Van De Walle; Van Dooren, 2006;
+Lundberg; Balfors; Folkeson, 2009; Bahia, 2021; Taylor, 2021).
+
+\end{tcolorbox}
+
+Smith (1995) recomenda cautela na interpretação dos resultados
+provenientes da medição de desempenho, pois nem sempre eles vão incluir:
+
+\begin{itemize}
+\item
+  o desempenho de outros setores ou órgãos complementares;
+\item
+  variações e/ou ajustes no ambiente organizacional (alguns de longo
+  prazo);
+\item
+  variações nas medidas em função de flutuações sazonais que terão
+  reflexo posterior nos indicadores.
+\end{itemize}
+
+Especificamente na medição do desempenho de subunidades similares
+pertencentes ao mesmo órgão, podem existir resultados distintos, em que
+Smith (1990) aponta como fatores:
+
+\begin{itemize}
+\item
+  custos e orçamentos distintos;
+\item
+  diferença de objetivos internos;
+\item
+  uso diverso dos recursos disponíveis;
+\item
+  erros de medição ou manipulação de dados.
+\end{itemize}
+
+Portanto, é imperativo considerar diversos indicadores para se medir
+unidades ou organizações para compará-las, uma vez que algumas podem ter
+bons resultados em certos indicadores, porém, resultados ruins em
+outros; logo, não é fácil tirar conclusões acertadas sobre a organização
+como um todo, mesmo com uma série de indicadores de desempenho (Smith;
+Street, 2005).
+
+Devido ao amplo escopo, diversidade de objetivos e de
+\emph{stakeholders} (partes interessadas), restrições legais e
+orçamentárias, \textbf{o setor público é um ambiente complexo}, onde
+sistemas de medição de desempenho mal projetados podem ser
+disfuncionais, gerar consequências não intencionais e adversas com
+resultados diferentes dos esperados; dessa forma, podem reduzir a
+credibilidade da administração pública (Pidd, 2005; Borst; Lako; De
+Vries, 2014) e até serem abandonados (Arnaboldi; Azzone, 2010). Nos SMD,
+\textbf{efeitos indesejados} podem ser resultados da má implementação,
+falta de uso do sistema, descompasso entre as práticas reais e
+declaradas, além da resistência da força de trabalho (Steccolini;
+Saliterer; Guthrie, 2020).
+
+Além dos efeitos indesejados, estudos apontam \textbf{fatores
+limitantes} à medição de desempenho (alguns deles provenientes da
+própria complexidade do setor público) como: excesso de indicadores
+(Gao, 2015), uso meramente simbólico (Gębczyńska; Brajer-Marczak, 2020),
+seleção inapropriada de indicadores (Ensslin; Welter; Pedersini, 2022),
+substituição precoce de indicadores (Oppi; Campanale; Cinquini, 2022) e
+conflito entre stakeholders (Leca; Laguecir, 2023).
+
+O conhecimento prévio desses efeitos e fatores é importante para o
+desenvolvimento de indicadores e sistemas de medição, especialmente para
+superá-los, motivo pelo qual eles são apresentados a seguir.
+
+\hypertarget{consequuxeancias-indesejadas-dos-smd-no-setor-puxfablico}{%
+\section{Consequências indesejadas dos SMD no setor
+público}\label{consequuxeancias-indesejadas-dos-smd-no-setor-puxfablico}}
+
+O quadro abaixo apresenta algumas consequências não intencionais do uso
+de indicadores de desempenho no setor público apontados por Smith (1995)
+e descritos por Freeman (2002):
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2778}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7222}}@{}}
+\caption{Consequências não intencionais do uso de indicadores de
+desempenho no setor público}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+FENÔMENO
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+DESCRIÇÃO
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+FENÔMENO
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+DESCRIÇÃO
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Visão em túnel & Ênfase restrita ao fenômeno mensurado pelo indicador \\
+Subutilização & Busca de objetivos limitados, ao invés de objetivos
+organizacionais \\
+Miopia & Perseguição exagerada a metas de curto prazo \\
+Fixação em medidas & Foco nas medições ao invés dos objetivos a elas
+associados \\
+Deturpação & Manipulação deliberada de dados e informações \\
+Falsa interpretação & Realização de inferências falsas sobre o
+desempenho medido \\
+\emph{Gaming} & Manipulação deliberada de comportamento para se obter
+vantagem \\
+Ossificação & Paralisia organizacional pela rigidez do sistema de
+medição \\
+\end{longtable}
+
+Os exemplos acima revelam fenômenos indesejados por meio do
+comportamento dos gestores diante da medição de desempenho
+organizacional. Trata-se de \textbf{um alerta importante a ser
+internalizado antes da implantação de sistemas de medição de desempenho
+nas organizações}.
+
+\hypertarget{fatores-limitantes-uxe0-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}{%
+\section{Fatores limitantes à medição de desempenho no setor
+público}\label{fatores-limitantes-uxe0-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}}
+
+Na sequência são apresentados em ordem alfabética outros 27 fatores
+limitantes ou barreiras à medição de desempenho no setor público
+provenientes de pesquisas científicas publicadas, cujo conhecimento
+prévio se faz necessário a toda força de trabalho que atua diretamente
+ou indiretamente na medição de desempenho organizacional na
+administração pública.
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2500}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6250}}@{}}
+\caption{Fatores limitantes à implantação da medição de desempenho no
+setor público}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\textbf{\#}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{FATOR}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{DESCRIÇÃO}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\textbf{\#}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{FATOR}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{DESCRIÇÃO}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & Ambiguidade & Falta de clareza e consistência (causal ou
+intencional) nos processos de medição de desempenho. \\
+2 & Burocracia & Excesso de procedimentos burocráticos que restringem ou
+causam mora excessiva à implantação de um SMD. \\
+3 & Comunicação interna & Ausência de comunicação à força de trabalho
+sobre a importância, implantação e funcionamento do SMD. \\
+4 & Confiança excessiva & O excesso de confiança nos resultados da
+medição de desempenho sem uma avaliação mais abrangente e criteriosa. \\
+5 & Conflito entre partes interessadas & Dificuldade no ajuste das
+medições devido à diversidade de partes interessadas e seus respectivos
+focos. \\
+6 & Cultura organizacional & Falta de incentivos organizacionais e
+possibilidade de sanções em caso de resultados negativos. \\
+7 & Dificuldade em um modelo único & Dificuldade de implantação de um
+modelo único e comum de SMD para todas as instituições. \\
+8 & Dimensionamento de metas & Metas atreladas aos indicadores
+dimensionadas de forma incorreta, desconsiderando a realidade dos
+resultados. \\
+9 & Diversidade de objetivos & Os objetivos organizacionais nem sempre
+são todos abrangidos pelos indicadores de desempenho, devido à ampla
+diversidade no setor público. \\
+10 & Excesso de indicadores de desempenho & Elevado número de
+indicadores tornando-os prejudiciais pela quantidade de informação
+coletada e não gerida. \\
+11 & Força de trabalho & Decisões incorretas em função da falta de
+habilidade e/ou capacitação da gestão e força de trabalho. \\
+12 & Influência política & Escolha de indicadores de fácil medição e
+gestão a fim de esconder fragilidades institucionais. \\
+13 & Informalidade e/ou corrupção & Adoção de práticas diversas (sem
+registro oficial ou normas de protocolo). \\
+14 & Interferência endógena & Os indicadores, quando estabelecidos,
+podem influenciar e, consequentemente ,interferir na realidade a ser
+medida. \\
+15 & Interpretação e divulgação de resultados & Dificuldades internas na
+comunicação das medições, na interpretação e divulgação dos
+resultados. \\
+16 & Liderança & O suporte da liderança é um fator que aumenta o sucesso
+na implementação de um SMD. \\
+17 & Indicadores subdesenvolvidos & Indicadores desenvolvidos de uma
+forma limitada ou muito seletiva; ou ainda indicadores existentes, porém
+parcialmente utilizados. \\
+18 & Manipulação & Alteração das informações produzidas pelos
+indicadores visando apresentar resultados favoráveis às partes
+interessadas. \\
+19 & Qualidade dos dados e medições & Dados e/ou medições de baixa
+qualidade ou confiabilidade. \\
+20 & Representação limitada & Desconsideração de que indicadores são
+representações imperfeitas e transitórias da realidade em avaliação. \\
+21 & Resistência da força de trabalho & Comportamento cético da força de
+trabalho e resistência às novidades tecnológicas e mudança de
+paradigmas. \\
+22 & Resultados intangíveis & Dificuldade em se prever indicadores para
+dimensões intangíveis, o impacto por meio do valor público e social
+gerado. \\
+23 & Seleção inapropriada de indicadores & A seleção e o consequente uso
+de indicadores inapropriados ou inadequados à organização. \\
+24 & Significância da medição & Adoção de indicadores não estratégicos
+ou sem importância institucional apenas pela facilidade de medição. \\
+25 & Substituição precoce & Troca sistemática de indicadores em um curto
+período, deixando de se alcançar um histórico que permitiria a
+comparação e o aprendizado institucional. \\
+26 & Uso distorcido & Indicadores empregados como um fim em si mesmo e
+não como parte de um amplo processo avaliativo. \\
+27 & Uso simbólico & Indicadores empregados apenas para legitimar
+externamente a organização \\
+\end{longtable}
+
+Apesar do elevado número de \textbf{efeitos indesejados} e
+\textbf{fatores limitantes} à implantação de indicadores e sistemas de
+medição, \textbf{os benefícios gerados} (conforme apresentado na
+subseção anterior) \textbf{os} \textbf{superam em intensidade e ganho,
+tanto para a sociedade quanto para as instituições}, dando, assim,
+propósito a este guia e aos diversos outros estudos e artefatos
+similares.
+
+Após o conhecimento dos objetivos, benefícios e restrições a medição de
+desempenho no setor público, tem-se a síntese deste capítulo de
+apresentação; no capítulo seguinte, inicia-se a fundamentação necessária
+para a construção de indicadores de desempenho para as instituições do
+setor público.
 
 \hypertarget{suxedntese}{%
 \chapter*{Síntese}\label{suxedntese}}
@@ -642,18 +981,21 @@ um guia digital, dispõe-se de recursos de interatividade, tornando a
 consulta e o aprendizado mais dinâmicos e eficientes.
 
 As implicações positivas da medição de desempenho organizacional no
-setor público foram descritas em Objetivos e benefícios da medição de
-desempenho, em que também constatou-se que \textbf{projetar indicadores
-de desempenho isoladamente, sem considerar características dos sistemas,
-o contexto de aplicação, formas e partes interessadas, é um erro básico
-na medição do desempenho organizacional}. Consequentemente, na subseção
-seguinte, Limitações dos indicadores e sistemas de medição de
-desempenho, foram apresentadas as consequências não intencionais e os
-fatores limitantes e barreiras à medição de desempenho no setor público
-provenientes de pesquisas científicas. Apesar da ênfase daquela subseção
-nas limitações dos indicadores, \textbf{os benefícios gerados pelos
-indicadores de desempenho e SMD superam suas limitações em intensidade e
-ganho, tanto para a sociedade quanto para as instituições}.
+setor público foram descritas em
+\protect\hyperlink{objetivos-e-benefuxedcios-da-mediuxe7uxe3o-de-desempenho}{Objetivos
+e benefícios da medição de desempenho}, em que também constatou-se que
+\textbf{projetar indicadores de desempenho isoladamente, sem considerar
+características dos sistemas, o contexto de aplicação, formas e partes
+interessadas, é um erro básico na medição do desempenho organizacional}.
+Consequentemente, na subseção seguinte,
+\protect\hyperlink{consequuxeancias-indesejadas-e-limitauxe7uxf5es-da-mediuxe7uxe3o-de-desempenho}{Limitações
+dos indicadores e sistemas de medição de desempenho}, foram apresentadas
+as consequências não intencionais e os fatores limitantes e barreiras à
+medição de desempenho no setor público provenientes de pesquisas
+científicas. Apesar da ênfase daquela subseção nas limitações dos
+indicadores, \textbf{os benefícios gerados pelos indicadores de
+desempenho e SMD superam suas limitações em intensidade e ganho, tanto
+para a sociedade quanto para as instituições}.
 
 Após a contextualização do tema (especialmente no setor público) e suas
 implicações - as quais motivam a elaboração deste guia, a seção seguinte
@@ -676,14 +1018,14 @@ necessário compreender os diversos fatores que envolvem os indicadores
 de desempenho - desde seu posicionamento na organização até os elementos
 que os compõem individualmente.
 
-(\textbf{jackson1993?}) aponta que \textbf{o setor público possui
-diversas complexidades} (abrangência, objetivos, clientes e partes
-interessadas) \textbf{que precisam ser consideradas e ter reflexo em
-seus indicadores desempenho}; logo, indicadores triviais e comumente
-utilizados, provavelmente, não proporcionarão os resultados esperados,
-especialmente diante das peculiaridades do setor público. Assim,
-reforça-se a necessidade da construção de uma base teórica prévia ao
-processo de construção desses indicadores.
+Jackson (1993) aponta que \textbf{o setor público possui diversas
+complexidades} (abrangência, objetivos, clientes e partes interessadas)
+\textbf{que precisam ser consideradas e ter reflexo em seus indicadores
+desempenho}; logo, indicadores triviais e comumente utilizados,
+provavelmente, não proporcionarão os resultados esperados, especialmente
+diante das peculiaridades do setor público. Assim, reforça-se a
+necessidade da construção de uma base teórica prévia ao processo de
+construção desses indicadores.
 
 Portanto, esta seção inicia-se com o foco mais aberto possível, por meio
 dos sistemas de medição e gestão de desempenho; segue para a
@@ -698,9 +1040,11 @@ desta introdução.
 \chapter{Sistemas de Medição e de Gestão de
 Desempenho}\label{sistemas-de-mediuxe7uxe3o-e-de-gestuxe3o-de-desempenho}}
 
-{Esta subseção define e propõe uma forma de orientação dos Sistemas de
+\begin{quote}
+Esta subseção define e propõe uma forma de orientação dos Sistemas de
 Medição e de Gestão de Desempenho, contextualizando-os entre os
-indicadores de desempenho e as organizações.}
+indicadores de desempenho e as organizações.
+\end{quote}
 
 A gestão de desempenho compreende um sistema integrado, em que as
 informações coletadas sobre o desempenho das organizações estão
@@ -709,13 +1053,184 @@ Pedersini, 2022). Para tanto, essa gestão deve ser sistematizada,
 resultando em um Sistema de Gestão de Desempenho (SGD), composto por
 três etapas (Melo; Mota, 2020):
 
+\section{Medição}
+
+Define, mede e coleta qualitativamente e quantitativamente a entrada,
+saída e nível de atividade ou resultado de ações, pessoas e programas.
+
+\section{Relato}
+
+Interpreta e comunica os resultados das informações de desempenho aos
+tomadores de decisã.
+
+\section{Gestão}
+
+Analisa as informações relatadas e age sobre elas, objetivando melhorias
+organizacionais.
+
+\hypertarget{sistemas-de-mediuxe7uxe3o-e-de-gestuxe3o-de-desempenho-1}{%
+\section{Sistemas de Medição e de Gestão de
+Desempenho}\label{sistemas-de-mediuxe7uxe3o-e-de-gestuxe3o-de-desempenho-1}}
+
+Das etapas apresentadas nas guias acima, a medição e o relato integram
+um subsistema específico, denominado Sistema de Medição de Desempenho
+(SMD). Para se compor um Sistema de Gestão de Desempenho (SGD), após a
+medição e o relato (etapas dos SMD), são acrescentadas a análise do
+desempenho, identificando os fatores críticos que impactam na
+performance da organização e subsidiam a tomada de decisões (Martins et
+al., 2022). A figura abaixo sintetiza os processos internos dos SGD,
+conforme as etapas propostas por Melo e Mota (2020) e atividades
+descritas por Grøn e Kristiansen (2022).
+
+\begin{figure}
+
+{\centering \includegraphics[width=10.52083in,height=\textheight]{images/SMD.JPG}
+
+}
+
+\caption{Etapas e atividades dos Sistema de Gestão de Desempenho}
+
+\end{figure}
+
+Como sistemas, a gestão engloba a medição de desempenho; em linhas
+gerais, \textbf{Sistemas de Medição de Desempenho (SMD) organizacionais
+identificam, medem, analisam e comunicam o desempenho de atividades,
+processos, projetos, organizações, programas e políticas públicas}
+(Uchoa, 2013) \textbf{por meio de um conjunto multidimensional de
+indicadores de desempenho} (ENAP, 2021a; Mustea; Mihiţ; Lobonţ, 2021; De
+Waele \emph{et al}., 2021).
+
+Portanto, como uma das formas para a administração pública apresentar
+resultados de valor e gerar impactos positivos na sociedade, tem-se SGD
+para a análise e tomada de decisões fundamentadas em informações, que
+são coletadas e relatadas pelos SMD: daí a importância e a relação entre
+esses sistemas. Nesse sentido, para Fryer, Antony e Ogden (2009) um SMD
+é um ``elemento crucial'' do SGD; de forma similar, para Brasil (2009) é
+``parte essencial''.
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, rightrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
+
+Sistemas de Medição e de Gestão de Desempenho proporcionam a ligação
+entre os indicadores de desempenho e as organizações, permitindo que
+essas se utilizem dos benefícios proporcionados por aqueles.
+
+\end{tcolorbox}
+
+Considerando os objetivos deste guia e que as atividades da etapa de
+gestão de desempenho cabem especificamente são próprias de cada
+organização, as subseções seguintes tratarão dos SMD.
+
+\hypertarget{caracteruxedsticas-dos-smd}{%
+\section{Características dos SMD}\label{caracteruxedsticas-dos-smd}}
+
+\textbf{Indicadores de desempenho não atuam de forma isolada, sendo
+elementos importantes dos SMD}. Para cumprir com seus objetivos e
+ofertar os resultados esperados e necessários às organizações, esses
+sistemas precisam ter as seguintes características:
+
+\section{Abrangência}
+
+A organização como um todo, suas subunidades e processos precisam ser
+considerados e representados de forma sistêmica.
+
+\section{Balanço}
+
+A representação sistêmica da organização precisa ser equilibrada com
+ponderação entre medição conforme suas estruturas, bem como entre seus
+processos e resultados.
+
+\section{Dinaminicidade}
+
+As ações das etapas e atividades desse sistema (definição, medição,
+monitoramento, avaliação e comunicação dos resultados) devem ser
+integradas e dinâmicas.
+
+\section{Multidimensionalidade}
+
+As diferentes dimensões envolvidas (ambientes interno e externo, partes
+interessadas, temporalidade das medições etc.) precisam ser consideradas
+no sistema.
+
+\section{Simplicidade}
+
+O sistema deve ter uma compreensão fácil, simples e aplicação na
+organização, devendo essa característica prevalecer sobre sistemas
+complexos, ainda que informatizados.
+
+Além das características acima, cada SMD possui formas de orientação e
+dimensões de medição de desempenho próprios, que implicam na definição
+dos indicadores de desempenho. Como exemplo, o Balanced Scorecard (BSC)
+proposto por Kaplan e Norton (1992), que é o SMD mais empregado no setor
+público (Moura \emph{et al}., 2019; 2020), é orientado conforme a
+estratégia da organização por meio das dimensões financeiras, clientes,
+processos internos, aprendizado e inovação.
+
+A \textbf{multidimensionalidade é uma característica importante para os
+SMD}, especialmente quando aplicados no setor público (será tratada na
+seção seguinte) e \textbf{a} \textbf{orientação do SMD é o parâmetro que
+baliza a definição dos objetivos a serem considerados e dos objetos a
+serem medidos por esse sistema}, cuja forma será proposta a seguir.
+
+\hypertarget{orientauxe7uxe3o-de-um-smd-para-uxf3rguxe3os-puxfablicos}{%
+\section{Orientação de um SMD para órgãos
+públicos}\label{orientauxe7uxe3o-de-um-smd-para-uxf3rguxe3os-puxfablicos}}
+
+No setor público, benefícios como melhoria contínua (Smith; Halligan;
+Mir, 2021), suporte na tomada de decisões, comparaçãoentre
+organizações(Král, 2022) e comunicação de resultados relevantes à
+sociedade (Moura et al., 2020) aderem a um \textbf{SMD orientado pelas
+missões institucionais}, que considera os propósitos das instituições e
+suas missões, não se restringindo ao que seja crítico ou estratégico.
+Todavia, benefícios como a avaliação de metas (Trong; Quang, 2020), a
+definição e o alinhamento de prioridades (Borst; Lako; De Vries, 2014),
+provêm da \textbf{orientação conforme os objetivos da instituição} (
+sejam eles estratégicos ou não). Consequentemente, quanto aos benefícios
+proporcionados, as duas formas mostram-se complementares.
+
+As \textbf{missões institucionais, especialmente no setor público,
+absorvem as missões sociais e os produtos e serviços da instituição}
+pela própria definição de missão, considerando assim \textbf{o que se
+deseja ofertar à sociedade para satisfação de suas necessidades}.
+
+Os \textbf{objetivos (institucionais ou estratégicos) refletem
+aspirações futuras das instituições} e devem ser considerados, pois
+\textbf{indicadores de desempenho também atuam como ferramentas na
+implantação desses objetivos}.
+
+Nem todos os órgãos públicos podem possuir um plano e objetivos
+estratégicos estabelecidos, ao contrário das suas missões e objetivos
+institucionais, advindos do próprio ato normativo que estabelece a sua
+criação. Portanto:
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-warning-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Importante}, rightrule=.15mm, colbacktitle=quarto-callout-warning-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
+
+SMD orientados pelo balanço entre as missões e objetivos das
+instituições possuem abrangência e precisão, fazendo frente às
+características e necessidades das instituições públicas.
+
+\end{tcolorbox}
+
+Em função da complexidade do setor público, \textbf{os} \textbf{estudos
+são unânimes ao citar que não se pode considerar um SMD padrão que se
+encaixe e modelo para todos os tipos de organizações públicas} (Johnsen;
+Vakkuri, 2006; Chua; Goh, 2009; Siti-Nabiha; Fuad, 2011; Goh, 2012; Oh;
+Bush, 2015; Gao, 2015; Moura \emph{et al}., 2020; Gębczyńska;
+Brajer-Marczak, 2020; De Waele \emph{et al}., 2021). Assim sendo, uma
+forma de orientação balanceada considera e absorve a diversidade de
+organizações desse setor.
+
+A subseção seguinte apresenta as diversas dimensões de medição, também
+requeridas pelo setor público para seus SMD.
+
 \hypertarget{dimensuxf5es-de-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}{%
 \chapter{Dimensões de medição de desempenho no setor
 público}\label{dimensuxf5es-de-mediuxe7uxe3o-de-desempenho-no-setor-puxfablico}}
 
-{Nesta subseção, tem-se um dos mais importantes elementos de um Sistema
+\begin{quote}
+Nesta subseção, tem-se um dos mais importantes elementos de um Sistema
 de Medição de Desempenho, especialmente no setor público: as dimensões
-de medição de desempenho.}
+de medição de desempenho.
+\end{quote}
 
 Dimensões de desempenho são as diferentes perspectivas consideradas na
 medição de um objeto; \textbf{devido à complexidade do setor público,
@@ -724,6 +1239,400 @@ atividades e resultados dessas organizações} (Christensen; James, 2020).
 A pesquisa citada anteriormente, identificou as dimensões priorizadas
 pelo setor público em seus SMD, apresentadas a seguir em grupos de
 características comuns.
+
+\hypertarget{dimensuxf5es-relacionadas-uxe0-cadeia-produtiva}{%
+\section{Dimensões relacionadas à cadeia
+produtiva}\label{dimensuxf5es-relacionadas-uxe0-cadeia-produtiva}}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Entradas, processos e saídas}}\vspace{2mm}
+
+Trata-se de uma das mais antigas dimensões de medição,
+\textbf{retratando a linha de produção de um bem ou serviço em forma de
+processo}. As \textbf{entradas} são os insumos necessários para a
+produção, transformados por meio de \textbf{processos} e gerando
+produtos: bens e serviços, denominados \textbf{saídas}.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Resultados gerados à sociedade}}\vspace{2mm}
+
+São importantes dimensões que dão sequência às dimensões apresentadas
+anteriormente (entrada-processo-saída) pois \textbf{medem o que foi
+efetivamente entregue à sociedade}, uma vez que nem sempre todo o
+trabalho realizado (saídas) corresponde àquilo que foi efetivamente
+provido ou consumido pela sociedade (resultados).
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Impacto}}\vspace{2mm}
+
+Esta dimensão relaciona-se com a anterior (resultados a sociedade) porém
+vai além, mensurando as mudanças efetivamente ocorridas após os
+resultados, como o valor público e o valor social gerados após a
+prestação de serviços. É uma dimensão de difícil medição por envolver
+resultados intangíveis e atemporais (ocorre ao longo prazo); todavia,
+\textbf{é das mais importantes para as organizações públicas}
+(especialmente para políticas públicas), \textbf{ao} \textbf{medir as
+mudanças efetivamente geradas na sociedade.}
+
+\end{tcolorbox}
+
+Conforme a descrição desse grupo de dimensões, verifica-se que elas se
+relacionam linearmente, compondo uma linha de produção:
+\textbf{entradas, processos e saídas}; os \textbf{resultados gerados
+pelas saídas} e após estes, os \textbf{impactos desses resultados na
+sociedade.}
+
+As dimensões \textbf{entradas} (insumos) e \textbf{processos} pertencem
+ao ambiente organizacional, sendo assim, \textbf{de fácil medição e
+controle}. As \textbf{saídas} desses processos ocorrem no curto prazo e
+estão na fronteira entre os ambientes interno e externo.
+
+As dimensões \textbf{resultados gerados à sociedade} e seus
+\textbf{impactos} pertencem ao ambiente externo; a primeira provém dos
+resultados provocados pelas \textbf{saídas} produzidas (ocorrem no curto
+e médio prazo), cuja \textbf{medição ocorre com certa dificuldade}. A
+última é proveniente das mudanças efetivamente ocorridas após os
+\textbf{resultados gerados}, logo, ocorrem no longo prazo, \textbf{sendo
+de mais difícil medição}. A figura abaixo relaciona as dimensões citadas
+e seus ambientes.
+
+\begin{figure}
+
+{\centering \includegraphics{images/dimensoes_cadeia_prodXambiente.JPG}
+
+}
+
+\caption{Relação entre as dimensões relativas à cadeia produtiva e seus
+respectivos ambientes}
+
+\end{figure}
+
+A partir do modelo apresentado na figura acima e as explicações
+anteriores, Brasil (2018b) resume que {\textbf{os indicadores a serem
+gerados serão proporcionalmente mais complexos conforme sua distância da
+origem das dimensões do modelo da linha de produção}}, que se inicia com
+as \textbf{entradas} (insumos) e finaliza com os \textbf{impactos
+gerados na sociedade}.
+
+Como exemplos, pode-se avaliar o emprego da dimensão \textbf{entradas}
+(ou insumos) para se mesurar a quantidade de recursos humanos em um
+hospital público, ou então, medir a quantidade de profissionais da saúde
+disponíveis por dia (\textbf{saídas}) nesse mesmo hospital. Por fim,
+pode-se medir a quantidade de profissionais disponíveis ao dia em função
+da quantidade total de profissionais existentes nesse hospital; nesse
+caso tem-se {\textbf{uma medição enriquecida que elevará o nível de
+informação gerada, subsidiando com mais qualidade a posterior tomada de
+decisão.}}
+
+Dessa forma, o último exemplo acima aponta para \textbf{a importância de
+dimensões que envolvam duas ou mais grandezas ou até dimensões}.
+Portanto, na sequência, tem-se outras dimensões de medição de
+desempenho, que podem ou não se relacionar com as dimensões já
+apresentadas.
+
+\hypertarget{dimensuxf5es-que-relacionam-duas-ou-mais-grandezas}{%
+\section{Dimensões que relacionam duas ou mais
+grandezas}\label{dimensuxf5es-que-relacionam-duas-ou-mais-grandezas}}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Finanças}}\vspace{2mm}
+
+São as dimensões mais comuns utilizadas pelo setor público em função da
+sua própria necessidade de controle e prestação de contas. Engloba a
+\textbf{medição de orçamentos, empenhos e custos}, de maneira a permitir
+comparações entre unidades, indicar a necessidade de novos
+investimentos, revelar o custo de determinado serviço etc.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Eficiência}}\vspace{2mm}
+
+Está intimamente \textbf{ligada a um processo} e a \textbf{uma relação
+entre duas grandezas}; como exemplo mais comum tem-se os serviços
+produzidos (saídas) em relação aos insumos necessários para sua produção
+(entradas), ou ainda, determinada medição de um processo em relação aos
+seus insumos ou às suas saídas.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Eficácia}}\vspace{2mm}
+
+Se a eficiência está ligada a um processo, a eficácia
+\textbf{relaciona-se diretamente com os seus produtos e resultados}
+etambém trata de uma relação entre duas grandezas, como os resultados
+gerados em relação aos insumos necessários, ou os resultados gerados em
+relação às saídas produzidas. \textbf{Esta dimensão é importante por
+capturar outras dimensões e medições do ambiente externo à organização},
+onde se posiciona a sociedade.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Produtividade}}\vspace{2mm}
+
+Trata-se de uma dimensão de medição de desempenho que \textbf{também
+relaciona duas grandezas (ou dimensões), cuja definição possui diversas
+variações}; muitos consideram a eficiência e a produtividade como
+sinônimos. A maior parte dos autores sugere que essa dimensão seja
+explicitamente definida no SMD.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Economia}}\vspace{2mm}
+
+Como dimensão de medição de desempenho, a economia \textbf{relaciona
+duas grandezas, sendo uma delas relativa à dimensão finanças}. Assim,
+pode-se avaliar insumos, processos saídas, resultados e impactos em
+relação aos seus custos visando a relação mais econômica possível.
+
+\end{tcolorbox}
+
+Quanto às dimensões de desempenho deste grupo, estudos como os de
+Stroobants e Bouckaert (2013) sugerem combinações entre elas e as
+dimensões anteriores na composição de indicadores de desempenho. Como
+citado, essas dimensões estão \textbf{ligadas às diversas etapas dos
+processos produtivos, seus resultados e impactos e especialmente as
+combinações entre eles}.
+
+Alguns autores utilizam a dimensão \textbf{efetividade}, que mede a
+relação entre outras dimensões, sendo uma delas necessariamente os
+impactos gerados; outros (como este guia) representam essa relação por
+meio da dimensão eficácia (que abrange diversas outras relações). A
+nomenclatura da relação medida pode variar, mas a sua definição deve
+estar explicitamente apresentada no SMD projetado.
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Dica}, rightrule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
+
+Dimensões de desempenho que envolvem a relação entre duas outras (como
+eficiência, eficácia, produtividade, economia etc.), devem ser
+claramente explicadas no SMD.
+
+\end{tcolorbox}
+
+As dimensões abaixo relacionam-se diretamente com o ambiente externo,
+onde ocorre a prestação dos serviços à sociedade.
+
+\hypertarget{dimensuxf5es-exclusivamente-de-ambiente-externo}{%
+\section{Dimensões exclusivamente de ambiente
+externo}\label{dimensuxf5es-exclusivamente-de-ambiente-externo}}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Satisfação dos clientes}}\vspace{2mm}
+
+A satisfação do cliente-cidadão é um fator importante para o sucesso das
+instituições públicas, visto que ele é o consumidor de seus produtos e
+serviços. Apesar de não ser de simples medição, essa dimensão permite o
+\textbf{envolvimento e a interação com a sociedade, especialmente na
+confirmação de seus sentimentos e percepções sobre a prestação dos
+serviços públicos.}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Equidade}}\vspace{2mm}
+
+Trata da \textbf{medição da igualdade na distribuição e acesso aos
+serviços públicos à}, que pode ser avaliada por diferentes formas como a
+avaliação da disponibilização dos serviços ou pela diferença entre o
+serviço entregue e o que deveria ter sido entregue conforme um padrão
+(leis, regulamentos etc.).
+
+\end{tcolorbox}
+
+A \textbf{equidade}, ela pode ser avaliada pela comparação entre a
+qualidade dos serviços prestados a diferentes grupos ou regiões (Shin,
+1981) ou por meio de comparações entre a \textbf{eficiência} medida:
+áreas ou unidades do setor público ineficientes indicam uma distribuição
+desigual de seus serviços (Smith; Street, 2005). Jones e Rowlinson
+(2009) propõem considerar as diversas medições dos \textbf{resultados
+gerados à sociedade} na avaliação da igualdade da distribuição desses
+serviços aos clientes-cidadãos.
+
+Quanto à \textbf{satisfação dos cientes}, Conroy (2001) alerta que, na
+maioria dos casos, ela reflete as expectativas da sociedade em relação a
+um serviço ou organização e não desempenho destes. Toledo \emph{et al}.,
+(2012) registram que indicadores dessa dimensão precisam refletir a
+organização e os seus esforços para agregar valor ao cliente; como
+exemplo não exclusivo do setor público citam indicadores de insatisfação
+dos clientes.
+
+Verifica-se que a medição da \textbf{satisfação dos clientes} e da
+\textbf{equidade} na prestação dos serviços \textbf{deslocam o foco da
+avaliação do desempenho organizacional para o cenário externo, onde está
+a necessidade de atendimento das demandas da sociedade}, demandas que
+são a razão de ser da administração pública (Matias-Pereira, 2018; Di
+Pietro, 2020).
+
+Por fim, tem-se as dimensões amplas, que consideram a medição do
+desempenho tanto no ambiente interno quanto no externo, apresentadas a
+seguir.
+
+\hypertarget{dimensuxf5es-que-abrangem-os-ambientes-interno-e-externo}{%
+\section{Dimensões que abrangem os ambientes interno e
+externo}\label{dimensuxf5es-que-abrangem-os-ambientes-interno-e-externo}}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Qualidade}}\vspace{2mm}
+
+A preocupação com a qualidade no serviço público advém do paradigma da
+NGP; trata-se de uma dimensão que pode ser \textbf{medida internamente
+durante as atividades organizacionais e processos produtivos} ou,
+\textbf{externamente, na prestação dos serviços por meio dos seguintes
+aspectos: confiabilidade, responsividade, segurança, empatia e
+tangibilidade}.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Inovação}}\vspace{2mm}
+
+Essa dimensão deve ser considerada pelos benefícios da inovação diante
+do desafio do setor público em empregar eficazmente recursos cada vez
+mais escassos e tornar-se ágil e flexível perante cenários diversos e
+novos (Tidd; Bessant, 2015), sendo que \textbf{a capacidade em inovar
+pode elevar o desempenho organizacional de instituições públicas}
+(Marchiori \emph{et al}., 2023), seja por meio de processos no ambiente
+interno ou na forma de produtos e serviços disponibilizados e prestados
+à sociedade.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Sustentabilidade}}\vspace{2mm}
+
+Trata-se de uma dimensão ampla, que abrange os ambientes interno e
+externo à organização por meio dos aspectos ambiental, econômico e
+social (Feil; Schreiber, 2017) viabilizando as demais dimensões em busca
+do \textbf{aumento do desempenho dos serviços e resultados do setor
+público, porém, salvaguardando as instituições, o meio ambiente e a
+sociedade} (Dal Mas \emph{et al}., 2019).
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, rightrule=.15mm, left=2mm, colback=white, arc=.35mm, bottomrule=.15mm]
+
+\textbf{🔽{Partes interessadas}}\vspace{2mm}
+
+Com o paradigma da NGP, o setor público passou a considerar as
+\textbf{partes interessadas} (\emph{stakeholders}) \textbf{internas e
+externas, que também se valem das medições dos indicadores}, como
+cidadãos, gestores, servidores públicos, políticos, representantes de
+empresas e organizações envolvidos no objeto em medição.
+
+\end{tcolorbox}
+
+Como exemplos de emprego da dimensão \textbf{qualidade}, internamente,
+pode-se medir falhas e desperdícios, denominados como custos de
+qualidade, a fim de se avaliar a \textbf{eficiência} e subsidiar
+análises financeiras, que permitirão identificar programas custosos,
+esses podem ser descontinuados ou reformulados (Navaratnam, 1993). No
+cenário externo, ferramentas como o SERVQUAL, avaliam a expectativa dos
+clientes em relação a um serviço com aquele que foi efetivamente
+prestado (McKoy, 2009). Para Smith e Street (2005) variações na
+\textbf{eficiência} podem revelar uma alteração na \textbf{qualidade} da
+prestação dos serviços públicos. Em relação à dimensão
+\textbf{inovação}, estudos a exemplificam na medição de desempenho
+organizacional por meio da taxa de abertura de serviços públicos
+digitais (Stroobants; Bouckaert, 2013). Quanto à dimensão
+\textbf{sustentabilidade}, Cloete (2018) a emprega por meio de
+\textbf{indicadores de desempenho alinhados com os ODS da ONU}.
+
+Por fim, registra-se que os \textbf{requisitos das partes interessadas},
+as quais participam da prestação dos serviços que, eventualmente, não
+foram classificados nas dimensões anteriores precisam ser considerados
+nos SMD do setor. Conforme Burgman e Roos (2004), uma \textbf{parte
+interessada é qualquer ente com capacidade para afetar um resultado
+importante para uma instituição}. Martins \emph{et al}., (2019)
+verificaram três grupos de fatores que influenciam no projeto de
+sistemas de medição de desempenho em instituições públicas e sem fins
+lucrativos: o propósito da instituição, as \textbf{partes interessadas}
+e a forma de gestão das instituições. Pesquisas como as de Patrick e
+French (2011), Cowell \emph{et al}., (2012) e Melo e Mota (2020) apontam
+a falha de alguns governos em não considerar os requisitos das partes
+interessadas no SMD de suas organizações públicas.
+
+\hypertarget{relauxe7uxf5es-entre-as-dimensuxf5es-de-mediuxe7uxe3o-de-desempenho}{%
+\section{Relações entre as dimensões de medição de
+desempenho}\label{relauxe7uxf5es-entre-as-dimensuxf5es-de-mediuxe7uxe3o-de-desempenho}}
+
+A figura abaixo apresenta alguns exemplos de relações de causalidade
+entre as 16 dimensões citadas, demonstrando a possível relação de
+sinergia entre elas. Assim, um mesmo objeto pode ser medido por meio de
+diversas dimensões em \textbf{uma relação de causa e efeito}.
+
+\begin{figure}
+
+{\centering \includegraphics{images/relac_dimensoes.JPG}
+
+}
+
+\caption{Ambientes e algumas relações entre as dimensões de medição de
+desempenho}
+
+\end{figure}
+
+Na figura acima, a dimensão \textbf{eficiência} é exemplificada de duas
+formas: pela relação entre as dimensões \textbf{saídas} e
+\textbf{entradas}, e, de outra forma, pela relação entre os
+\textbf{processos} e as \textbf{entradas}. Em outro exemplo, a dimensão
+\textbf{eficácia} tem como uma de suas possíveis relações a razão entre
+os \textbf{resultados gerados à sociedade} e as \textbf{entradas}
+necessárias para tal; como último exemplo, tem-se uma possível relação
+entre a dimensão \textbf{qualidade} e a \textbf{satisfação dos
+clientes}.
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, toprule=.15mm, breakable, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, rightrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, arc=.35mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, coltitle=black, left=2mm]
+
+Entre as vantagens de um Sistema de Medição de Desempenho tem-se não
+apenas diversas dimensões de medição de desempenho, mas \textbf{a
+relação de causalidade entre elas}.
+
+\end{tcolorbox}
+
+Portanto, verifica-se que:
+
+\begin{itemize}
+\item
+  as dimensões de desempenho representam as diversas perspectivas sobre
+  o objeto a ser medido;
+\item
+  essas perspectivas devem trabalhar em sinergia, de forma que o
+  resultado de uma dimensão possa contribuir com outra;
+\item
+  as dimensões pertencentes ao ambiente interno (organização) são de
+  mais fácil medição e controle, situação que se altera até o seu
+  oposto, conforme o avanço para o ambiente externo (sociedade) até a
+  medição dos impactos gerados;
+\item
+  nem todas as dimensões de medição de desempenho precisam ser
+  consideradas, porém, quanto mais abrangente e detalhado for o sistema
+  de medição, maior será o nível de informações, permitindo uma melhor
+  tomada de decisão na organização.
+\end{itemize}
+
+Finalmente, após os fundamentos desta seção, é possível conhecer e
+detalhar as ferramentas responsáveis pelas medições desejadas - os
+indicadores de desempenho. :::
 
 \hypertarget{indicadores-de-desempenho}{%
 \chapter{Indicadores de desempenho}\label{indicadores-de-desempenho}}
@@ -1502,7 +2411,6 @@ Brasil. 2018a. \emph{Guia de Indicadores de Desempenho TJDFT}. ENAP.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Costin}{}}%
 Costin, Claudia. 2010. \emph{Administração pública}. Grupo GEN.
-\url{https://app.minhabiblioteca.com.br/\#/books/9788595152281/}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-garengo2020}{}}%
 Garengo, Patrizia, e Alberto Sardi. 2020. {«Performance Measurement and
@@ -1517,6 +2425,11 @@ Dimensions of Performance Measurement in Policy and Public Services»}.
 \emph{Policy Studies} 37 (6): 499--507.
 \url{https://doi.org/10.1080/01442872.2016.1144739}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-jackson1993}{}}%
+Jackson, Peter M. 1993. {«Public Service Performance Evaluation: A
+Strategic Perspective»}. \emph{Public Money \& Management} 13 (4):
+9--14. \url{https://doi.org/10.1080/09540969309387783}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-vanderkolk2022}{}}%
 Kolk, Berend van der. 2022. {«Performance Measurement in the Public
 Sector: Mapping 20~Years of Survey Research»}. \emph{Financial
@@ -1525,7 +2438,7 @@ Accountability \& Management} 38 (4): 703--29.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Matias-Pereira}{}}%
 Matias-Pereira, José. 2018. \emph{Administração pública}. 5a ed. Grupo
-GEN. \url{https://app.minhabiblioteca.com.br/\#/books/9788597016093/}.
+GEN.
 
 \leavevmode\vadjust pre{\hypertarget{ref-moura2019}{}}%
 Moura, Louisi Francis, Edson Pinheiro de Lima, Fernando Deschamps,

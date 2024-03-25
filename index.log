@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2024.3.13)  14 MAR 2024 14:47
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2024.3.13)  23 MAR 2024 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,40 +793,40 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 199.
 No file index.aux.
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 206.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 206.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 206.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 206.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 206.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 206.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 207.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 206.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 207.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -852,7 +852,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 206.
+(Font)              scaled to size 10.95pt on input line 207.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -884,15 +884,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 206.
+(Font)              scaled to size 10.95pt on input line 207.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 206.
+(Font)              `operators' in the math version `normal' on input line 207.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 206.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 207.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 206.
+(Font)              `operators' in the math version `bold' on input line 207.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 206.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 207.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -971,13 +971,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 206.
+(Font)              `symbols' in the math version `normal' on input line 207.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 206.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 207.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 206.
+(Font)              `symbols' in the math version `bold' on input line 207.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 206.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 207.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -1038,14 +1038,14 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 206.
+(Font)              `largesymbols' in the math version `normal' on input line 207.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 206.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 207.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 206.
+(Font)              `largesymbols' in the math version `bold' on input line 207.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 206.
-Package hyperref Info: Link coloring ON on input line 206.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 207.
+Package hyperref Info: Link coloring ON on input line 207.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
@@ -1053,32 +1053,32 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 208.
+(Font)              scaled to size 14.4pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 208.
+(Font)              scaled to size 10.0pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 208.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 208.
+(Font)              scaled to size 7.0pt on input line 209.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 209.
 (c:/Users/28319562856/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 208.
+(Font)              scaled to size 14.4013pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 208.
+(Font)              scaled to size 10.00092pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 208.
+(Font)              scaled to size 7.00064pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 208.
+(Font)              scaled to size 14.39845pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 208.
+(Font)              scaled to size 9.99893pt on input line 209.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 208.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 208.
+(Font)              scaled to size 6.99925pt on input line 209.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 209.
 (c:/Users/28319562856/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 208.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 209.
 (c:/Users/28319562856/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1093,19 +1093,37 @@ No file index.toc.
 [2
 
 ]
-Underfull \hbox (badness 1242) in paragraph at lines 262--275
+Underfull \hbox (badness 1242) in paragraph at lines 265--278
 \TU/lmr/m/n/10.95 realizadas, seus resultados, discussões e forma de validação do guia, podem [][]acessar
  []
 
 [3
 
-] [4] [5
+]
+Underfull \hbox (badness 1796) in paragraph at lines 316--321
+\TU/lmr/m/n/10.95 TALLENS JUNIOR, Newton Krüger; PEDERSINI, Daiana Rafaela; MERGULHÃO,
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 316--321
+\TU/lmr/m/n/10.95 Ricardo Coser; DOS SANTOS, Emerson Gomes. \TU/lmr/bx/n/10.95 Guia digital: construção de
+ []
+
+[4]
+Missing character: There is no ⏱ (U+23F1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ️ (U+FE0F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 💡 (U+1F4A1) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ⚙ (U+2699) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ️ (U+FE0F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 📊 (U+1F4CA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 📝 (U+1F4DD) in font [lmroman10-regular]:mapping=tex-text;!
+[5
 
 ]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 337.
+(scrkbase)              on input line 382.
 Missing character: There is no ⏱ (U+23F1) in font [lmsans10-bold]:mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font [lmsans10-bold]:mapping=tex-text;!
 [6
@@ -1127,133 +1145,195 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
 [9
 
 ] [10]
 chapter 2.
+
+Underfull \hbox (badness 1072) in paragraph at lines 574--576
+[]\TU/lmr/m/n/10.95 Nesta subseção apresenta-se o objetivo da medição de desempenho e suas
+ []
+
 [11
 
 ] [12]
 chapter 3.
 [13
 
-]
-Underfull \hbox (badness 1454) in paragraph at lines 644--657
+] [14] [15] [16] [17]
+Underfull \hbox (badness 1454) in paragraph at lines 983--999
 []\TU/lmr/m/n/10.95 As implicações positivas da medição de desempenho organizacional no setor público
- []
-
-[14
-
-]
-part II.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 663.
-Missing character: There is no 💡 (U+1F4A1) in font [lmsans10-bold]:mapping=tex-text;!
-[15
-
-]
-Underfull \hbox (badness 2027) in paragraph at lines 679--687
-[]\TU/lmr/m/n/10.95 (\TU/lmr/bx/n/10.95 jackson1993?\TU/lmr/m/n/10.95 ) aponta que \TU/lmr/bx/n/10.95 o setor público possui diversas complexidades
- []
-
-[16]
-chapter 4.
-[17
-
-]
-chapter 5.
-
-Underfull \hbox (badness 1024) in paragraph at lines 720--727
-[]\TU/lmr/m/n/10.95 Dimensões de desempenho são as diferentes perspectivas consideradas na medição de
  []
 
 [18
 
 ]
-chapter 6.
+part II.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1005.
+Missing character: There is no 💡 (U+1F4A1) in font [lmsans10-bold]:mapping=tex-text;!
 [19
 
 ]
-chapter 7.
-[20
+Underfull \hbox (badness 1577) in paragraph at lines 1021--1029
+\TU/lmr/m/n/10.95 provavelmente, não proporcionarão os resultados esperados, especialmente diante das
+ []
 
-]
-chapter 8.
+[20]
+chapter 4.
 [21
 
 ]
-chapter 9.
-[22
+File: images/SMD.JPG Graphic file (type bmp)
+<images/SMD.JPG>
 
-] [23
+Overfull \hbox (313.60727pt too wide) in paragraph at lines 1087--1088
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 1095--1102
+\TU/lmr/bx/n/10.95 de Medição de Desempenho (SMD) organizacionais identificam, medem,
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 1095--1102
+\TU/lmr/bx/n/10.95 analisam e comunicam o desempenho de atividades, processos, projetos,
+ []
+
+[22] [23]
+Underfull \hbox (badness 1270) in paragraph at lines 1150--1153
+\TU/lmr/m/n/10.95 As diferentes dimensões envolvidas (ambientes interno e externo, partes interessadas,
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 1168--1173
+[]\TU/lmr/m/n/10.95 A \TU/lmr/bx/n/10.95 multidimensionalidade é uma característica importante para os SMD\TU/lmr/m/n/10.95 ,
+ []
+
+[24] [25]
+chapter 5.
+
+Underfull \hbox (badness 1024) in paragraph at lines 1235--1242
+[]\TU/lmr/m/n/10.95 Dimensões de desempenho são as diferentes perspectivas consideradas na medição de
+ []
+
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+[26
+
+]
+File: images/dimensoes_cadeia_prodXambiente.JPG Graphic file (type bmp)
+<images/dimensoes_cadeia_prodXambiente.JPG>
+
+Underfull \hbox (badness 1275) in paragraph at lines 1317--1323
+[]\TU/lmr/m/n/10.95 A partir do modelo apresentado na figura acima e as explicações anteriores, Brasil
+ []
+
+[27]
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+[28]
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+[29]
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+[30]
+Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=tex-text;!
+File: images/relac_dimensoes.JPG Graphic file (type bmp)
+<images/relac_dimensoes.JPG>
+[31] [32] [33]
+chapter 6.
+[34
+
+]
+chapter 7.
+[35
+
+]
+chapter 8.
+[36
+
+]
+chapter 9.
+[37
+
+] [38
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 860.
+(scrkbase)              on input line 1769.
 Missing character: There is no ⚙ (U+2699) in font [lmsans10-bold]:mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font [lmsans10-bold]:mapping=tex-text;!
-[24
+[39
 
 ]
 chapter 10.
 
-Underfull \hbox (badness 1052) in paragraph at lines 869--876
+Underfull \hbox (badness 1052) in paragraph at lines 1778--1785
 \TU/lmr/m/n/10.95 Consequentemente, o modelo aqui proposto é um processo restrito à construção dos
  []
 
-[25
+[40
 
 ]
 Missing character: There is no 🟥 (U+1F7E5) in font [lmsans10-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 1430) in paragraph at lines 933--943
+Underfull \hbox (badness 1430) in paragraph at lines 1842--1852
 \TU/lmr/m/n/10.95 Organizações com \TU/lmr/bx/n/10.95 maturidade na medição de seu desempenho podem estar
  []
 
-[26
+[41
 
-] [27]
+] [42]
 Missing character: There is no 🟦 (U+1F7E6) in font [lmsans10-bold]:mapping=tex-text;!
-[28
+[43
 
 ]
 Missing character: There is no 🟨 (U+1F7E8) in font [lmsans10-bold]:mapping=tex-text;!
-[29
+[44
 
 ]
 Missing character: There is no 🟩 (U+1F7E9) in font [lmsans10-bold]:mapping=tex-text;!
-[30
+[45
 
 ]
 chapter 11.
 
-Underfull \hbox (badness 1237) in paragraph at lines 1084--1091
+Underfull \hbox (badness 1237) in paragraph at lines 1993--2000
 []\TU/lmr/m/n/10.95 Os \TU/lmr/bx/n/10.95 resultados mais importantes das etapas do processo de construção do
  []
 
-[31
+[46
 
-] [32
+] [47
 
 ]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1151.
+(scrkbase)              on input line 2060.
 Missing character: There is no 📊 (U+1F4CA) in font [lmsans10-bold]:mapping=tex-text;!
-[33
+[48
 
-] [34
+] [49
 
-] [35
+] [50
 
-] [36]
+] [51]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 11.1 on input line 1320.
+(longtable)                in table 11.1 on input line 2229.
 
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
@@ -1262,87 +1342,87 @@ Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
-[37]
+[52]
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⛔ (U+26D4) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
-[38] [39
+[53] [54
 
 ]
 Missing character: There is no 📝 (U+1F4DD) in font [lmsans10-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 1424) in paragraph at lines 1443--1450
+Underfull \hbox (badness 1424) in paragraph at lines 2352--2359
 []\TU/lmr/m/n/10.95 Órgãos públicos podem adotar indicadores para os mais diversos motivos: desde o
  []
 
-[40
+[55
 
-] [41]
+] [56]
 Missing character: There is no 📚 (U+1F4DA) in font [lmsans10-bold]:mapping=tex-text;!
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 1501.
+(Font)              scaled to size 7.665pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 1501.
+(Font)              scaled to size 5.475pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 1501.
+(Font)              scaled to size 10.95099pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.66568pt on input line 1501.
+(Font)              scaled to size 7.66568pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.4755pt on input line 1501.
+(Font)              scaled to size 5.4755pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 1501.
+(Font)              scaled to size 10.94882pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 1501.
+(Font)              scaled to size 7.66417pt on input line 2410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 1501.
+(Font)              scaled to size 5.47441pt on input line 2410.
 
-Overfull \hbox (30.65259pt too wide) in paragraph at lines 1499--1502
+Overfull \hbox (30.65259pt too wide) in paragraph at lines 2408--2411
 $[][][][][][][][][][][][][] [] [][][][][][] [][] [][][][][][][][][][][] [] [][][][][][][][][][][][] [][] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][] []$
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 1526--1529
-[]\TU/lmr/m/n/10.95 Matias-Pereira, José. 2018. \TU/lmr/m/it/10.95 Administração pública\TU/lmr/m/n/10.95 . 5a ed. Grupo GEN. [][]$[][][][][] []$
+Overfull \hbox (1.16626pt too wide) in paragraph at lines 2428--2432
+\TU/lmr/m/it/10.95 Public Money & Management \TU/lmr/m/n/10.95 13 (4): 9–14. [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$[][]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1549
+Underfull \hbox (badness 10000) in paragraph at lines 2458--2462
 [][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][][][] [] [] [] [][][][] [] [] [] [][][][][][][] [] [][] [] [][] [] [][] [] [][][] [] [][][][] []$
  []
 
-[42
+[57
 
 ]
 Missing character: There is no 📖 (U+1F4D6) in font [lmsans10-bold]:mapping=tex-text;!
-[43
+[58
 
 ]
-Underfull \hbox (badness 1152) in paragraph at lines 1620--1623
+Underfull \hbox (badness 1152) in paragraph at lines 2533--2536
 []\TU/lmr/bx/n/10.95 Inovação: \TU/lmr/m/n/10.95 um processo, produto ou serviço, novo ou melhorado, que se diferencie
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 1632--1634
+Underfull \hbox (badness 1062) in paragraph at lines 2545--2547
 []\TU/lmr/bx/n/10.95 Objetivo organizacional: \TU/lmr/m/n/10.95 uma pretensão futura, uma situação ou condição que a
  []
 
-[44]
+[59]
 Missing character: There is no ✅ (U+2705) in font [lmsans10-bold]:mapping=tex-text;!
 
-LaTeX Warning: File `img/cheatsheet.png' not found on input line 1690.
+LaTeX Warning: File `img/cheatsheet.png' not found on input line 2603.
 
 ! Unable to load picture or PDF file 'img/cheatsheet.png'.
 <to be read again> 
                    }
-l.1690 ...ing \includegraphics{img/cheatsheet.png}
+l.2603 ...ing \includegraphics{img/cheatsheet.png}
                                                    
 Here is how much of TeX's memory you used:
- 38138 strings out of 476778
- 789981 string characters out of 5800854
- 1936842 words of memory out of 5000000
- 59633 multiletter control sequences out of 15000+600000
+ 38237 strings out of 476778
+ 791902 string characters out of 5800854
+ 1949842 words of memory out of 5000000
+ 59728 multiletter control sequences out of 15000+600000
  564516 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,8n,121p,10900b,949s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,9n,121p,10900b,1010s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (44 pages).
+Output written on index.pdf (59 pages).

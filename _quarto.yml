@@ -32,7 +32,7 @@ book:
       - name: Universidade Federal de São Paulo (Campus Osasco)
         url: https://www.unifesp.br/campus/osa2/
   
-  date: today
+  date: 03/23/24
   repo-url: https://github.com/NKTallensJr/Guia_digital_Q/
   repo-branch: master
   
@@ -75,10 +75,10 @@ book:
     - exemplosUso.qmd
     - forum.qmd
 
-sidebar:
+  sidebar:
     tools:
       - icon: download
-        href: https://repositorio.ipea.gov.br/bitstream/11058/12264/1/Introducao_a_acessibilidade_urbana.pdf
+        href: https://drive.google.com/file/d/1XEPbfm2wZVWjcKBw5oVUntZoBrNMQ55G/view
         text: "Download PDF"
 
 bibliography: references.bib

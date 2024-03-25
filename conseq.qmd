@@ -1,9 +1,13 @@
 # Consequências indesejadas e limitações da medição de desempenho
+
 ::: {style="text-align: justify;"}
 > Esta importante subseção apresenta os efeitos indesejados e fatores limitantes da medição de desempenho no setor público em função da sua complexidade.
 
+:::
+
 ## A complexidade da gestão organizacional e do setor público
 
+::: {style="text-align: justify;"}
 As organizações são coleções de elementos tangíveis e intangíveis, cujo desempenho é determinado por múltiplos fatores e condições, internos e externos (Adcroft; Willis, 2005), onde os indicadores de desempenho avaliam áreas pré-determinadas nos sistemas de medição sem fornecer uma noção sobre o todo (Halásková; Halásková, 2020); portanto, indicadores são dão suporte à gestão, mas não a fazem a gestão organizacional por si. Nesse sentido, as pesquisas afirmam de forma uníssona:
 
 ::: callout-note
@@ -37,13 +41,15 @@ Devido ao amplo escopo, diversidade de objetivos e de *stakeholders* (partes int
 Além dos efeitos indesejados, estudos apontam **fatores limitantes** à medição de desempenho (alguns deles provenientes da própria complexidade do setor público) como: excesso de indicadores (Gao, 2015), uso meramente simbólico (Gębczyńska; Brajer-Marczak, 2020), seleção inapropriada de indicadores (Ensslin; Welter; Pedersini, 2022), substituição precoce de indicadores (Oppi; Campanale; Cinquini, 2022) e conflito entre stakeholders (Leca; Laguecir, 2023).
 
 O conhecimento prévio desses efeitos e fatores é importante para o desenvolvimento de indicadores e sistemas de medição, especialmente para superá-los, motivo pelo qual eles são apresentados a seguir.
+:::
 
 ## Consequências indesejadas dos SMD no setor público
 
+::: {style="text-align: justify;"}
 O quadro abaixo apresenta algumas consequências não intencionais do uso de indicadores de desempenho no setor público apontados por Smith (1995) e descritos por Freeman (2002):
 
 | FENÔMENO            | DESCRIÇÃO                                                           |
-|:-------------------|:---------------------------------------------------|
+|:--------------------|:--------------------------------------------------|
 | Visão em túnel      | Ênfase restrita ao fenômeno mensurado pelo indicador                |
 | Subutilização       | Busca de objetivos limitados, ao invés de objetivos organizacionais |
 | Miopia              | Perseguição exagerada a metas de curto prazo                        |
@@ -56,13 +62,15 @@ O quadro abaixo apresenta algumas consequências não intencionais do uso de ind
 : Consequências não intencionais do uso de indicadores de desempenho no setor público {.striped .hover}
 
 Os exemplos acima revelam fenômenos indesejados por meio do comportamento dos gestores diante da medição de desempenho organizacional. Trata-se de **um alerta importante a ser internalizado antes da implantação de sistemas de medição de desempenho nas organizações**.
+:::
 
 ## Fatores limitantes à medição de desempenho no setor público
 
+::: {style="text-align: justify;"}
 Na sequência são apresentados em ordem alfabética outros 27 fatores limitantes ou barreiras à medição de desempenho no setor público provenientes de pesquisas científicas publicadas, cujo conhecimento prévio se faz necessário a toda força de trabalho que atua diretamente ou indiretamente na medição de desempenho organizacional na administração pública.
 
 | **\#** |                **FATOR**                 |                                                                     **DESCRIÇÃO**                                                                     |
-|:------:|:--------------:|:--------------------------------------:|
+|:--------------:|:--------------:|:---------------------------------------:|
 |   1    |               Ambiguidade                |                            Falta de clareza e consistência (causal ou intencional) nos processos de medição de desempenho.                            |
 |   2    |                Burocracia                |                        Excesso de procedimentos burocráticos que restringem ou causam mora excessiva à implantação de um SMD.                         |
 |   3    |           Comunicação interna            |                         Ausência de comunicação à força de trabalho sobre a importância, implantação e funcionamento do SMD.                          |
