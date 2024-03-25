@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2024.3.13)  23 MAR 2024 18:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2024.3.13)  25 MAR 2024 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,21 +1109,13 @@ Underfull \hbox (badness 1424) in paragraph at lines 316--321
 \TU/lmr/m/n/10.95 Ricardo Coser; DOS SANTOS, Emerson Gomes. \TU/lmr/bx/n/10.95 Guia digital: construção de
  []
 
-[4]
-Missing character: There is no ⏱ (U+23F1) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 💡 (U+1F4A1) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ⚙ (U+2699) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📝 (U+1F4DD) in font [lmroman10-regular]:mapping=tex-text;!
-[5
+[4] [5
 
 ]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 382.
+(scrkbase)              on input line 381.
 Missing character: There is no ⏱ (U+23F1) in font [lmsans10-bold]:mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font [lmsans10-bold]:mapping=tex-text;!
 [6
@@ -1151,7 +1143,7 @@ Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=t
 ] [10]
 chapter 2.
 
-Underfull \hbox (badness 1072) in paragraph at lines 574--576
+Underfull \hbox (badness 1072) in paragraph at lines 573--575
 []\TU/lmr/m/n/10.95 Nesta subseção apresenta-se o objetivo da medição de desempenho e suas
  []
 
@@ -1162,7 +1154,7 @@ chapter 3.
 [13
 
 ] [14] [15] [16] [17]
-Underfull \hbox (badness 1454) in paragraph at lines 983--999
+Underfull \hbox (badness 1454) in paragraph at lines 982--998
 []\TU/lmr/m/n/10.95 As implicações positivas da medição de desempenho organizacional no setor público
  []
 
@@ -1172,12 +1164,12 @@ Underfull \hbox (badness 1454) in paragraph at lines 983--999
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1005.
+(scrkbase)              on input line 1004.
 Missing character: There is no 💡 (U+1F4A1) in font [lmsans10-bold]:mapping=tex-text;!
 [19
 
 ]
-Underfull \hbox (badness 1577) in paragraph at lines 1021--1029
+Underfull \hbox (badness 1577) in paragraph at lines 1020--1028
 \TU/lmr/m/n/10.95 provavelmente, não proporcionarão os resultados esperados, especialmente diante das
  []
 
@@ -1189,34 +1181,34 @@ chapter 4.
 File: images/SMD.JPG Graphic file (type bmp)
 <images/SMD.JPG>
 
-Overfull \hbox (313.60727pt too wide) in paragraph at lines 1087--1088
+Overfull \hbox (313.60727pt too wide) in paragraph at lines 1086--1087
  [][] 
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 1095--1102
+Underfull \hbox (badness 2961) in paragraph at lines 1094--1101
 \TU/lmr/bx/n/10.95 de Medição de Desempenho (SMD) organizacionais identificam, medem,
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 1095--1102
+Underfull \hbox (badness 2126) in paragraph at lines 1094--1101
 \TU/lmr/bx/n/10.95 analisam e comunicam o desempenho de atividades, processos, projetos,
  []
 
 [22] [23]
-Underfull \hbox (badness 1270) in paragraph at lines 1150--1153
+Underfull \hbox (badness 1270) in paragraph at lines 1149--1152
 \TU/lmr/m/n/10.95 As diferentes dimensões envolvidas (ambientes interno e externo, partes interessadas,
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 1168--1173
+Underfull \hbox (badness 2961) in paragraph at lines 1167--1172
 []\TU/lmr/m/n/10.95 A \TU/lmr/bx/n/10.95 multidimensionalidade é uma característica importante para os SMD\TU/lmr/m/n/10.95 ,
  []
 
 [24] [25]
 chapter 5.
 
-Underfull \hbox (badness 1024) in paragraph at lines 1235--1242
+Underfull \hbox (badness 1024) in paragraph at lines 1234--1241
 []\TU/lmr/m/n/10.95 Dimensões de desempenho são as diferentes perspectivas consideradas na medição de
  []
 
@@ -1229,7 +1221,7 @@ Missing character: There is no 🔽 (U+1F53D) in font [lmroman10-bold]:mapping=t
 File: images/dimensoes_cadeia_prodXambiente.JPG Graphic file (type bmp)
 <images/dimensoes_cadeia_prodXambiente.JPG>
 
-Underfull \hbox (badness 1275) in paragraph at lines 1317--1323
+Underfull \hbox (badness 1275) in paragraph at lines 1316--1322
 []\TU/lmr/m/n/10.95 A partir do modelo apresentado na figura acima e as explicações anteriores, Brasil
  []
 
@@ -1252,88 +1244,130 @@ File: images/relac_dimensoes.JPG Graphic file (type bmp)
 <images/relac_dimensoes.JPG>
 [31] [32] [33]
 chapter 6.
+File: images/SMD_indicadores.JPG Graphic file (type bmp)
+<images/SMD_indicadores.JPG>
 [34
 
 ]
+Underfull \hbox (badness 4060) in paragraph at lines 1685--1692
+[]\TU/lmr/bx/n/10.95 KPI também são parâmetros numéricos quantificáveis, porém fornecem
+ []
+
+[35]
+Underfull \hbox (badness 3407) in paragraph at lines 1731--1738
+\TU/lmr/m/n/10.95 expressam informações qualitativas ou quantitativas (Ferreira; Cassiolato;
+ []
+
+[36]
 chapter 7.
-[35
 
-]
-chapter 8.
-[36
+Underfull \hbox (badness 1418) in paragraph at lines 1790--1796
+\TU/lmr/m/n/10.95 2007; Lundberg; Balfors; Folkeson, 2009). Apesar dessa importante demonstração,
+ []
 
-]
-chapter 9.
 [37
 
-] [38
+]
+File: images/dimensoes_cadeia_prodXambiente.JPG Graphic file (type bmp)
+<images/dimensoes_cadeia_prodXambiente.JPG>
+[38]
+File: images/relac_causa_efeito.JPG Graphic file (type bmp)
+<images/relac_causa_efeito.JPG>
+[39] [40]
+Underfull \hbox (badness 1092) in paragraph at lines 1983--1987
+[]\TU/lmr/m/n/10.95 indicadores classificados em função do nível hierárquico organizacional permitem
+ []
+
+[41]
+chapter 8.
+
+Underfull \hbox (badness 1264) in paragraph at lines 2013--2016
+[]\TU/lmr/m/n/10.95 Esta subseção apresenta os elementos que caracterizam individualmente os
+ []
+
+[42
+
+] [43] [44] [45] [46] [47] [48]
+chapter 9.
+[49
+
+]
+Underfull \hbox (badness 1163) in paragraph at lines 2486--2493
+[][]\TU/lmr/m/n/10.95 fatores limitantes à medição de desempenho no setor público[][]. Como por exemplo,
+ []
+
+[50] [51] [52] [53
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1769.
+(scrkbase)              on input line 2703.
 Missing character: There is no ⚙ (U+2699) in font [lmsans10-bold]:mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font [lmsans10-bold]:mapping=tex-text;!
-[39
+[54
 
 ]
 chapter 10.
 
-Underfull \hbox (badness 1052) in paragraph at lines 1778--1785
+Underfull \hbox (badness 1052) in paragraph at lines 2712--2719
 \TU/lmr/m/n/10.95 Consequentemente, o modelo aqui proposto é um processo restrito à construção dos
  []
 
-[40
+[55
 
 ]
 Missing character: There is no 🟥 (U+1F7E5) in font [lmsans10-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 1430) in paragraph at lines 1842--1852
+Underfull \hbox (badness 1430) in paragraph at lines 2776--2786
 \TU/lmr/m/n/10.95 Organizações com \TU/lmr/bx/n/10.95 maturidade na medição de seu desempenho podem estar
  []
 
-[41
+[56
 
-] [42]
+] [57]
 Missing character: There is no 🟦 (U+1F7E6) in font [lmsans10-bold]:mapping=tex-text;!
-[43
+[58
 
 ]
 Missing character: There is no 🟨 (U+1F7E8) in font [lmsans10-bold]:mapping=tex-text;!
-[44
+[59
 
 ]
 Missing character: There is no 🟩 (U+1F7E9) in font [lmsans10-bold]:mapping=tex-text;!
-[45
+[60
 
 ]
 chapter 11.
 
-Underfull \hbox (badness 1237) in paragraph at lines 1993--2000
+Underfull \hbox (badness 1237) in paragraph at lines 2927--2934
 []\TU/lmr/m/n/10.95 Os \TU/lmr/bx/n/10.95 resultados mais importantes das etapas do processo de construção do
  []
 
-[46
+[61
 
-] [47
+] [62
 
 ]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2060.
+(scrkbase)              on input line 2994.
 Missing character: There is no 📊 (U+1F4CA) in font [lmsans10-bold]:mapping=tex-text;!
-[48
+[63
 
-] [49
+]
+chapter 12.
+[64
 
-] [50
+]
+chapter 13.
+[65
 
-] [51]
+] [66]
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 11.1 on input line 2229.
+(longtable)                in table 13.1 on input line 3149.
 
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
@@ -1342,87 +1376,89 @@ Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
-[52]
+[67]
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⛔ (U+26D4) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✅ (U+2705) in font [lmroman10-regular]:mapping=tex-text;!
-[53] [54
+[68]
+chapter 14.
+[69
 
 ]
 Missing character: There is no 📝 (U+1F4DD) in font [lmsans10-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 1424) in paragraph at lines 2352--2359
+Underfull \hbox (badness 1424) in paragraph at lines 3265--3272
 []\TU/lmr/m/n/10.95 Órgãos públicos podem adotar indicadores para os mais diversos motivos: desde o
  []
 
-[55
+[70
 
-] [56]
+] [71]
 Missing character: There is no 📚 (U+1F4DA) in font [lmsans10-bold]:mapping=tex-text;!
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 2410.
+(Font)              scaled to size 7.665pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 2410.
+(Font)              scaled to size 5.475pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 2410.
+(Font)              scaled to size 10.95099pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.66568pt on input line 2410.
+(Font)              scaled to size 7.66568pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.4755pt on input line 2410.
+(Font)              scaled to size 5.4755pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 2410.
+(Font)              scaled to size 10.94882pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 2410.
+(Font)              scaled to size 7.66417pt on input line 3323.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 2410.
+(Font)              scaled to size 5.47441pt on input line 3323.
 
-Overfull \hbox (30.65259pt too wide) in paragraph at lines 2408--2411
+Overfull \hbox (30.65259pt too wide) in paragraph at lines 3321--3324
 $[][][][][][][][][][][][][] [] [][][][][][] [][] [][][][][][][][][][][] [] [][][][][][][][][][][][] [][] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][] []$
  []
 
 
-Overfull \hbox (1.16626pt too wide) in paragraph at lines 2428--2432
+Overfull \hbox (1.16626pt too wide) in paragraph at lines 3341--3345
 \TU/lmr/m/it/10.95 Public Money & Management \TU/lmr/m/n/10.95 13 (4): 9–14. [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$[][]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2458--2462
+Underfull \hbox (badness 10000) in paragraph at lines 3371--3375
 [][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][][][] [] [] [] [][][][] [] [] [] [][][][][][][] [] [][] [] [][] [] [][] [] [][][] [] [][][][] []$
  []
 
-[57
+[72
 
 ]
 Missing character: There is no 📖 (U+1F4D6) in font [lmsans10-bold]:mapping=tex-text;!
-[58
+[73
 
 ]
-Underfull \hbox (badness 1152) in paragraph at lines 2533--2536
+Underfull \hbox (badness 1152) in paragraph at lines 3446--3449
 []\TU/lmr/bx/n/10.95 Inovação: \TU/lmr/m/n/10.95 um processo, produto ou serviço, novo ou melhorado, que se diferencie
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 2545--2547
+Underfull \hbox (badness 1062) in paragraph at lines 3458--3460
 []\TU/lmr/bx/n/10.95 Objetivo organizacional: \TU/lmr/m/n/10.95 uma pretensão futura, uma situação ou condição que a
  []
 
-[59]
+[74]
 Missing character: There is no ✅ (U+2705) in font [lmsans10-bold]:mapping=tex-text;!
 
-LaTeX Warning: File `img/cheatsheet.png' not found on input line 2603.
+LaTeX Warning: File `img/cheatsheet.png' not found on input line 3516.
 
 ! Unable to load picture or PDF file 'img/cheatsheet.png'.
 <to be read again> 
                    }
-l.2603 ...ing \includegraphics{img/cheatsheet.png}
+l.3516 ...ing \includegraphics{img/cheatsheet.png}
                                                    
 Here is how much of TeX's memory you used:
- 38237 strings out of 476778
- 791902 string characters out of 5800854
+ 38287 strings out of 476778
+ 792888 string characters out of 5800854
  1949842 words of memory out of 5000000
- 59728 multiletter control sequences out of 15000+600000
- 564516 words of font info for 88 fonts, out of 8000000 for 9000
+ 59773 multiletter control sequences out of 15000+600000
+ 564524 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,9n,121p,10900b,1010s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (59 pages).
+Output written on index.pdf (74 pages).

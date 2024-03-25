@@ -41,8 +41,8 @@ Os cartões a seguir sintetizam esses atributos, conforme os citados grupos. A o
 ::: {style="text-align: justify;"}
 São elementos que contribuem para a formulação e descrição do indicador a ser proposto, motivo pelo qual deve-se iniciar a caracterização dos indicadores por estes atributos.
 
-|                  **ATRIBUTO**                                         | **DESCRIÇÃO**                                                          |
-|:---------------------------------------------------------------------:|------------------------------------------------------------------------|
+|                             **ATRIBUTO**                              | **DESCRIÇÃO**                                                          |
+|:----------------------------------:|------------------------------------|
 |          [OBJETIVO OU MISSÃO ENVOLVIDA]{style="color: blue"}          | Objetivo ou missão organizacional a qual o indicador está atrelado.    |
 |               [OBJETO DE MEDIÇÃO]{style="color: blue"}                | Definição do objeto que será medido.                                   |
 |                 [JUSTIFICATIVA]{style="color: blue"}                  | Motivação da escolha do indicador.                                     |
@@ -81,8 +81,8 @@ Na elaboração do **nome do indicador,** sugere-se empregar termos que reflitam
 ::: {style="text-align: justify;"}
 Estes elementos permitem conduzir e registrar o processo de medição a ser realizada pelos indicadores por meio de procedimentos, variáveis, prazos e responsabilidades.
 
-|             **ATRIBUTO**                                       | **DESCRIÇÃO**                                                                            |
-|:--------------------------------------------------------------:|------------------------------------------------------------------------------------------|
+|                          **ATRIBUTO**                          | **DESCRIÇÃO**                                                                            |
+|:----------------------------:|------------------------------------------|
 |             [PERIODICIDADE]{style="color: orange"}             | Intervalo temporal entre as medições.                                                    |
 |          [UNIDADE RESPONSÁVEL]{style="color: orange"}          | Unidade organizacional responsável pelo cálculo do indicador.                            |
 | [RESPONSABILIDADE PELA COLETA DE DADOS]{style="color: orange"} | Cargo ou função responsável pela coleta de dados.                                        |
@@ -103,6 +103,7 @@ Estes elementos permitem conduzir e registrar o processo de medição a ser real
 |                 [META]{style="color: orange"}                  | Resultado quantificável a ser alcançado.                                                 |
 |             [PRAZO DA META]{style="color: orange"}             | Data esperada para alcance da meta.                                                      |
 |               [SITUAÇÃO]{style="color: orange"}                | Informa sobre a fase em que se encontra o processo de medição                            |
+
 : Atributos de cálculo do indicador {.striped .hover}
 
 Em relação aos atributos de construção, é importante destacar que alguns deles são determinantes para as formas de análise das informações e comunicação dos resultados.
@@ -141,19 +142,20 @@ Como o processo de cálculo do indicador pode ser longo, em sistemas informatiza
 ::: {style="text-align: justify;"}
 Uma vez que os indicadores foram concebidos e seus parâmetros de cálculo foram definidos, os atributos a seguir colaboram na disposição e apresentação de seus resultados.
 
-|                **ATRIBUTO**                                        | **DESCRIÇÃO**                                                                                            |
-|:------------------------------------------------------------------:|----------------------------------------------------------------------------------------------------------|
-|                [VALOR MEDIDO]{style="color: green"}                | Resultado do indicador após sua medição.                                                                 |
-| [DATA OU PERÍODO A QUE SE REFERE O INDICADOR]{style="color: green"}| Data ou período correspondente à medição.                                                                |
-|               [SÉRIE HISTÓRICA]{style="color: green"}              | Valores das medições (resultados do indicador) ao longo do tempo.                                        |
-|                 [POLARIDADE]{style="color: green"}                 | Interpretação do sentido esperado na variação do indicador (quanto maior, melhor; quanto menor, melhor). |
-|   [FORMA DE DISPONIBILIZAÇÃO DO INDICADOR]{style="color: green"}   | Meio de divulgação e/ou disponibilização dos resultados do indicador.                                    |
-|         [PRAZO FINAL PARA DIVULGAÇÃO]{style="color: green"}        | Refere-se à data final para divulgação dos resultados do indicador.                                      |
-|                  [GLOSSÁRIO]{style="color: green"}                 | Explicação dos termos usados no processo.                                                                |
-|      [OBSERVAÇÕES / NOTAS EXPLICATIVAS]{s}tyle="color: green"}     | Informações complementares para a compreensão do processo.                                               |
-|    [CAUSAS DE UM RESULTADO AQUÉM DA META]{style="color: green"}    | Possíveis causas para uma meta não atingida.                                                             |
-|   [IMPACTOS DE UM RESULTADO AQUÉM DA META]{style="color: green"}   | Possíveis consequências de uma meta não atingida. 
-: Atributos de relato dos resultados {.striped .hover} 
+|                            **ATRIBUTO**                             | **DESCRIÇÃO**                                                                                            |
+|:--------------------------:|-------------------------------------------|
+|                [VALOR MEDIDO]{style="color: green"}                 | Resultado do indicador após sua medição.                                                                 |
+| [DATA OU PERÍODO A QUE SE REFERE O INDICADOR]{style="color: green"} | Data ou período correspondente à medição.                                                                |
+|               [SÉRIE HISTÓRICA]{style="color: green"}               | Valores das medições (resultados do indicador) ao longo do tempo.                                        |
+|                 [POLARIDADE]{style="color: green"}                  | Interpretação do sentido esperado na variação do indicador (quanto maior, melhor; quanto menor, melhor). |
+|   [FORMA DE DISPONIBILIZAÇÃO DO INDICADOR]{style="color: green"}    | Meio de divulgação e/ou disponibilização dos resultados do indicador.                                    |
+|         [PRAZO FINAL PARA DIVULGAÇÃO]{style="color: green"}         | Refere-se à data final para divulgação dos resultados do indicador.                                      |
+|                  [GLOSSÁRIO]{style="color: green"}                  | Explicação dos termos usados no processo.                                                                |
+|     [OBSERVAÇÕES / NOTAS EXPLICATIVAS]{style="color: green"}     | Informações complementares para a compreensão do processo.                                               |
+|    [CAUSAS DE UM RESULTADO AQUÉM DA META]{style="color: green"}     | Possíveis causas para uma meta não atingida.                                                             |
+|   [IMPACTOS DE UM RESULTADO AQUÉM DA META]{style="color: green"}    | Possíveis consequências de uma meta não atingida.                                                        |
+
+: Atributos de relato dos resultados {.striped .hover}
 
 Verifica-se que estes últimos, os atributos de relato de resultados, estão em menor quantidade quando comparados aos dois primeiros grupos; de fato, a apresentação de resultados correspondem a uma etapa posterior à criação dos indicadores: a etapa de relato das medições, conforme apresentado no Capítulo 4. Nesse sentido, frisa-se: **nem todos os atributos apresentados precisam ser empregados no processo de construção dos indicadores**. Embora os atributos caracterizem os indicadores de desempenho e facilitem a sua elaboração (Uchoa, 2013; Goiás, 2019; 2022; Mato Grosso, 2022), há uma variação de quantidade e importância considerada pelos estudos em relação a esses elementos. Além de facilitar a construção do indicador, como elementos de sua caracterização, os atributos também permitem sua formalização e registro (Bahia, 2021; Brasil, 2020c; 2023), conforme será apresentado adiante. Assim, este guia oferece uma cesta de 43 atributos, divididos em grupos de acordo com a cronologia da construção de indicadores, para conhecimento, avaliação e escolha dos gestores que atuam nesses processos. Em síntese tem-se que:
 

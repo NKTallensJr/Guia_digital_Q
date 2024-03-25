@@ -1,7 +1,7 @@
 # Introdução {.unnumbered}
 
 ::: {style="text-align: justify;"}
-Este guia possui 14 capítulos, organizados em cinco partes:
+Este guia dividide-se em cinco partes, que organizam os seus 14 capítulos:
 
 **1ª Parte - Apresentação**: contextualiza o tema tratado, apresenta os recursos de leitura, navegação e avaliação disponíveis. Nos capítulos seguintes, apresenta-se duas importantes justificativas para a elaboração deste material: os benefícios do uso dos indicadores de desempenho para as organizações públicas (e consequentemente para a sociedade) e um alerta sobre as limitações e efeitos nocivos desses instrumentos de medição.
 
@@ -9,11 +9,11 @@ Este guia possui 14 capítulos, organizados em cinco partes:
 
 **3ª Parte -** **Construção de indicadores**: apresenta o processo para a construção de indicadores de desempenho para órgãos públicos, é composto por 14 etapas agrupadas em quatro fases, que se iniciam pela compreensão do ambiente organizacional de medição de desempenho, seguem para a elaboração dos indicadores, validações, definição de seus parâmetros de cálculo e aprovação; e, na sequência, disponibiliza um modo de formalização do indicador: o Registro do Indicador.
 
-As três primeiras partes possuem uma síntese, com os principais tópicos apresentados em suas seções.
+As três primeiras partes possuem uma síntese, com os principais tópicos apresentados em seus capítulos.
 
 **4ª Parte -** **Aplicação**: esta seção busca fixar o conhecimento apresentado e a condução do processo de construção dos indicadores, aplicando-os de forma prática na construção e registro de um indicador para um órgão público real por meio de dados públicos. Ao final deste capítulo, tem-se a materialização do conteúdo do guia, não apenas pelo exemplo desenvolvido, mas pela disponibilização de um modelo de Registro do Indicador para uso dos gestores interessados.
 
-**5ª Parte -** **Considerações finais**: trata-se de uma breve seção de encerramento com as últimas considerações e conclusões acerca do tema apresentado.
+**5ª Parte -** **Considerações finais**: trata-se do capítulo de encerramento com as últimas considerações e conclusões acerca do tema apresentado.
 
 Ao final tem-se: o registro das **referências** das citações do guia; um **glossário** com os termos relativos ao tema; um resumo denominado **indicadores em uma página**, que não substitui o guia; uma seção extra com **exemplos práticos** e estudos de caso, e um **fórum de dúvidas e sugestões** para a coleta da avaliação dos usuários, discussões e interações visando o contínuo aprimoramento do guia.
 :::
