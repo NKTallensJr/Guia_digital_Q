@@ -1,4 +1,4 @@
-# 📝 Considerações finais {.unnumbered}
+# 📝 Considerações e complementos {.unnumbered}
 
 [Esta seção apresenta as últimas considerações e conclusões acerca do tema apresentado]{style="color: gray"}
 

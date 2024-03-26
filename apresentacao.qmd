@@ -1,7 +1,7 @@
 # ⏱️ Apresentação {#sec-apresentação}
 
 ::: {style="text-align: justify;"}
-> Esta seção inicial contextualiza o tema, dispõe sobre os recursos do guia, sua organização, apresenta os benefícios do uso de indicadores de desempenho no setor público, bem como as suas limitações.
+> Contextualiza o tema, dispõe sobre os recursos do guia, sua organização, apresenta os benefícios do uso de indicadores de desempenho no setor público, bem como as suas limitações.
 :::
 
 ## Um modelo de gestão pública {.unnumbered}

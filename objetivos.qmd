@@ -1,7 +1,7 @@
 # Objetivos e benefícios da medição de desempenho
 
 ::: {style="text-align: justify;"}
-> Nesta subseção apresenta-se o objetivo da medição de desempenho e suas implicações na forma de objetivos específicos e benefícios.
+> Este capítulo apresenta as motivações da medição de desempenho e suas implicações na forma de objetivos específicos e benefícios.
 
 **O objetivo maior da medição de desempenho numa organização é a sua melhoria por meio do suporte de informações sobre o desempenho na tomada de decisões**. Essa medição e as ações dela decorrentes possuem implicações, sejam elas objetivos menores ou benefícios gerados (que muitas vezes se confundem) apresentados a seguir.
 
@@ -50,5 +50,5 @@ Conforme destacado anteriormente, frisa-se: **indicadores de desempenho não atu
 Projetar indicadores de desempenho isoladamente sem considerar características dos sistemas de medição, o contexto de aplicação, formas e partes interessadas, é uma falha na medição do desempenho organizacional.
 :::
 
-De forma oportuna, a subseção seguinte apresenta os erros mais comuns e as limitações no desenvolvimento de sistemas de medição de desempenho, especialmente para o setor público.
+De forma oportuna, o capítulo seguinte apresenta os erros mais comuns e as limitações no desenvolvimento de sistemas de medição de desempenho, especialmente para o setor público.
 :::

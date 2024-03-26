@@ -11,9 +11,7 @@ Este guia dividide-se em cinco partes, que organizam os seus 14 capítulos:
 
 As três primeiras partes possuem uma síntese, com os principais tópicos apresentados em seus capítulos.
 
-**4ª Parte -** **Aplicação**: esta seção busca fixar o conhecimento apresentado e a condução do processo de construção dos indicadores, aplicando-os de forma prática na construção e registro de um indicador para um órgão público real por meio de dados públicos. Ao final deste capítulo, tem-se a materialização do conteúdo do guia, não apenas pelo exemplo desenvolvido, mas pela disponibilização de um modelo de Registro do Indicador para uso dos gestores interessados.
+**4ª Parte -** **Aplicação**: visa fixar o conhecimento apresentado e a condução do processo de construção dos indicadores, aplicando-os de forma prática na construção e registro de um indicador para um órgão público real por meio de dados públicos. No último capítulo, tem-se a materialização do conteúdo do guia, não apenas pelo exemplo desenvolvido, mas pela disponibilização de um modelo de Registro do Indicador para uso dos gestores interessados.
 
-**5ª Parte -** **Considerações finais**: trata-se do capítulo de encerramento com as últimas considerações e conclusões acerca do tema apresentado.
-
-Ao final tem-se: o registro das **referências** das citações do guia; um **glossário** com os termos relativos ao tema; um resumo denominado **indicadores em uma página**, que não substitui o guia; uma seção extra com **exemplos práticos** e estudos de caso, e um **fórum de dúvidas e sugestões** para a coleta da avaliação dos usuários, discussões e interações visando o contínuo aprimoramento do guia.
+**5ª Parte -** **Considerações e complementos**: encerra o guia com as últimas considerações e conclusões acerca do tema apresentado, seguido dos materiais complementares: um **glossário** com os termos relativos ao tema; um resumo denominado **indicadores em uma página**, que não substitui o guia; uma seção extra com **exemplos práticos** e estudos de caso, e um **fórum de dúvidas e sugestões** para a coleta da avaliação dos usuários, discussões e interações visando o contínuo aprimoramento do guia e ao final, o registro das **referências** utilizadas.
 :::

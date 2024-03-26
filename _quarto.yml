@@ -68,12 +68,13 @@ book:
         - PlanElab.qmd
         - DefAprov.qmd
         - RegIndicador.qmd
-    - considFinais.qmd
-    - references.qmd
-    - glossario.qmd
-    - cheatsheet.qmd
-    - exemplosUso.qmd
-    - forum.qmd
+    - part: considFinais.qmd
+      chapters: 
+        - glossario.qmd
+        - cheatsheet.qmd
+        - exemplosUso.qmd
+        - forum.qmd
+        - references.qmd
 
   sidebar:
     tools:
