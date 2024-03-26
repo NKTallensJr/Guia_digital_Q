@@ -95,7 +95,7 @@ epub:
 cover-image: cover_1.jpg
 editor: visual
 lang: pt
-
+fig-cap-location: top
 citation:
   type: book
   title: "Guia digital: construção de indicadores de desempenho para órgãos públicos"

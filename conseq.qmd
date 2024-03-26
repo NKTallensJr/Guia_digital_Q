@@ -69,7 +69,7 @@ Os exemplos acima revelam fenômenos indesejados por meio do comportamento dos g
 Na sequência são apresentados em ordem alfabética outros 27 fatores limitantes ou barreiras à medição de desempenho no setor público provenientes de pesquisas científicas publicadas, cujo conhecimento prévio se faz necessário a toda força de trabalho que atua diretamente ou indiretamente na medição de desempenho organizacional na administração pública.
 
 | **\#** |                **FATOR**                 | **DESCRIÇÃO**                                                                                                                                         |
-|:-------------:|:--------------------:|:----------------------------------|
+|:---:|:--------------------:|:----------------------------------|
 |   1    |               Ambiguidade                | Falta de clareza e consistência (causal ou intencional) nos processos de medição de desempenho.                                                       |
 |   2    |                Burocracia                | Excesso de procedimentos burocráticos que restringem ou causam mora excessiva à implantação de um SMD.                                                |
 |   3    |           Comunicação interna            | Ausência de comunicação à força de trabalho sobre a importância, implantação e funcionamento do SMD.                                                  |
@@ -102,5 +102,5 @@ Na sequência são apresentados em ordem alfabética outros 27 fatores limitante
 
 Apesar do elevado número de **efeitos indesejados** e **fatores limitantes** à implantação de indicadores e sistemas de medição, **os benefícios gerados** (conforme apresentado na subseção anterior) **os** **superam em intensidade e ganho, tanto para a sociedade quanto para as instituições**, dando, assim, propósito a este guia e aos diversos outros estudos e artefatos similares.
 
-Após o conhecimento dos objetivos, benefícios e restrições a medição de desempenho no setor público, tem-se a síntese deste desta primeira parte do guia. No capítulo seguinte, inicia-se a fundamentação necessária para a construção de indicadores de desempenho para as instituições do setor público.
+Após o conhecimento dos objetivos, benefícios e restrições a medição de desempenho no setor público, a página seguinte sintetiza o conteúdo desta primeira parte do guia e na sequência inicia-se a fundamentação necessária para a construção de indicadores de desempenho para as instituições do setor público.
 :::
